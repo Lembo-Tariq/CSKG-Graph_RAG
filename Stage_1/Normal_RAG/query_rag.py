@@ -8,7 +8,7 @@ Loads the Chroma DB, retrieves relevant facts, sends to Groq LLaMA for an answer
 import os
 from dotenv import load_dotenv
 from langchain_chroma import Chroma
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage, SystemMessage
 
@@ -24,7 +24,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 db_dir = os.path.join(current_dir, "db", "chroma_db")
 
 print("📂 Loading Chroma DB...")
-embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001")
+embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 db = Chroma(persist_directory=db_dir, embedding_function=embeddings)
 print("✅ DB loaded")
 
@@ -41,7 +41,10 @@ query = "what methods are used for image classification?"
 # from the DB based on the query's meaning
 
 print(f"\n🔍 Searching for: '{query}'")
-retriever = db.as_retriever(search_type="similarity", search_kwargs={"k": 5})
+retriever = db.as_retriever(
+    search_type="mmr",
+    search_kwargs={"k": 5, "fetch_k": 20}
+)
 relevant_docs = retriever.invoke(query)
 
 print(f"\n--- {len(relevant_docs)} Relevant Facts Retrieved ---")
