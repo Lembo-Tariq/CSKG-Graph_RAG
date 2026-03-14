@@ -12,6 +12,7 @@ from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage, SystemMessage
+from langchain.schema import Document
 
 load_dotenv()
 
@@ -51,7 +52,6 @@ def load_db():
         with open(text_file, "r", encoding="utf-8") as f:
             lines = f.readlines()
         
-        from langchain.schema import Document
         docs = [
             Document(page_content=line.strip())
             for line in lines
