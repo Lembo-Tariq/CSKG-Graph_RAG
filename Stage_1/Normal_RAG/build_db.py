@@ -18,7 +18,7 @@ from langchain.schema import Document
 # ─────────────────────────────────────────────
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
-text_file = os.path.join(current_dir,"..","RA_Parsing_CSKG-Text","cskg_text_5000.txt")
+text_file = os.path.join(current_dir,"..","RA_Parsing_CSKG-Text","cskg_text_10k.txt")
 
 db_dir = os.path.join(current_dir, "db", "chroma_db")
 
@@ -42,8 +42,6 @@ docs = [
     if line.strip()
 ]
 
-# Slice to first 1000 for testing
-docs = docs[:1000]
 
 print(f"✅ Loaded {len(docs)} facts (one per line)")
 
