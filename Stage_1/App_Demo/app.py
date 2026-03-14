@@ -12,7 +12,7 @@ from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage, SystemMessage
-from langchain.schema import Document
+from langchain_core.documents import Document
 
 load_dotenv()
 
