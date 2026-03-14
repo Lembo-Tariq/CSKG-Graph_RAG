@@ -10,6 +10,7 @@ Usage:
 
 import json
 from urllib.parse import unquote
+import os
 
 
 # ─────────────────────────────────────────────
@@ -174,8 +175,11 @@ def parse_cskg(input_path: str, limit: int, output_path: str):
 # ─────────────────────────────────────────────
 
 if __name__ == "__main__":
+
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+
     parse_cskg(
-        input_path= "output.json",
-        limit=5000,
-        output_path="cskg_text_5000.txt"
+        input_path= os.path.join(current_dir,"output.json"),
+        limit=10000,
+        output_path= os.path.join(current_dir,"cskg_text_10k.txt")
     )
