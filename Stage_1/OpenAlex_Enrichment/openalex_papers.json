@@ -1,0 +1,129 @@
+[
+  {
+    "openalex_id": "https://openalex.org/W3200264958",
+    "doi": "https://doi.org/10.1007/s12652-021-03488-z",
+    "title": "Transfer learning for image classification using VGG19: Caltech-101 image data set",
+    "year": 2021,
+    "citations": 356,
+    "authors": [
+      "Monika Bansal",
+      "Munish Kumar",
+      "Monika Sachdeva"
+    ],
+    "facts_in_cskg": 7
+  },
+  {
+    "openalex_id": "https://openalex.org/W2253891449",
+    "doi": "https://doi.org/10.48550/arxiv.1509.06041",
+    "title": "Robust Image Sentiment Analysis Using Progressively Trained and Domain Transferred Deep Networks",
+    "year": 2015,
+    "citations": 213,
+    "authors": [
+      "Quanzeng You",
+      "Jiebo Luo",
+      "Hailin Jin"
+    ],
+    "facts_in_cskg": 7
+  },
+  {
+    "openalex_id": "https://openalex.org/W2963992782",
+    "doi": "https://doi.org/10.1609/aaai.v29i1.9179",
+    "title": "Robust Image Sentiment Analysis Using Progressively Trained and Domain Transferred Deep Networks",
+    "year": 2015,
+    "citations": 468,
+    "authors": [
+      "Quanzeng You",
+      "Jiebo Luo",
+      "Hailin Jin"
+    ],
+    "facts_in_cskg": 7
+  },
+  {
+    "openalex_id": "https://openalex.org/W3011408986",
+    "doi": "https://doi.org/10.1109/apsipaasc47483.2019.9023037",
+    "title": "Small-Sample Image Classification Method of Combining Prototype and Margin Learning",
+    "year": 2019,
+    "citations": 4,
+    "authors": [
+      "Xiaoxu Li",
+      "Liyun Yu",
+      "Jie Cao"
+    ],
+    "facts_in_cskg": 6
+  },
+  {
+    "openalex_id": "https://openalex.org/W4231561089",
+    "doi": "https://doi.org/10.26686/wgtn.13158311",
+    "title": "Genetic Programming With a New Representation to Automatically Learn Features and Evolve Ensembles for Image Classification",
+    "year": 2020,
+    "citations": 0,
+    "authors": [
+      "Ying Bi",
+      "Bing Xue",
+      "Mengjie Zhang"
+    ],
+    "facts_in_cskg": 6
+  },
+  {
+    "openalex_id": "https://openalex.org/W4239530399",
+    "doi": "https://doi.org/10.26686/wgtn.13158311.v1",
+    "title": "Genetic Programming With a New Representation to Automatically Learn Features and Evolve Ensembles for Image Classification",
+    "year": 2020,
+    "citations": 11,
+    "authors": [
+      "Ying Bi",
+      "Bing Xue",
+      "Jun Zhang"
+    ],
+    "facts_in_cskg": 6
+  },
+  {
+    "openalex_id": "https://openalex.org/W3202164739",
+    "doi": "https://doi.org/10.18535/ijecs/v10i9.4622",
+    "title": "Image Classification Using Transfer Learning and Deep Learning",
+    "year": 2021,
+    "citations": 28,
+    "authors": [
+      "Chitra Desai"
+    ],
+    "facts_in_cskg": 5
+  },
+  {
+    "openalex_id": "https://openalex.org/W3198847674",
+    "doi": "https://doi.org/10.1109/icscan53069.2021.9526457",
+    "title": "Art Classification with Pytorch Using Transfer Learning",
+    "year": 2021,
+    "citations": 6,
+    "authors": [
+      "Ganesh Kumaran Masilamani",
+      "R. Valli"
+    ],
+    "facts_in_cskg": 5
+  },
+  {
+    "openalex_id": "https://openalex.org/W2985321619",
+    "doi": "https://doi.org/10.1109/tpami.2019.2950923",
+    "title": "Effects of Image Degradation and Degradation Removal to CNN-Based Image Classification",
+    "year": 2019,
+    "citations": 241,
+    "authors": [
+      "Yanting Pei",
+      "Yaping Huang",
+      "Qi Zou"
+    ],
+    "facts_in_cskg": 5
+  },
+  {
+    "openalex_id": "https://openalex.org/W2896064450",
+    "doi": "https://doi.org/10.1109/cec.2018.8477933",
+    "title": "Evolutionary Deep Learning: A Genetic Programming Approach to Image Classification",
+    "year": 2018,
+    "citations": 53,
+    "authors": [
+      "Benjamin Patrick Evans",
+      "Harith Al-Sahaf",
+      "Bing Xue"
+    ],
+    "facts_in_cskg": 5
+  }
+]
