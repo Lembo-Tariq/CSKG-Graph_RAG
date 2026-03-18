@@ -1,0 +1,588 @@
+{
+  "k": 5,
+  "evaluation_type": "concept-level",
+  "overall_metrics": {
+    "mean_precision_at_k": 0.583,
+    "mean_recall_at_k": 0.01,
+    "mean_f1_at_k": 0.018,
+    "mrr": 0.696
+  },
+  "per_paper_results": [
+    {
+      "paper": "Transfer learning for image classification using VGG19: Caltech-101 image data set",
+      "concepts": [
+        "transfer learning",
+        "vgg",
+        "caltech",
+        "image classification"
+      ],
+      "total_relevant_in_db": 5891,
+      "queries": [
+        {
+          "query": "VGG19 transfer learning Caltech-101 image data set classification",
+          "concepts": [
+            "transfer learning",
+            "vgg",
+            "caltech",
+            "image classification"
+          ],
+          "retrieved_facts": [
+            "image classification uses the method vgg16 (supported by 9 papers, source: https://doi.org/10.1145/3342999.3343002)",
+            "image classification acquiresMethod machine learning (supported by 5 papers, source: https://doi.org/10.1049/iet-cvi.2016.0243)",
+            "image classification acquiresMetric classification accuracy (supported by 10 papers, source: https://doi.org/10.1109/tgrs.2019.2961599)",
+            "image classification acquiresMethod convolutional neural network (supported by 15 papers, source: https://doi.org/10.1109/iccv48922.2021.00010)",
+            "image classification uses the method dcnn (supported by 13 papers, source: https://doi.org/10.1017/wsc.2020.46)"
+          ],
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.0008487523340689187,
+          "f1": 0.0016960651289009497,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "Caltech-101 image classification using pre-trained VGG19 models",
+          "concepts": [
+            "transfer learning",
+            "vgg",
+            "caltech",
+            "image classification"
+          ],
+          "retrieved_facts": [
+            "image classification uses the method vgg16 (supported by 9 papers, source: https://doi.org/10.1145/3342999.3343002)",
+            "image classification acquiresTask classification (supported by 7 papers, source: https://doi.org/10.1109/tgrs.2017.2765364)",
+            "image classification acquiresMethod convolutional neural network (supported by 15 papers, source: https://doi.org/10.1109/socc.2017.8226028)",
+            "image classification uses the material resnet50 (supported by 7 papers, source: https://doi.org/10.1016/j.compag.2021.106081)",
+            "image classification uses the method mobilenetv2 (supported by 5 papers, source: https://doi.org/10.1109/iccct53315.2021.9711880)"
+          ],
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.0008487523340689187,
+          "f1": 0.0016960651289009497,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "VGG19 convolutional neural network transfer learning experiments",
+          "concepts": [
+            "transfer learning",
+            "vgg",
+            "caltech",
+            "image classification"
+          ],
+          "retrieved_facts": [
+            "image classification acquiresMethod convolutional neural network (supported by 15 papers, source: https://doi.org/10.1109/iccv48922.2021.00010)",
+            "image classification acquiresMethod convolutional neural network (supported by 15 papers, source: https://doi.org/10.1142/s0129065722500216)",
+            "image classification acquiresMethod convolutional neural network (supported by 15 papers, source: https://doi.org/10.3233/jifs-221550)",
+            "image classification learnsMethod convolutional neural network (supported by 8 papers, source: https://doi.org/10.26686/wgtn.13158299)",
+            "image classification analyzesMethod convolutional neural network (supported by 6 papers, source: https://doi.org/10.36227/techrxiv.19310489.v3)"
+          ],
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.0008487523340689187,
+          "f1": 0.0016960651289009497,
+          "reciprocal_rank": 1.0
+        }
+      ]
+    },
+    {
+      "paper": "Robust Image Sentiment Analysis Using Progressively Trained and Domain Transferred Deep Networks",
+      "concepts": [
+        "sentiment",
+        "domain transfer",
+        "progressive",
+        "image sentiment"
+      ],
+      "total_relevant_in_db": 3070,
+      "queries": [
+        {
+          "query": "Convolutional Neural Networks for Image Sentiment Analysis",
+          "concepts": [
+            "sentiment",
+            "domain transfer",
+            "progressive",
+            "image sentiment"
+          ],
+          "retrieved_facts": [
+            "image classification analyzesMethod convolutional neural network (supported by 6 papers, source: https://doi.org/10.36227/techrxiv.19310489)",
+            "image classification acquiresMethod convolutional neural network (supported by 15 papers, source: https://doi.org/10.1109/iccv48922.2021.00010)",
+            "image classification acquiresMethod convolutional neural network (supported by 15 papers, source: https://doi.org/10.1109/socc.2017.8226028)",
+            "image classification acquiresMethod convolutional neural network (supported by 15 papers, source: https://doi.org/10.3233/jifs-221550)",
+            "image classification proposesMethod convolutional neural network (supported by 18 papers, source: https://doi.org/10.1109/icip.2019.8802926)"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "Progressive Training and Domain Transfer in Image CNNs",
+          "concepts": [
+            "sentiment",
+            "domain transfer",
+            "progressive",
+            "image sentiment"
+          ],
+          "retrieved_facts": [
+            "image classification solvesMethod cnn (supported by 5 papers, source: https://doi.org/10.1109/iciev.2016.7760077)",
+            "image classification acquiresMethod deep learning (supported by 8 papers, source: https://doi.org/10.1109/icbaie52039.2021.9389823)",
+            "image classification acquiresMethod deep learning (supported by 8 papers, source: https://doi.org/10.1109/tgrs.2020.3045790)",
+            "image classification learnsMethod convolutional neural network (supported by 8 papers, source: https://doi.org/10.26686/wgtn.13158299)",
+            "image classification acquiresMethod convolutional neural network (supported by 15 papers, source: https://doi.org/10.3233/jifs-221550)"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "Deep Networks for Flickr and Twitter Image Sentiment",
+          "concepts": [
+            "sentiment",
+            "domain transfer",
+            "progressive",
+            "image sentiment"
+          ],
+          "retrieved_facts": [
+            "sentiment analysis proposesMethod deep learning (supported by 12 papers, source: https://doi.org/10.1177/0165551520962781)",
+            "sentiment analysis proposesMethod deep learning (supported by 12 papers, source: https://doi.org/10.1371/journal.pone.0234206)",
+            "sentiment analysis proposesMethod deep learning (supported by 12 papers, source: https://doi.org/10.1109/mercon50084.2020.9185327)",
+            "sentiment analysis includesMethod deep learning (supported by 8 papers, source: https://doi.org/10.4018/978-1-6684-6303-1.ch087)",
+            "sentiment analysis uses the method cnn (supported by 29 papers, source: https://doi.org/10.18653/v1/p16-1228)"
+          ],
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.0016286644951140066,
+          "f1": 0.0032520325203252032,
+          "reciprocal_rank": 1.0
+        }
+      ]
+    },
+    {
+      "paper": "Small-Sample Image Classification Method of Combining Prototype and Margin Learning",
+      "concepts": [
+        "small sample",
+        "prototype",
+        "margin",
+        "few shot"
+      ],
+      "total_relevant_in_db": 20,
+      "queries": [
+        {
+          "query": "Small-sample image classification combining prototype and margin learning",
+          "concepts": [
+            "small sample",
+            "prototype",
+            "margin",
+            "few shot"
+          ],
+          "retrieved_facts": [
+            "image classification uses the method few shot learning (supported by 13 papers, source: https://doi.org/10.1109/cvprw50498.2020.00474)",
+            "image classification uses the material alexnet (supported by 5 papers, source: https://doi.org/10.1109/icac3n53548.2021.9725474)",
+            "image classification uses the method transfer learning (supported by 46 papers, source: https://doi.org/10.1109/iccce50029.2021.9467225)",
+            "image classification uses the method machine learning (supported by 79 papers, source: https://doi.org/10.20944/preprints202201.0367.v1)",
+            "image classification is a broader concept than image processing (supported by 59 papers, source: https://doi.org/10.51682/jiscom.00201001.2021)"
+          ],
+          "precision_at_k": 0.2,
+          "recall_at_k": 0.05,
+          "f1": 0.08000000000000002,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "VGG16 ensemble method for image classification with prototype learning",
+          "concepts": [
+            "small sample",
+            "prototype",
+            "margin",
+            "few shot"
+          ],
+          "retrieved_facts": [
+            "image classification uses the method vgg16 (supported by 9 papers, source: https://doi.org/10.1145/3342999.3343002)",
+            "image classification uses the method ensemble learning (supported by 12 papers, source: https://doi.org/10.1109/siu.2018.8404179)",
+            "image classification uses the method ensemble (supported by 13 papers, source: https://doi.org/10.1109/cvpr.2018.00976)",
+            "image classification uses the method ensemble (supported by 13 papers, source: https://doi.org/10.1109/tevc.2022.3214503)",
+            "image classification uses the method ensemble learning (supported by 12 papers, source: https://doi.org/10.1109/icosp.2014.7015100)"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "Improved image classification on LabelMe dataset with deep neural networks",
+          "concepts": [
+            "small sample",
+            "prototype",
+            "margin",
+            "few shot"
+          ],
+          "retrieved_facts": [
+            "image classification acquiresMethod deep learning (supported by 8 papers, source: https://doi.org/10.1109/icbaie52039.2021.9389823)",
+            "image classification improvesMethod neural network (supported by 6 papers, source: https://doi.org/10.1109/jstars.2022.3173676)",
+            "image classification improvesMetric classification accuracy (supported by 35 papers, source: https://doi.org/10.1109/embc44109.2020.9175894)",
+            "image classification analyzesMethod deep learning (supported by 9 papers, source: https://doi.org/10.1109/piers-fall.2017.8293267)",
+            "image classification acquiresMethod convolutional neural network (supported by 15 papers, source: https://doi.org/10.1109/iccv48922.2021.00010)"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        }
+      ]
+    },
+    {
+      "paper": "Genetic Programming With a New Representation to Automatically Learn Features and Evolve Ensembles for Image Classification",
+      "concepts": [
+        "genetic programming",
+        "ensemble",
+        "evolutionary",
+        "feature learning"
+      ],
+      "total_relevant_in_db": 74,
+      "queries": [
+        {
+          "query": "Genetic Programming for Image Classification Ensemble Selection",
+          "concepts": [
+            "genetic programming",
+            "ensemble",
+            "evolutionary",
+            "feature learning"
+          ],
+          "retrieved_facts": [
+            "image classification uses the method genetic programming (supported by 18 papers, source: https://doi.org/10.1109/tevc.2021.3082112)",
+            "image classification uses the method genetic programming (supported by 18 papers, source: https://doi.org/10.1109/tcyb.2021.3105696)",
+            "image classification uses the method genetic programming (supported by 18 papers, source: https://doi.org/10.1109/tetci.2020.2983426)",
+            "image classification uses the method genetic programming (supported by 18 papers, source: https://doi.org/10.1109/smc.2016.7844436)",
+            "image classification uses the method ensemble (supported by 13 papers, source: https://doi.org/10.3389/fmicb.2022.1024104)"
+          ],
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.06756756756756757,
+          "f1": 0.12658227848101267,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "Evolutionary Feature Learning in Computer Vision Models",
+          "concepts": [
+            "genetic programming",
+            "ensemble",
+            "evolutionary",
+            "feature learning"
+          ],
+          "retrieved_facts": [
+            "image classification is a broader concept than computer vision problem (supported by 32 papers, source: https://doi.org/10.1109/cvpr.2017.194)",
+            "image classification uses the task of computer vision (supported by 14 papers, source: https://doi.org/10.1109/cvpr.2018.00914)",
+            "image classification uses the task of computer vision (supported by 14 papers, source: https://doi.org/10.1109/ssiai.2012.6202450)",
+            "image classification is a broader concept than computer vision task (supported by 179 papers, source: https://doi.org/10.1049/cvi2.12118)",
+            "image classification uses the task of optimization (supported by 7 papers, source: https://doi.org/10.2174/2666255813999200915141534)"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "Automatic Ensemble Parameter Optimization for Image Classification",
+          "concepts": [
+            "genetic programming",
+            "ensemble",
+            "evolutionary",
+            "feature learning"
+          ],
+          "retrieved_facts": [
+            "image classification uses the method ensemble (supported by 13 papers, source: https://doi.org/10.3389/fmicb.2022.1024104)",
+            "image classification uses the method ensemble (supported by 13 papers, source: https://doi.org/10.1109/cvpr.2018.00976)",
+            "image classification uses the method ensemble (supported by 13 papers, source: https://doi.org/10.1109/tcyb.2020.2964566)",
+            "image classification uses the method ensemble (supported by 13 papers, source: https://doi.org/10.1109/tevc.2021.3082112)",
+            "image classification uses the method ensemble learning (supported by 12 papers, source: https://doi.org/10.1109/iiki.2016.81)"
+          ],
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.06756756756756757,
+          "f1": 0.12658227848101267,
+          "reciprocal_rank": 1.0
+        }
+      ]
+    },
+    {
+      "paper": "Image Classification Using Transfer Learning and Deep Learning",
+      "concepts": [
+        "transfer learning",
+        "deep learning",
+        "image classification",
+        "vgg16"
+      ],
+      "total_relevant_in_db": 6030,
+      "queries": [
+        {
+          "query": "Image classification using transfer learning technique in deep learning",
+          "concepts": [
+            "transfer learning",
+            "deep learning",
+            "image classification",
+            "vgg16"
+          ],
+          "retrieved_facts": [
+            "image classification uses the method deep learning technique (supported by 57 papers, source: https://doi.org/10.1109/icdcs54290.2022.9780729)",
+            "image classification uses the method deep convolutional neural network (supported by 114 papers, source: https://doi.org/10.36231/coedw/vol31no2.9)",
+            "image classification uses the method deep convolution neural network (supported by 6 papers, source: https://doi.org/10.1109/icramet.2017.8253139)",
+            "image classification uses the method deep neural network (supported by 173 papers, source: https://doi.org/10.1109/iciccs53718.2022.9788359)",
+            "image classification uses the method deep convolutional neural network (supported by 114 papers, source: https://doi.org/10.23919/chicc.2018.8483955)"
+          ],
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.0008291873963515755,
+          "f1": 0.0016570008285004144,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "VGG16 model application in image recognition and classification",
+          "concepts": [
+            "transfer learning",
+            "deep learning",
+            "image classification",
+            "vgg16"
+          ],
+          "retrieved_facts": [
+            "image classification uses the method vgg16 (supported by 9 papers, source: https://doi.org/10.18535/ijecs/v10i9.4622)",
+            "image classification uses the method vision transformer vit (supported by 5 papers, source: https://doi.org/10.36227/techrxiv.20001764.v1)",
+            "image classification uses the task of computer vision (supported by 14 papers, source: https://doi.org/10.1109/cvpr.2018.00914)",
+            "image classification uses the method mobilenetv2 (supported by 5 papers, source: https://doi.org/10.1109/icece51571.2020.9393085)",
+            "image classification uses the method classification model (supported by 16 papers, source: https://doi.org/10.1109/siu.2017.7960539)"
+          ],
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.0008291873963515755,
+          "f1": 0.0016570008285004144,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "Deep learning for image classification with pre-trained models",
+          "concepts": [
+            "transfer learning",
+            "deep learning",
+            "image classification",
+            "vgg16"
+          ],
+          "retrieved_facts": [
+            "image classification uses the method deep convolutional neural network (supported by 114 papers, source: https://doi.org/10.5753/wperformance.2021.15724)",
+            "image classification uses the method deep convolutional neural network (supported by 114 papers, source: https://doi.org/10.36231/coedw/vol31no2.9)",
+            "image classification uses the method deep convolutional network (supported by 15 papers, source: https://doi.org/10.1109/bigdata.2017.8258055)",
+            "image classification uses the method deep convolutional neural network (supported by 114 papers, source: https://doi.org/10.31234/osf.io/w9rb2)",
+            "image classification uses the method deep neural network (supported by 173 papers, source: https://doi.org/10.1109/iciccs53718.2022.9788359)"
+          ],
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.0008291873963515755,
+          "f1": 0.0016570008285004144,
+          "reciprocal_rank": 1.0
+        }
+      ]
+    },
+    {
+      "paper": "Art Classification with Pytorch Using Transfer Learning",
+      "concepts": [
+        "art",
+        "pytorch",
+        "transfer learning",
+        "artwork"
+      ],
+      "total_relevant_in_db": 166,
+      "queries": [
+        {
+          "query": "Art classification using transfer learning with PyTorch",
+          "concepts": [
+            "art",
+            "pytorch",
+            "transfer learning",
+            "artwork"
+          ],
+          "retrieved_facts": [
+            "image classification analyzesMaterial art (supported by 7 papers, source: https://doi.org/10.48550/arxiv.2009.05228)",
+            "image classification uses the material alexnet (supported by 5 papers, source: https://doi.org/10.3390/su14137912)",
+            "image classification uses the method dcnn (supported by 13 papers, source: https://doi.org/10.1109/wacv45572.2020.9093560)",
+            "image classification learnsMethod convolutional neural network (supported by 8 papers, source: https://doi.org/10.26686/wgtn.13158299)",
+            "image classification uses the material imagenet (supported by 19 papers, source: https://doi.org/10.1109/bigdata.2018.8622090)"
+          ],
+          "precision_at_k": 0.2,
+          "recall_at_k": 0.006024096385542169,
+          "f1": 0.011695906432748539,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "Deep Convolutional Neural Networks in image classification",
+          "concepts": [
+            "art",
+            "pytorch",
+            "transfer learning",
+            "artwork"
+          ],
+          "retrieved_facts": [
+            "image classification uses the method deep convolutional neural network (supported by 114 papers, source: https://doi.org/10.1109/siu.2016.7496001)",
+            "image classification uses the method deep convolutional neural network (supported by 114 papers, source: https://doi.org/10.12928/telkomnika.v19i3.18157)",
+            "image classification uses the method deep convolutional neural network (supported by 114 papers, source: https://doi.org/10.5753/wperformance.2021.15724)",
+            "image classification uses the method deep convolutional neural network (supported by 114 papers, source: https://doi.org/10.1109/vtc2021-spring51267.2021.9448857)",
+            "image classification uses the method deep convolutional network (supported by 15 papers, source: https://doi.org/10.1109/ictai50040.2020.00089)"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "Best Artworks of All Time Dataset Kaggle high-resolution portraits",
+          "concepts": [
+            "art",
+            "pytorch",
+            "transfer learning",
+            "artwork"
+          ],
+          "retrieved_facts": [
+            "image classification analyzesMaterial art (supported by 7 papers, source: https://doi.org/10.48550/arxiv.2003.14297)",
+            "image classification analyzesMaterial art (supported by 7 papers, source: https://doi.org/10.48550/arxiv.2009.05228)",
+            "image classification analyzesMaterial art (supported by 7 papers, source: https://doi.org/10.1109/iccv.2019.00347)",
+            "image classification analyzesMaterial art (supported by 7 papers, source: https://doi.org/10.1109/icpr48806.2021.9413259)",
+            "image classification proposesMethod deep learning (supported by 11 papers, source: https://doi.org/10.1016/j.knosys.2021.106903)"
+          ],
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.024096385542168676,
+          "f1": 0.046783625730994156,
+          "reciprocal_rank": 1.0
+        }
+      ]
+    },
+    {
+      "paper": "Effects of Image Degradation and Degradation Removal to CNN-Based Image Classification",
+      "concepts": [
+        "degradation",
+        "noise",
+        "cnn",
+        "image quality"
+      ],
+      "total_relevant_in_db": 567,
+      "queries": [
+        {
+          "query": "Deep Learning Image Classification Degradation Sensitivity Study",
+          "concepts": [
+            "degradation",
+            "noise",
+            "cnn",
+            "image quality"
+          ],
+          "retrieved_facts": [
+            "image classification is a broader concept than deep learning task (supported by 13 papers, source: https://doi.org/10.1142/s0218001422520048)",
+            "image classification uses the method deep convolutional neural network (supported by 114 papers, source: https://doi.org/10.1109/cvpr.2017.216)",
+            "image classification uses the method deep convolutional neural network (supported by 114 papers, source: https://doi.org/10.5753/wperformance.2021.15724)",
+            "image classification uses the method deep learning (supported by 317 papers, source: https://doi.org/10.1109/cvidliccea56201.2022.9825212)",
+            "image classification uses the method deep convolutional neural networks dcnns (supported by 6 papers, source: https://doi.org/10.1007/978-981-10-7305-2_27)"
+          ],
+          "precision_at_k": 0.2,
+          "recall_at_k": 0.001763668430335097,
+          "f1": 0.0034965034965034965,
+          "reciprocal_rank": 0.2
+        },
+        {
+          "query": "CNN Robustness to Image Degradation and Preprocessing",
+          "concepts": [
+            "degradation",
+            "noise",
+            "cnn",
+            "image quality"
+          ],
+          "retrieved_facts": [
+            "image classification solvesMethod cnn (supported by 5 papers, source: https://doi.org/10.1109/iccce.2016.73)",
+            "image classification solvesMethod cnn (supported by 5 papers, source: https://doi.org/10.1109/iceeict.2015.7307467)",
+            "image classification analyzesMethod convolutional neural network (supported by 6 papers, source: https://doi.org/10.1109/icitamee50454.2020.9398462)",
+            "image classification acquiresMethod convolutional neural network (supported by 15 papers, source: https://doi.org/10.3233/jifs-221550)",
+            "image classification affectsMethod convolutional neural network (supported by 5 papers, source: https://doi.org/10.1109/iccv48922.2021.00010)"
+          ],
+          "precision_at_k": 0.4,
+          "recall_at_k": 0.003527336860670194,
+          "f1": 0.006993006993006993,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "Visual Classification Performance with Hazy and Noisy Images",
+          "concepts": [
+            "degradation",
+            "noise",
+            "cnn",
+            "image quality"
+          ],
+          "retrieved_facts": [
+            "image classification is a broader concept than visual recognition task (supported by 35 papers, source: https://doi.org/10.2200/s00822ed1v01y201712cov015)",
+            "image classification analyzesMethod state of the art method (supported by 11 papers, source: https://doi.org/10.1109/ijcnn52387.2021.9534350)",
+            "image classification is a broader concept than visual task (supported by 16 papers, source: https://doi.org/10.1109/igarss.2019.8898934)",
+            "image classification is a broader concept than visual task (supported by 16 papers, source: https://doi.org/10.1109/icpr.2018.8545327)",
+            "image classification is a broader concept than visual application (supported by 5 papers, source: https://doi.org/10.1109/aicas54282.2022.9869919)"
+          ],
+          "precision_at_k": 0.2,
+          "recall_at_k": 0.001763668430335097,
+          "f1": 0.0034965034965034965,
+          "reciprocal_rank": 0.5
+        }
+      ]
+    },
+    {
+      "paper": "Evolutionary Deep Learning: A Genetic Programming Approach to Image Classification",
+      "concepts": [
+        "evolutionary",
+        "genetic programming",
+        "deep learning",
+        "convolutional"
+      ],
+      "total_relevant_in_db": 1653,
+      "queries": [
+        {
+          "query": "Genetic programming for image classification using convolutional operators",
+          "concepts": [
+            "evolutionary",
+            "genetic programming",
+            "deep learning",
+            "convolutional"
+          ],
+          "retrieved_facts": [
+            "image classification acquiresMethod convolutional neural network (supported by 15 papers, source: https://doi.org/10.1142/s0129065722500216)",
+            "image classification acquiresMethod convolutional neural network (supported by 15 papers, source: https://doi.org/10.1109/socc.2017.8226028)",
+            "image classification acquiresMethod convolutional neural network (supported by 15 papers, source: https://doi.org/10.3233/jifs-221550)",
+            "image classification uses the method convolutional neural network (supported by 491 papers, source: https://doi.org/10.1109/tcsvt.2021.3090195)",
+            "image classification uses the method convolutional neural network (supported by 491 papers, source: https://doi.org/10.1109/imicpw.2019.8933239)"
+          ],
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.0030248033877797943,
+          "f1": 0.006031363088057901,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "Evolutionary deep learning for interpretable image classification models",
+          "concepts": [
+            "evolutionary",
+            "genetic programming",
+            "deep learning",
+            "convolutional"
+          ],
+          "retrieved_facts": [
+            "image classification analyzesMethod deep learning (supported by 9 papers, source: https://doi.org/10.23919/eusipco.2019.8902767)",
+            "image classification acquiresMethod deep learning (supported by 8 papers, source: https://doi.org/10.12783/dtetr/iceta2016/6970)",
+            "image classification acquiresMethod deep learning (supported by 8 papers, source: https://doi.org/10.1109/tpami.2019.2950923)",
+            "image classification proposesMethod deep learning model (supported by 5 papers, source: https://doi.org/10.1109/ijcnn48605.2020.9206651)",
+            "image classification uses the method deep learning architecture (supported by 17 papers, source: https://doi.org/10.31220/agrirxiv.2021.00075)"
+          ],
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.0030248033877797943,
+          "f1": 0.006031363088057901,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "Deep learning architecture evolution on benchmark image datasets",
+          "concepts": [
+            "evolutionary",
+            "genetic programming",
+            "deep learning",
+            "convolutional"
+          ],
+          "retrieved_facts": [
+            "image classification acquiresMethod deep learning (supported by 8 papers, source: https://doi.org/10.12783/dtetr/iceta2016/6970)",
+            "image classification analyzesMethod deep learning (supported by 9 papers, source: https://doi.org/10.1109/piers-fall.2017.8293267)",
+            "image classification uses the method deep learning architecture (supported by 17 papers, source: https://doi.org/10.31220/agrirxiv.2021.00075)",
+            "image classification proposesMethod deep learning model (supported by 5 papers, source: https://doi.org/10.1109/ijcnn48605.2020.9206651)",
+            "image classification is a broader concept than deep learning task (supported by 13 papers, source: https://doi.org/10.1142/s0218001422520048)"
+          ],
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.0030248033877797943,
+          "f1": 0.006031363088057901,
+          "reciprocal_rank": 1.0
+        }
+      ]
+    }
+  ]
+}
