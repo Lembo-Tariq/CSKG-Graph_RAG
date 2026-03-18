@@ -1,0 +1,371 @@
+{
+  "k": 3,
+  "overall_metrics": {
+    "mean_precision_at_k": 0.014,
+    "mean_recall_at_k": 0.008,
+    "mean_f1_at_k": 0.01,
+    "mrr": 0.042
+  },
+  "per_paper_results": [
+    {
+      "paper": "Transfer learning for image classification using VGG19: Caltech-101 image data set",
+      "doi": "https://doi.org/10.1007/s12652-021-03488-z",
+      "queries": [
+        {
+          "query": "VGG19 transfer learning Caltech-101 image data set classification",
+          "correct_doi": "https://doi.org/10.1007/s12652-021-03488-z",
+          "retrieved_dois": [
+            "https://doi.org/10.1145/3342999.3343002",
+            "https://doi.org/10.1109/tgrs.2019.2961599",
+            "https://doi.org/10.1109/iccv48922.2021.00010"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "Caltech-101 image classification using pre-trained VGG19 models",
+          "correct_doi": "https://doi.org/10.1007/s12652-021-03488-z",
+          "retrieved_dois": [
+            "https://doi.org/10.1145/3342999.3343002",
+            "https://doi.org/10.1109/tgrs.2017.2765364",
+            "https://doi.org/10.1109/socc.2017.8226028"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "VGG19 convolutional neural network transfer learning experiments",
+          "correct_doi": "https://doi.org/10.1007/s12652-021-03488-z",
+          "retrieved_dois": [
+            "https://doi.org/10.1109/iccv48922.2021.00010",
+            "https://doi.org/10.26686/wgtn.13158299",
+            "https://doi.org/10.36227/techrxiv.19310489.v3"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        }
+      ]
+    },
+    {
+      "paper": "Robust Image Sentiment Analysis Using Progressively Trained and Domain Transferred Deep Networks",
+      "doi": "https://doi.org/10.48550/arxiv.1509.06041",
+      "queries": [
+        {
+          "query": "Convolutional Neural Networks for Image Sentiment Analysis",
+          "correct_doi": "https://doi.org/10.48550/arxiv.1509.06041",
+          "retrieved_dois": [
+            "https://doi.org/10.36227/techrxiv.19310489",
+            "https://doi.org/10.1109/iccv48922.2021.00010",
+            "https://doi.org/10.1109/icip.2019.8802926"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "Progressive Training and Domain Transfer in Image CNNs",
+          "correct_doi": "https://doi.org/10.48550/arxiv.1509.06041",
+          "retrieved_dois": [
+            "https://doi.org/10.1109/iciev.2016.7760077",
+            "https://doi.org/10.1109/icbaie52039.2021.9389823",
+            "https://doi.org/10.26686/wgtn.13158299"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "Deep Networks for Flickr and Twitter Image Sentiment",
+          "correct_doi": "https://doi.org/10.48550/arxiv.1509.06041",
+          "retrieved_dois": [
+            "https://doi.org/10.1177/0165551520962781",
+            "https://doi.org/10.4018/978-1-6684-6303-1.ch087",
+            "https://doi.org/10.18653/v1/p16-1228"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        }
+      ]
+    },
+    {
+      "paper": "Small-Sample Image Classification Method of Combining Prototype and Margin Learning",
+      "doi": "https://doi.org/10.1109/apsipaasc47483.2019.9023037",
+      "queries": [
+        {
+          "query": "Small-sample image classification combining prototype and margin learning",
+          "correct_doi": "https://doi.org/10.1109/apsipaasc47483.2019.9023037",
+          "retrieved_dois": [
+            "https://doi.org/10.1109/cvprw50498.2020.00474",
+            "https://doi.org/10.1109/icac3n53548.2021.9725474",
+            "https://doi.org/10.51682/jiscom.00201001.2021"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "VGG16 ensemble method for image classification with prototype learning",
+          "correct_doi": "https://doi.org/10.1109/apsipaasc47483.2019.9023037",
+          "retrieved_dois": [
+            "https://doi.org/10.1145/3342999.3343002",
+            "https://doi.org/10.1109/siu.2018.8404179",
+            "https://doi.org/10.1109/cvpr.2018.00976"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "Improved image classification on LabelMe dataset with deep neural networks",
+          "correct_doi": "https://doi.org/10.1109/apsipaasc47483.2019.9023037",
+          "retrieved_dois": [
+            "https://doi.org/10.1109/icbaie52039.2021.9389823",
+            "https://doi.org/10.1109/jstars.2022.3173676",
+            "https://doi.org/10.1109/embc44109.2020.9175894"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        }
+      ]
+    },
+    {
+      "paper": "Genetic Programming With a New Representation to Automatically Learn Features and Evolve Ensembles for Image Classification",
+      "doi": "https://doi.org/10.26686/wgtn.13158311",
+      "queries": [
+        {
+          "query": "Genetic Programming for Image Classification Ensemble Selection",
+          "correct_doi": "https://doi.org/10.26686/wgtn.13158311",
+          "retrieved_dois": [
+            "https://doi.org/10.1109/tevc.2021.3082112",
+            "https://doi.org/10.1109/tcyb.2021.3105696",
+            "https://doi.org/10.3389/fmicb.2022.1024104"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "Evolutionary Feature Learning in Computer Vision Models",
+          "correct_doi": "https://doi.org/10.26686/wgtn.13158311",
+          "retrieved_dois": [
+            "https://doi.org/10.1109/cvpr.2017.194",
+            "https://doi.org/10.1109/ssiai.2012.6202450",
+            "https://doi.org/10.2174/2666255813999200915141534"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "Automatic Ensemble Parameter Optimization for Image Classification",
+          "correct_doi": "https://doi.org/10.26686/wgtn.13158311",
+          "retrieved_dois": [
+            "https://doi.org/10.3389/fmicb.2022.1024104",
+            "https://doi.org/10.1109/cvpr.2018.00976",
+            "https://doi.org/10.1109/iiki.2016.81"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        }
+      ]
+    },
+    {
+      "paper": "Image Classification Using Transfer Learning and Deep Learning",
+      "doi": "https://doi.org/10.18535/ijecs/v10i9.4622",
+      "queries": [
+        {
+          "query": "Image classification using transfer learning technique in deep learning",
+          "correct_doi": "https://doi.org/10.18535/ijecs/v10i9.4622",
+          "retrieved_dois": [
+            "https://doi.org/10.1109/icdcs54290.2022.9780729",
+            "https://doi.org/10.36231/coedw/vol31no2.9",
+            "https://doi.org/10.1109/icramet.2017.8253139"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "VGG16 model application in image recognition and classification",
+          "correct_doi": "https://doi.org/10.18535/ijecs/v10i9.4622",
+          "retrieved_dois": [
+            "https://doi.org/10.18535/ijecs/v10i9.4622",
+            "https://doi.org/10.1109/cvpr.2018.00914",
+            "https://doi.org/10.1109/icece51571.2020.9393085"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 0.2,
+          "f1": 0.25,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "Deep learning for image classification with pre-trained models",
+          "correct_doi": "https://doi.org/10.18535/ijecs/v10i9.4622",
+          "retrieved_dois": [
+            "https://doi.org/10.5753/wperformance.2021.15724",
+            "https://doi.org/10.1109/bigdata.2017.8258055",
+            "https://doi.org/10.1109/iciccs53718.2022.9788359"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        }
+      ]
+    },
+    {
+      "paper": "Art Classification with Pytorch Using Transfer Learning",
+      "doi": "https://doi.org/10.1109/icscan53069.2021.9526457",
+      "queries": [
+        {
+          "query": "Art classification using transfer learning with PyTorch",
+          "correct_doi": "https://doi.org/10.1109/icscan53069.2021.9526457",
+          "retrieved_dois": [
+            "https://doi.org/10.48550/arxiv.2009.05228",
+            "https://doi.org/10.1109/wacv45572.2020.9093560",
+            "https://doi.org/10.26686/wgtn.13158299"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "Deep Convolutional Neural Networks in image classification",
+          "correct_doi": "https://doi.org/10.1109/icscan53069.2021.9526457",
+          "retrieved_dois": [
+            "https://doi.org/10.1109/siu.2016.7496001",
+            "https://doi.org/10.12928/telkomnika.v19i3.18157",
+            "https://doi.org/10.5753/wperformance.2021.15724"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "Best Artworks of All Time Dataset Kaggle high-resolution portraits",
+          "correct_doi": "https://doi.org/10.1109/icscan53069.2021.9526457",
+          "retrieved_dois": [
+            "https://doi.org/10.48550/arxiv.2003.14297",
+            "https://doi.org/10.1109/iccv.2019.00347",
+            "https://doi.org/10.1016/j.knosys.2021.106903"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        }
+      ]
+    },
+    {
+      "paper": "Effects of Image Degradation and Degradation Removal to CNN-Based Image Classification",
+      "doi": "https://doi.org/10.1109/tpami.2019.2950923",
+      "queries": [
+        {
+          "query": "Deep Learning Image Classification Degradation Sensitivity Study",
+          "correct_doi": "https://doi.org/10.1109/tpami.2019.2950923",
+          "retrieved_dois": [
+            "https://doi.org/10.1142/s0218001422520048",
+            "https://doi.org/10.1109/cvidliccea56201.2022.9825212",
+            "https://doi.org/10.1007/978-981-10-7305-2_27"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "CNN Robustness to Image Degradation and Preprocessing",
+          "correct_doi": "https://doi.org/10.1109/tpami.2019.2950923",
+          "retrieved_dois": [
+            "https://doi.org/10.1109/iccce.2016.73",
+            "https://doi.org/10.3233/jifs-221550",
+            "https://doi.org/10.1109/iccv48922.2021.00010"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "Visual Classification Performance with Hazy and Noisy Images",
+          "correct_doi": "https://doi.org/10.1109/tpami.2019.2950923",
+          "retrieved_dois": [
+            "https://doi.org/10.2200/s00822ed1v01y201712cov015",
+            "https://doi.org/10.1109/ijcnn52387.2021.9534350",
+            "https://doi.org/10.1109/aicas54282.2022.9869919"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        }
+      ]
+    },
+    {
+      "paper": "Evolutionary Deep Learning: A Genetic Programming Approach to Image Classification",
+      "doi": "https://doi.org/10.1109/cec.2018.8477933",
+      "queries": [
+        {
+          "query": "Genetic programming for image classification using convolutional operators",
+          "correct_doi": "https://doi.org/10.1109/cec.2018.8477933",
+          "retrieved_dois": [
+            "https://doi.org/10.1142/s0129065722500216",
+            "https://doi.org/10.1109/tcsvt.2021.3090195",
+            "https://doi.org/10.1109/imicpw.2019.8933239"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "Evolutionary deep learning for interpretable image classification models",
+          "correct_doi": "https://doi.org/10.1109/cec.2018.8477933",
+          "retrieved_dois": [
+            "https://doi.org/10.23919/eusipco.2019.8902767",
+            "https://doi.org/10.1109/ijcnn48605.2020.9206651",
+            "https://doi.org/10.31220/agrirxiv.2021.00075"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "Deep learning architecture evolution on benchmark image datasets",
+          "correct_doi": "https://doi.org/10.1109/cec.2018.8477933",
+          "retrieved_dois": [
+            "https://doi.org/10.12783/dtetr/iceta2016/6970",
+            "https://doi.org/10.1109/ijcnn48605.2020.9206651",
+            "https://doi.org/10.1142/s0218001422520048"
+          ],
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "f1": 0.0,
+          "reciprocal_rank": 0.0
+        }
+      ]
+    }
+  ]
+}

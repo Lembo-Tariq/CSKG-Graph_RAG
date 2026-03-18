@@ -1,0 +1,26 @@
+paper_title,query,precision_at_k,recall_at_k,f1,reciprocal_rank
+Transfer learning for image classification using V,VGG19 transfer learning Caltech-101 image data set classification,0.0,0.0,0.0,0.0
+Transfer learning for image classification using V,Caltech-101 image classification using pre-trained VGG19 models,0.0,0.0,0.0,0.0
+Transfer learning for image classification using V,VGG19 convolutional neural network transfer learning experiments,0.0,0.0,0.0,0.0
+Robust Image Sentiment Analysis Using Progressivel,Convolutional Neural Networks for Image Sentiment Analysis,0.0,0.0,0.0,0.0
+Robust Image Sentiment Analysis Using Progressivel,Progressive Training and Domain Transfer in Image CNNs,0.0,0.0,0.0,0.0
+Robust Image Sentiment Analysis Using Progressivel,Deep Networks for Flickr and Twitter Image Sentiment,0.0,0.0,0.0,0.0
+Small-Sample Image Classification Method of Combin,Small-sample image classification combining prototype and margin learning,0.0,0.0,0.0,0.0
+Small-Sample Image Classification Method of Combin,VGG16 ensemble method for image classification with prototype learning,0.0,0.0,0.0,0.0
+Small-Sample Image Classification Method of Combin,Improved image classification on LabelMe dataset with deep neural networks,0.0,0.0,0.0,0.0
+Genetic Programming With a New Representation to A,Genetic Programming for Image Classification Ensemble Selection,0.0,0.0,0.0,0.0
+Genetic Programming With a New Representation to A,Evolutionary Feature Learning in Computer Vision Models,0.0,0.0,0.0,0.0
+Genetic Programming With a New Representation to A,Automatic Ensemble Parameter Optimization for Image Classification,0.0,0.0,0.0,0.0
+Image Classification Using Transfer Learning and D,Image classification using transfer learning technique in deep learning,0.0,0.0,0.0,0.0
+Image Classification Using Transfer Learning and D,VGG16 model application in image recognition and classification,0.333,0.2,0.25,1.0
+Image Classification Using Transfer Learning and D,Deep learning for image classification with pre-trained models,0.0,0.0,0.0,0.0
+Art Classification with Pytorch Using Transfer Lea,Art classification using transfer learning with PyTorch,0.0,0.0,0.0,0.0
+Art Classification with Pytorch Using Transfer Lea,Deep Convolutional Neural Networks in image classification,0.0,0.0,0.0,0.0
+Art Classification with Pytorch Using Transfer Lea,Best Artworks of All Time Dataset Kaggle high-resolution portraits,0.0,0.0,0.0,0.0
+Effects of Image Degradation and Degradation Remov,Deep Learning Image Classification Degradation Sensitivity Study,0.0,0.0,0.0,0.0
+Effects of Image Degradation and Degradation Remov,CNN Robustness to Image Degradation and Preprocessing,0.0,0.0,0.0,0.0
+Effects of Image Degradation and Degradation Remov,Visual Classification Performance with Hazy and Noisy Images,0.0,0.0,0.0,0.0
+Evolutionary Deep Learning: A Genetic Programming ,Genetic programming for image classification using convolutional operators,0.0,0.0,0.0,0.0
+Evolutionary Deep Learning: A Genetic Programming ,Evolutionary deep learning for interpretable image classification models,0.0,0.0,0.0,0.0
+Evolutionary Deep Learning: A Genetic Programming ,Deep learning architecture evolution on benchmark image datasets,0.0,0.0,0.0,0.0
+OVERALL,MEAN,0.014,0.008,0.01,0.042
