@@ -1,0 +1,114 @@
+[
+  {
+    "openalex_id": "https://openalex.org/W3200264958",
+    "doi": "https://doi.org/10.1007/s12652-021-03488-z",
+    "title": "Transfer learning for image classification using VGG19: Caltech-101 image data set",
+    "year": 2021,
+    "citations": 356,
+    "facts_in_cskg": 7,
+    "abstract": "Abstract not available...",
+    "generated_queries": [
+      "VGG19 transfer learning Caltech-101 image data set classification",
+      "Caltech-101 image classification using pre-trained VGG19 models",
+      "VGG19 convolutional neural network transfer learning experiments"
+    ]
+  },
+  {
+    "openalex_id": "https://openalex.org/W2253891449",
+    "doi": "https://doi.org/10.48550/arxiv.1509.06041",
+    "title": "Robust Image Sentiment Analysis Using Progressively Trained and Domain Transferred Deep Networks",
+    "year": 2015,
+    "citations": 213,
+    "facts_in_cskg": 7,
+    "abstract": "Sentiment analysis of online user generated content is important for many social media analytics tasks. Researchers have largely relied on textual sentiment analysis to develop systems to predict political elections, measure economic indicators, and so on. Recently, social media users are increasing...",
+    "generated_queries": [
+      "Convolutional Neural Networks for Image Sentiment Analysis",
+      "Progressive Training and Domain Transfer in Image CNNs",
+      "Deep Networks for Flickr and Twitter Image Sentiment"
+    ]
+  },
+  {
+    "openalex_id": "https://openalex.org/W3011408986",
+    "doi": "https://doi.org/10.1109/apsipaasc47483.2019.9023037",
+    "title": "Small-Sample Image Classification Method of Combining Prototype and Margin Learning",
+    "year": 2019,
+    "citations": 4,
+    "facts_in_cskg": 6,
+    "abstract": "Image classification is a fundamental and important task in the field of computer vision and artificial intelligence. In recent years, image classification has made breakthrough progress based on deep learning on large-scale datasets. However, it still exits big challenges on small-sample image data...",
+    "generated_queries": [
+      "Small-sample image classification combining prototype and margin learning",
+      "VGG16 ensemble method for image classification with prototype learning",
+      "Improved image classification on LabelMe dataset with deep neural networks"
+    ]
+  },
+  {
+    "openalex_id": "https://openalex.org/W4231561089",
+    "doi": "https://doi.org/10.26686/wgtn.13158311",
+    "title": "Genetic Programming With a New Representation to Automatically Learn Features and Evolve Ensembles for Image Classification",
+    "year": 2020,
+    "citations": 0,
+    "facts_in_cskg": 6,
+    "abstract": "Image classification is a popular task in machine learning and computer vision, but it is very challenging due to high variation crossing images. Using ensemble methods for solving image classification can achieve higher classification performance than using a single classification algorithm. Howeve...",
+    "generated_queries": [
+      "Genetic Programming for Image Classification Ensemble Selection",
+      "Evolutionary Feature Learning in Computer Vision Models",
+      "Automatic Ensemble Parameter Optimization for Image Classification"
+    ]
+  },
+  {
+    "openalex_id": "https://openalex.org/W3202164739",
+    "doi": "https://doi.org/10.18535/ijecs/v10i9.4622",
+    "title": "Image Classification Using Transfer Learning and Deep Learning",
+    "year": 2021,
+    "citations": 28,
+    "facts_in_cskg": 5,
+    "abstract": "Deep learning models have demonstrated improved efficacy in image classification since the ImageNet Large Scale Visual Recognition Challenge started since 2010. Classification of images has further augmented in the field of computer vision with the dawn of transfer learning. To train a model on huge...",
+    "generated_queries": [
+      "Image classification using transfer learning technique in deep learning",
+      "VGG16 model application in image recognition and classification",
+      "Deep learning for image classification with pre-trained models"
+    ]
+  },
+  {
+    "openalex_id": "https://openalex.org/W3198847674",
+    "doi": "https://doi.org/10.1109/icscan53069.2021.9526457",
+    "title": "Art Classification with Pytorch Using Transfer Learning",
+    "year": 2021,
+    "citations": 6,
+    "facts_in_cskg": 5,
+    "abstract": "Deep Learning has advanced to a greater level in the field of Artificial Intelligence in recent years, and it is currently employed globally. This aids the system in improving its accuracy. Deep Learning algorithms have made image classification considerably more viable, allowing us to analyse large...",
+    "generated_queries": [
+      "Art classification using transfer learning with PyTorch",
+      "Deep Convolutional Neural Networks in image classification",
+      "Best Artworks of All Time Dataset Kaggle high-resolution portraits"
+    ]
+  },
+  {
+    "openalex_id": "https://openalex.org/W2985321619",
+    "doi": "https://doi.org/10.1109/tpami.2019.2950923",
+    "title": "Effects of Image Degradation and Degradation Removal to CNN-Based Image Classification",
+    "year": 2019,
+    "citations": 241,
+    "facts_in_cskg": 5,
+    "abstract": "Just like many other topics in computer vision, image classification has achieved significant progress recently by using deep learning neural networks, especially the Convolutional Neural Networks (CNNs). Most of the existing works focused on classifying very clear natural images, evidenced by the w...",
+    "generated_queries": [
+      "Deep Learning Image Classification Degradation Sensitivity Study",
+      "CNN Robustness to Image Degradation and Preprocessing",
+      "Visual Classification Performance with Hazy and Noisy Images"
+    ]
+  },
+  {
+    "openalex_id": "https://openalex.org/W2896064450",
+    "doi": "https://doi.org/10.1109/cec.2018.8477933",
+    "title": "Evolutionary Deep Learning: A Genetic Programming Approach to Image Classification",
+    "year": 2018,
+    "citations": 53,
+    "facts_in_cskg": 5,
+    "abstract": "Image classification is used for many tasks such as recognising handwritten digits, identifying the presence of pedestrians for self-driving cars, and even providing medical diagnosis from cell images. The current state-of-the-art solution for image classification, typically, uses convolutional neur...",
+    "generated_queries": [
+      "Genetic programming for image classification using convolutional operators",
+      "Evolutionary deep learning for interpretable image classification models",
+      "Deep learning architecture evolution on benchmark image datasets"
+    ]
+  }
+]
