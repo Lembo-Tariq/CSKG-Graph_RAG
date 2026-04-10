@@ -1,0 +1,1014 @@
+[
+  {
+    "sample_id": 1,
+    "query": "Machine learning approaches for sentiment analysis and image classification tasks with various techniques and applications.",
+    "paper_ids": [
+      "W1807647822",
+      "W1485788187",
+      "W2279746686",
+      "W2020564439",
+      "W2007358443",
+      "W1995518088",
+      "W1943069596",
+      "W2278000355",
+      "W1773392383",
+      "W2244824390"
+    ],
+    "papers": [
+      {
+        "title": "Unsupervised Word Polarity Tagging by Exploiting Continuous Word Representations",
+        "abstract": "Sentiment analysis is the area of Natural Language Processing that aims to determine the polarity (positive, negative, neutral) contained in an opinionated text. A usual resource employed in many of these approaches are the so-called polarity lexicons. A polarity lexicon acts as a dictionary that assigns a sentiment polarity value to words. In this work we explore the possibility of automatically generating domain adapted polarity lexicons employing continuous word representations, in particular the popular tool Word2Vec. First we show a qualitative evaluation of a small set of words, and then we show our results in the SemEval-2015 task 12 using the presented method.",
+        "openalex_id": "W1807647822"
+      },
+      {
+        "title": "Syllable-based Myanmar language model for speech recognition",
+        "abstract": "In this paper, we describe the work developed in the creation of syllable-based language model for continuous speech recognition system for Myanmar language. Speech recognition systems contain language model as the part of prediction word order sequence. In English and other languages, speech recognition system can use word-based language model. Since Myanmar is monosyllabic and syllable-timed language, the syllable-based language model is more suitable in speech recognition system. At the first step, this paper explains the structure of traditional (Phrase based) language model and describes how to normalized Myanmar sentences and building of normalized Myanmar language model. In the second step, the evaluation of the two language models is expressed. Finally, the comparison of these two language models with the perplexity values is described. The syllable-based Myanmar language model has lower perplexity value than the traditional language model. This language model can support the creation of word-based Myanmar language model.",
+        "openalex_id": "W1485788187"
+      },
+      {
+        "title": "A Remote Sensing Image Classification Method Based on Extreme Learning Machine Ensemble",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2279746686"
+      },
+      {
+        "title": "A crossed-domain sentiment analysis system for the discovery of current careers from social networks",
+        "abstract": "In recent years, the sentiment analysis on data messages from social networks has attracted high attention of researchers. However, most of their works have been focused on classifying user messages to positive (or like) and negative (or dislike) on social issues or discussion topics. In addition, they usually only worked with English messages from a single data source, or a domain. In this paper, we proposed a crossed-domain sentiment analysis system for the discovery of current careers from social networks. The proposed system can capture sentiment of career-related messages from two famous social networks, including Twitter and Facebook. The experimental results clearly pointed out that the most favorite careers which enjoy the highest positive sentiment and the least favorite careers that have the highest negative sentiment. The performance results of the proposed system are promising for crossed-domain sentiment analysis, with the precision of over 85% and the recall of over 90%.",
+        "openalex_id": "W2020564439"
+      },
+      {
+        "title": "Binary image classification using genetic programming based on local binary patterns",
+        "abstract": "Image classification represents an important task in machine learning and computer vision. To capture features covering a diversity of different objects, it has been observed that a sufficient number of learning instances are required to efficiently estimate the models' parameter values. In this paper, we propose a genetic programming (GP) based method for the problem of binary image classification that uses a single instance per class to evolve a classifier. The method uses local binary patterns (LBP) as an image descriptor, support vector machine (SVM) as a classifier, and a one-way analysis of variance (ANOVA) as an analyser. Furthermore, a multi-objective fitness function is designed to detect distinct and informative regions of the images, and measure the goodness of the wrapped classifiers. The performance of the proposed method has been evaluated on six data sets and compared to the performances of both GP based (Two-tier GP and conventional GP) and non-GP (Naïve Bayes, Support Vector Machines and hybrid Naïve Bayes/Decision Trees) methods. The results show that a comparable or significantly better performance has been achieved by the proposed method over all methods on all of the data sets considered.",
+        "openalex_id": "W2007358443"
+      },
+      {
+        "title": "Estimates of forest degradation: An algorithm based on active learning, maximum likelihood and PCA for change detection",
+        "abstract": "Land use management and control of deforestation in mega cities became an important problem due to pressure of urban sprawl. In addition, green areas and fountain-heads must be preserved in these cities, for the sake of living quality. For the purpose of monitoring deforestation and non-legal use of lands, this paper presents an approach to detect changes on the remaining areas of Atlantic Forest in São Paulo. We describe an algorithm for image classification and change detection based on the active learning, which is improved by a pre-clustering task, then a change detection step based on histogram analysis of the second PCA (Principal Component Analysis) component. We applied the algorithm over 4 multispectral Landsat 5/TM images representing the years 1986, 1996, 2003, 2011 of an eastern area of São Paulo city. With the proposed active learning technique we were able to categorize the pixels used in the change detection step. We estimated that the remaining 31% of forest in 1986 reaches a minimum of 25% in 2003, but afterwards it recovered to 27% of the total area in 2011.",
+        "openalex_id": "W1995518088"
+      },
+      {
+        "title": "Textural Measurements for Retinal Image Analysis",
+        "abstract": "This thesis present research work conducted in the field of retina image analysis. More specifically, the work is directed at the application of texture analysis technique for the segmentation of common retinal landmark and for retina image classification. The main challenge in this research is in identifying the suitable texture measurement for retina images. In this research we proposed the used of texture measurement based on Binary Robust Independent Elementary Features (BRIEF). BRIEF measure texture by performing an intensity comparison in a local image patch, thus it is very fast to compute and tolerant to any monotonic increase or decrease of image intensities, which makes the descriptor invariant to illumination. The performance of BRIEF as texture measurement is first shown in an experiment involving texture classification and segmentation using common texture datasets. The result demonstrates good performance from BRIEF in this experiment. BRIEF is next used in two applications of retinal image analysis, namely optic disc segmentation and glaucoma classification. In the former, we proposed the used of pixel classification using BRIEF as textural features and circular template matching to segment the optic disc. In addition, an extension of BRIEF called Rotation Invariant BRIEF (OBRIEF) is later proposed to improve the segmentation result. For glaucoma classification, we described two approaches for glaucoma classification using BRIEF/OBRIEF features. The first is based on determination of cup to disc ratio (CDR) and the second is classification using image features i.e. BRIEF features. Overall, our preliminary results on using BRIEF as texture measurement for retinal image analysis are encouraging and demonstrate that it has the potential to be used in retina image analysis.",
+        "openalex_id": "W1943069596"
+      },
+      {
+        "title": "Face Attribute Prediction with classification CNN.",
+        "abstract": "Predicting facial attributes from faces in the wild is very challenging due to pose and lighting variations in the real world. The key to this problem is to build proper feature representations to cope with these unfavorable conditions. Given the success of convolutional neural network (CNN) in image classification, the high-level CNN feature as an intuitive and reasonable choice has been widely utilized for this problem. In this paper, however, we consider the mid-level CNN features as an alternative to the high-level ones for attribute prediction. This is based on the observation that face attributes are different: some of them are locally oriented while others are globally defined. Our investigations reveal that the mid-level deep representations outperform the prediction accuracy achieved by the high-level abstractions. We demonstrate that the mid-level representations achieve state-of-the-art prediction performance on CelebA and LFWA datasets. Our investigations also show that by utilizing the mid-level representations one can employ a single deep network to achieve both face recognition and attribute prediction.",
+        "openalex_id": "W2278000355"
+      },
+      {
+        "title": "Image Retrieval And Classification Using Local Feature Vectors",
+        "abstract": "Content Based Image Retrieval(CBIR) is one of the important subfield in the field of Information Retrieval. The goal of a CBIR algorithm is to retrieve semantically similar images in response to a query image submitted by the end user. CBIR is a hard problem because of the phenomenon known as $\\textit {semantic gap}$. In this thesis, we aim at analyzing the performance of a CBIR system build using local feature vectors and Intermediate Matching Kernel. We also propose a Two-Step Matching process for reducing the response time of the CBIR systems. Further, we develop a Meta-Learning framework for improving the retrieval performance of these systems. Our results show that the Two-Step Matching process significantly reduces response time and the Meta-Learning Framework improves the retrieval performance by more than two fold. We also analyze the performance of various image classification systems that use different image representations constructed from the local feature vectors.",
+        "openalex_id": "W1773392383"
+      },
+      {
+        "title": "PolSAR Image Classification via D-KSVD and NSCT-Domain Features Extraction",
+        "abstract": "Polarimetric synthetic aperture radar (PolSAR) image classification is a powerful and important application in remote sensing. In this letter, we propose a PolSAR image classification method based on discriminative dictionary learning (D-KSVD) model and nonsubsampled contourlet transform (NSCT)-domain features. The D-KSVD model is used in our experiment to classify PolSAR images and is more time efficient and accurate when compared with the sparse representation classifier (SRC) used by other researchers to the PolSAR image classification. This is due to the fact that the D-KSVD model employs linear classifier rather than compute the reconstruction error employed by SRC. On constructing an effective dictionary of D-KSVD, we use NSCT to extract polarization features from the PolSAR coherency matrix. However, the low-frequency coefficients of NSCT domain have better discrimination ability than others, and we consider them as the classification features; hence, we adopt them into the D-KSVD model to obtain a dictionary which accommodates a linear classifier. Our experimental results of two real PolSAR images indicate that the proposed PolSAR image classification method based on D-KSVD model and NSCT-domain features extraction approach achieves better results with time efficiency and accuracy.",
+        "openalex_id": "W2244824390"
+      }
+    ]
+  },
+  {
+    "sample_id": 2,
+    "query": "Sentiment Analysis Techniques in Social Media and Beyond",
+    "paper_ids": [
+      "W2158149850",
+      "W1678215778",
+      "W2183433209",
+      "W2087538752",
+      "W1495444812",
+      "W1494379672",
+      "W169877145",
+      "W1994132056",
+      "W1998797625",
+      "W2137399419"
+    ],
+    "papers": [
+      {
+        "title": "[LVIC-LIMSI]: Using Syntactic Features and Multi-polarity Words for Sentiment Analysis in Twitter",
+        "abstract": "This paper presents the contribution of our team at task 2 of SemEval 2013: Sentiment Analysis in Twitter. We submitted a constrained run for each of the two subtasks. In the Contextual Polarity Disambiguation subtask, we use a sentiment lexicon approach combined with polarity shift detection and tree kernel based classifiers. In the Message Polarity Classification subtask, we focus on the influence of domain information on sentiment classification.",
+        "openalex_id": "W2158149850"
+      },
+      {
+        "title": "A Reference Architecture for Social Media Intelligence Applications in the Cloud",
+        "abstract": "As the social media upsurge of today continues to mount, opportunities to derive collective intelligence from online social networking (OSN) content sources are inevitably expected to grow. While enterprise organizations and research institutions make a dash for identifying rich insights and opportunities to tap into the millions of conversations and user profile relationships exposed by this new social-influenced big data phenomenon, architectural concerns regarding the storage and processing of large datasets unearthed by OSNs, along with performance, scalability, fault-tolerance, security, privacy, and high-availability solutions have become an area of concern for social media intelligence (SMI) solutions. In this literature, we present a reference architecture, for designing SMI solutions. In addition, we showcase two key case studies for SMI applications built on this architecture. Our selected case studies are focused on the analysis of User-Generated Content (i.e. With Sentiment Analysis in Twitter data) and Social Graph Influence (i.e. In a Facebook-influenced Movie Recommendations solution). We evaluate the 'goodness-of-fit' in applying our model to these case study solutions and present results from our performance evaluation of these cloud-hosted solutions across multiple cloud providers like Amazon AWS, Microsoft Azure and Google Cloud.",
+        "openalex_id": "W1678215778"
+      },
+      {
+        "title": "Sentiment Analysis Techniques - A Comparative Study",
+        "abstract": "The growing popularity of E-commerce, social medias, forums, blogs etc. created a new platform where anyone can discuss and exchange his/her views, ideas , suggestions and experience about any product or services. This trend accumulated a huge amount of user generated data on the web. If this content can be extracted and analyzed properly then it can act as a key factor in decision making. But manual extraction and analysis of this content is an impossible task, as the content is unstructured in nature and it is written in natural language. This situation opened a new area of research called Opinion Mining and Sentiment Analysis. Opinion Mining and Sentiment Analysis is an extension of Data Mining that extracts and analyzes the unstructured data automatically. The main motive of this paper is to discuss the key concept used in Opinion Mining and Sentiment Analysis and also presents a comparative analysis of various techniques used in this area.",
+        "openalex_id": "W2183433209"
+      },
+      {
+        "title": "A novel parallelized remote sensing image SVM classifier algorithm",
+        "abstract": "As an effective classifier, Support Vector Machine (SVM) has received more and more attention in remote sensing communities. Spatial data and remote sensing image may have a lot of features, but too many spatial-features usually lead to the reduction of training speed and the decrease in classification accuracy. To solve this problem, our study presents a novel parallelized remote sensing classifier (NRSC) by utilizing rough set theory and SVM algorithm. In our algorithm, feature set is firstly split sub-feature sets, each sub-SVM classifier is then trained paralleled by these sub-feature sets, and sub-SVMs vote their decisions to avoid the instable performance a single classifier. The experimental results show that both the classification accuracy and training speed, compared with the traditional SVM method, are all improved in remote sensing image classification.",
+        "openalex_id": "W2087538752"
+      },
+      {
+        "title": "Extração de Dados do Twitter para aplicação na Análise de Sentimentos",
+        "abstract": "This work has as objective collect data from the social network Twitter, with the idea to make a Portuguese database to be applied in Sentiment Analysis. Besides the data extracting, a classification algorithm was created based on the emoticons found. This database will be used in future Sentiment Analysis works like the application of others kinds of classification algorithms such as machine learning algorithms.",
+        "openalex_id": "W1495444812"
+      },
+      {
+        "title": "TASS - Workshop on Sentiment Analysis at SEPLN",
+        "abstract": "This paper describes TASS, an experimental evaluation workshop within SEPLN to foster the research in the field of sentiment analysis in social media, specifically focused on Spanish language. The main objective is to promote the application of existing state-of-the-art algorithms and techniques and the design of new ones for the implementation of complex systems able to perform a sentiment analysis based on short text opinions extracted from social media messages (specifically Twitter) published by representative personalities. The paper presents the proposed tasks, the contents, format and main statistics of the generated corpus, the participant groups and their different approaches, and, finally, the overall results achieved.",
+        "openalex_id": "W1494379672"
+      },
+      {
+        "title": "PARAMETRICAL WORDS IN THE SENTIMENT LEXICON",
+        "abstract": "In this paper, the main features of parametrical words within a sentiment lexicon are determined.The data for the research are client reviews in the Russian language taken from the bank client rating; the domain under study is bank service quality.The sentiment lexicon structure is presented; it includes two primary classes (positive and negative words) and three secondary classes (increments, polarity modifiers, and polarity antimodifiers).This lexicon is used as the main tool for the sentiment analysis carried out by two methods: the Nave Bayes classifier and the REGEX algorithm.Parametrical words are referred to as the words denoting the value of some domain-specific parameter, e.g. the client's time consuming.To distinguish the main features of parametrical words, the parameters relevant for the bank service quality domain are determined.The revised lexicon structure is proposed, with a new class (decrements) added.The results of the research demonstrate that parametrical words express implicit opinions, since parameters are not usually named directly in reviews.Only a small number of parametrical words can be ranged into the primary classes (positive or negative), but this ranging is domain-specific.It is the parameter that determines the domain specificity of such words.Most parametrical words are ranged into the secondary classes, and this ranging can be considered universal.The parametrical words denoting the increase of a parameter should be ranged into the increment class, as they intensify positive or negative emotions.The parametrical words denoting the decrease of a parameter should be ranged into the decrement class, as they reduce positive or negative emotions.The evident progress on the way to the sentiment lexicon universalization can be achieved by classifying parametrical words within the sentiment lexicon.",
+        "openalex_id": "W169877145"
+      },
+      {
+        "title": "Novel Algorithm for RS Image Classification",
+        "abstract": "Abstract not available",
+        "openalex_id": "W1994132056"
+      },
+      {
+        "title": "A non-parametric LDA-based induction method for sentiment analysis",
+        "abstract": "Sentiment analysis is the process of analyzing the characteristics of opinions, feelings, and emotions which are expressed in textual data. This paper presents a novel approach for generation of a lexical resource named PersianClues used for sentiment analysis in Persian language. Moreover, a novel unsupervised LDA-based sentiment analysis method called LDASA is proposed. In order to generate the PersianClues, at the first phase, an automatic translation approach is used to translate the existing English clues to Persian. Next, iterative refinement approach is used to correct the erroneous clues resulted from previous step. Then, topic-based polar sets are achieved from these clues and finally, each document is categorized into its related polarity using a classification algorithm. To evaluate this method, three resources about hotels, cell phones and digital cameras have been manually gathered from the e-shopping websites and the results of sentiment analysis on these resources are compared with a baseline named SVM-Unigrams. The experimental results demonstrate an improvement of 9% on average in polarity classification accuracy of the base system.",
+        "openalex_id": "W1998797625"
+      },
+      {
+        "title": "FAQ: a framework for fast Approximate Query processing on Temporal data",
+        "abstract": "Temporal queries on time evolving data are at the heart of a broad range of business and network intelligence applications ranging from consumer behavior analysis, trend analysis, temporal pattern mining, sentiment analysis on social media, cyber security, and network monitoring. In this work, we present an innovative data structure called Fast Approximate Query-able(FAQ), which provides a unified framework for temporal query processing on Big Data. FAQ uses a novel composition of data sketching, wavelet-style differencing for temporal compression, and quantization, and handles diverse kinds of queries including distinct counts, set membership, frequency estimation, top-K, p-norms, empirical entropy, and distance queries such as Histogram lp-norm distance (including Euclidean and Manhattan distance), cosine similarity, Jaccard coefficient, and rank correlation. Experiments on a real-life multi dimensional network monitoring data sets demonstrate speedups of 92x achieved by FAQ over a flat representation of data for a mixed temporal query workload.",
+        "openalex_id": "W2137399419"
+      }
+    ]
+  },
+  {
+    "sample_id": 3,
+    "query": "Image classification and sentiment analysis using deep learning and natural language processing techniques",
+    "paper_ids": [
+      "W1487431921",
+      "W2165954769",
+      "W1983954034",
+      "W2264732796",
+      "W2218506909",
+      "W2251876828",
+      "W2158149850",
+      "W2086867868",
+      "W1994972134"
+    ],
+    "papers": [
+      {
+        "title": "Video learning based image classification method for object recognition",
+        "abstract": "Abstract not available",
+        "openalex_id": "W1487431921"
+      },
+      {
+        "title": "Polarity Detection at Sentence Level",
+        "abstract": "Opinions bear a very important place in the life of human beings. Human Beings are always surrounded by opinions, when a decision has to be taken; people always want to know the opinions of others. But as the impact of the web is increasing day by day, Web documents can be seen as a new source of opinions for the people. Large numbers of reviews are available on the Web related to every product. Whenever a customer buys any product, they express their feedbacks as opinions on the e-commerce website, thus it is very important to automatically analyze the huge amount of information on the web and develop methods to automatically classify the reviews. Opinion Mining or Sentiment Analysis is the mining of attitudes, opinions, and emotions automatically from text, speech, and database sources through Natural Language Processing (NLP). In this paper an opinion mining system is proposed using unsupervised technique to determine the polarity of sentences i.e. to classify the sentences as positive, negative or neutral. Negation is also handled in the proposed system. Experimental results using reviews of products show the effectiveness of the system.",
+        "openalex_id": "W2165954769"
+      },
+      {
+        "title": "Microblogging sentiment analysis with lexical based and machine learning approaches",
+        "abstract": "The Digital World encounters rapid development nowadays, especially through the proliferation of social media in Indonesia. Twitter has become one of social media with expanded users within every sectors of society. There are so many part both individual as well as organization/enterprise which utilize twitter as tool for communication, business, customer relation, and other activities. Through the twitter's ever-expanding users with those particular purposes, the precise method to effectively and efficiently analyzing opinion-contained sentences become crucially needed. Therefore this research made for method analyzing through lexical based and model based approaches by machine learning to classify opinion-contained tweets using those 2 methods. The tested machine learning method are Support Vector Machine (SVM), Maximum Entropy (ME), Multinomial Naive Bayes (MNB), and k-Nearest Neighbor (k-NN). Based on the test outcome, lexical based approach highly depended on lexical database which became opinion classification matrix. Whilst machine learning approach can produce better accuracy due to its capability in new training data modeling based on outcome model. However, machine learning model based approach depends on various factors in analyzing sentiment.",
+        "openalex_id": "W1983954034"
+      },
+      {
+        "title": "Feature Selection using Random Forest Method for Sentiment Analysis",
+        "abstract": "Background/Objectives: Online review has become important decision support system for the customers to decide on the subscription or purchse. This paper is aiming to suggest a method that improves the accuracy of the classifier. Methods/Statistical analysis: Feature selection for sentiment analysis using decision forest method and Principal Component Analysis (PCA) is used for the feature reduction. The proposed method is evaluated using twitter data set. Findings: It is proved, that the proposed decision forest based feature extraction improves the precision of the classifiers in the range of 12.49% to 62.5% when compared to PCA and by 49.5% to 62.5% when compared to decision tree based feature selection. Application/Improvements: This method is applicable to product reviews, emotion detection, Knowledge transformation, and predictive analytics.",
+        "openalex_id": "W2264732796"
+      },
+      {
+        "title": "Parallel convolutional-linear neural network for motor imagery classification",
+        "abstract": "Deep learning, recently, has been successfully applied to image classification, object recognition and speech recognition. However, the benefits of deep learning and accompanying architectures have been largely unknown for BCI applications. In motor imagery-based BCI, an energy-based feature, typically after spatial filtering, is commonly used for classification. Although this feature corresponds to the estimate of event-related synchronization/desynchronization in the brain, it neglects energy dynamics which may contain valuable discriminative information. Because traditional classiication methods, such as SVM, cannot handle this dynamical property, we proposed an architecture that inputs a dynamic energy representation of EEG data and utilizes convolutional neural networks for classification. By combining this network with a static energy network, we saw a significant increase in performance. We evaluated the proposed method and compared with SVM on a multi-class motor imagery dataset (BCI competition dataset IV-2a). Our method outperforms SVM with static energy features significantly (p < 0.01).",
+        "openalex_id": "W2218506909"
+      },
+      {
+        "title": "A COMPARATIVE STUDY OF STATISTICAL AND NATURAL LANGUAGE PROCESSING TECHNIQUES FOR SENTIMENT ANALYSIS",
+        "abstract": "Sentiment analysis has emerged as one of the most powerful tools in business intelligence. With the aim of proposing an effective sentiment analysis technique, we have performed experiments on analyzing the sentiments of 3,424 tweets using both statistical and natural language processing (NLP) techniques as part of our background study. For statistical technique, machine learning algorithms such as Support Vector Machines (SVMs), decision trees and Naïve Bayes have been explored. The results show that SVM consistently outperformed the rest in both classifications. As for sentiment analysis using NLP techniques, we used two different tagging methods for part-of-speech (POS) tagging. Subsequently, the output is used for word sense disambiguation (WSD) using WordNet, followed by sentiment identification using SentiWordNet. Our experimental results indicate that adjectives and adverbs are sufficient to infer the sentiment of tweets compared to other combinations. Comparatively, the statistical approach records higher accuracy than the NLP approach by approximately 17%.",
+        "openalex_id": "W2251876828"
+      },
+      {
+        "title": "[LVIC-LIMSI]: Using Syntactic Features and Multi-polarity Words for Sentiment Analysis in Twitter",
+        "abstract": "This paper presents the contribution of our team at task 2 of SemEval 2013: Sentiment Analysis in Twitter. We submitted a constrained run for each of the two subtasks. In the Contextual Polarity Disambiguation subtask, we use a sentiment lexicon approach combined with polarity shift detection and tree kernel based classifiers. In the Message Polarity Classification subtask, we focus on the influence of domain information on sentiment classification.",
+        "openalex_id": "W2158149850"
+      },
+      {
+        "title": "Automatic Generation Of Training Data For Hyperspectral Image Classification Using Support Vector Machine",
+        "abstract": "Abstract. An image classification method based on Support Vector Machine (SVM) is proposed on hyperspectral and 3K DSM data. To obtain training data we applied an automatic method relating to four classes namely; building, grass, tree, and ground pixels. First, some initial segments regarding to building, tree, grass, and ground pixels are produced using different feature descriptors. The feature descriptors are generated using optical (hyperspectral) as well as range (3K DSM) images. The initial building regions are created using DSM segmentation. Fusion of NDVI and elevation information assist us to provide initial segments regarding to the grass and tree areas. Also, we created initial segment regarding to ground pixel after geodesic based filtering of DSM and elimination of the non-ground pixels. To improve classification accuracy, the hyperspectral image and 3K DSM were utilized simultaneously to perform image classification. For obtaining testing data, labelled pixels was divide into two parts: test and training. Experimental result shows a final classification accuracy of about 90% using Support Vector Machine. In the process of satellite image classification; provided by 3K camera. Both datasets correspond to Munich area in Germany.",
+        "openalex_id": "W2086867868"
+      },
+      {
+        "title": "Automatic Lexicon Construction for Arabic Sentiment Analysis",
+        "abstract": "Sentiment Analysis (SA) is the process of determining the sentiment of a text written in a natural language to be positive, negative or neutral. It is one of the most interesting subfields of natural language processing (NLP) and Web mining due to its diverse applications and the challenges associated with applying it on the massive amounts of textual data available online (especially, on social networks). Most of the current works on SA focus on the English language and follow one of two main approaches, (corpus-based and lexicon-based) or a hybrid of them. This work focuses on a less studied aspect of SA, which is lexicon-based SA for the Arabic language. In addition to experimenting and comparing three different lexicon construction techniques, an Arabic SA tool is designed and implemented to effectively take advantage of the constructed lexicons. The proposed SA tool possesses many novel features such as the way negation and intensification are handled. The experimental results show encouraging outcomes with 74.6% accuracy in addition to revealing new insights and guidelines that could direct the future research efforts.",
+        "openalex_id": "W1994972134"
+      }
+    ]
+  },
+  {
+    "sample_id": 4,
+    "query": "Convolutional neural networks for image classification and sentiment analysis in deep learning applications",
+    "paper_ids": [
+      "W2183246402",
+      "W2021506943",
+      "W2322011271",
+      "W2354579528",
+      "W1146626018",
+      "W2290086728",
+      "W2319630499",
+      "W1967181042"
+    ],
+    "papers": [
+      {
+        "title": "INsight: A Neuromorphic Computing System for Evaluation of Large Neural Networks",
+        "abstract": "Deep neural networks have been demonstrated impressive results in various cognitive tasks such as object detection and image classification. In order to execute large networks, Von Neumann computers store the large number of weight parameters in external memories, and processing elements are timed-shared, which leads to power-hungry I/O operations and processing bottlenecks. This paper describes a neuromorphic computing system that is designed from the ground up for the energy-efficient evaluation of large-scale neural networks. The computing system consists of a non-conventional compiler, a neuromorphic architecture, and a space-efficient microarchitecture that leverages existing integrated circuit design methodologies. The compiler factorizes a trained, feedforward network into a sparsely connected network, compresses the weights linearly, and generates a time delay neural network reducing the number of connections. The connections and units in the simplified network are mapped to silicon synapses and neurons. We demonstrate an implementation of the neuromorphic computing system based on a field-programmable gate array that performs the MNIST hand-written digit classification with 97.64% accuracy.",
+        "openalex_id": "W2183246402"
+      },
+      {
+        "title": "Cross domain boosting for information fusion in heterogeneous sensor-cyber sources",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2021506943"
+      },
+      {
+        "title": "Image Classification Using Convolutional Neural Networks",
+        "abstract": "Deep Learning has emerged as a new area in machine learning and is applied to a number of signal and image applications.The main purpose of the work presented in this paper, is to apply the concept of a Deep Learning algorithm namely, Convolutional neural networks (CNN) in image classification. The algorithm is tested on various standard datasets, like remote sensing data of aerial images (UC Merced Land Use Dataset) and scene images from SUN database. The performance of the algorithm is evaluated based on the quality metric known as Mean Squared Error (MSE) and classification accuracy. The graphical representation of the experimental results is given on the basis of MSE against the number of training epochs. The experimental result analysis based on the quality metrics and the graphical representation proves that the algorithm (CNN) gives fairly good classification accuracy for all the tested datasets.",
+        "openalex_id": "W2322011271"
+      },
+      {
+        "title": "Synonym Extraction with Method of Combination of Latent Semantic Analysis and Pointwise Mutual Information",
+        "abstract": "Synonym plays an important part in many natural language processing applications, such as information retrieval, automatic summarization, sentiment analysis and machine translation. This paper presents a synonym mining method by combination of Latent Semantic Analysis(LSA) and context mutual information from large-scale corpus, investigating the different windowbased context selection, the computation of weight, the dimensionality reduction of LSA, the cosine similarity play a part in synonym extraction. Experimental results show that the effectiveness of synonym extraction has improved obviously.",
+        "openalex_id": "W2354579528"
+      },
+      {
+        "title": "Error fetching",
+        "abstract": "Abstract not available",
+        "openalex_id": "W1146626018"
+      },
+      {
+        "title": "Sentiment analysis of a document using deep learning approach and decision trees",
+        "abstract": "The given paper describes modern approach to the task of sentiment analysis of movie reviews by using deep learning recurrent neural networks and decision trees. These methods are based on statistical models, which are in a nutshell of machine learning algorithms. The fertile area of research is the application of Google's algorithm Word2Vec presented by Tomas Mikolov, Kai Chen, Greg Corrado and Jeffrey Dean in 2013. The main idea of Word2Vec is the representations of words with the help of vectors in such manner that semantic relationships between words preserved as basic linear algebra operations. The extra advantage of the mentioned algorithm above the alternatives is computational efficiency. This paper focuses on using Word2Vec model for text classification by their sentiment type.",
+        "openalex_id": "W2290086728"
+      },
+      {
+        "title": "Error fetching",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2319630499"
+      },
+      {
+        "title": "Product weakness finder: an opinion-aware system through sentiment analysis",
+        "abstract": "Purpose – Extant methods of product weakness detection usually depend on time-consuming questionnaire with high artificial involvement, so the efficiency and accuracy are not satisfied. The purpose of this paper is to propose an opinion-aware analytical framework – PRODWeakFinder – to expect to detect product weaknesses through sentiment analysis in an effective way. Design/methodology/approach – PRODWeakFinder detects product weakness by considering both comparative and non-comparative evaluations in online reviews. For comparative evaluation, an aspect-oriented comparison network is built, and the authority is assessed for each node by network analysis. For non-comparative evaluation, sentiment score is calculated through sentiment analysis. The composite score of aspects is calculated by combing the two types of evaluations. Findings – The experiments show that the comparative authority score and the non-comparative sentiment score are not highly correlated. It also shows that PRODWeakFinder outperforms the baseline methods in terms of accuracy. Research limitations/implications – Semantic-based method such as ontology are expected to be applied to identify the implicit features. Furthermore, besides PageRank, other sophisticated network algorithms such as HITS will be further employed to improve the framework. Practical implications – The link-based network is more suitable for weakness detection than the weight-based network. PRODWeakFinder shows the potential on reducing overall costs of detecting product weaknesses for companies. Social implications – A quicker and more effective way would be possible for weakness detection, enabling to reduce product defects and improve product quality, and thus raising the overall social welfare. Originality/value – An opinion-aware analytical framework is proposed to sentiment mining of online product reviews, which offer important implications regarding how to detect product weaknesses.",
+        "openalex_id": "W1967181042"
+      }
+    ]
+  },
+  {
+    "sample_id": 5,
+    "query": "Machine learning algorithms for image classification and retrieval in remote sensing applications",
+    "paper_ids": [
+      "W2087538752",
+      "W2049790295",
+      "W2021506943",
+      "W1965943871",
+      "W1992660813",
+      "W2292361954",
+      "W2046769852",
+      "W1773392383",
+      "W1694360246",
+      "W2070006537"
+    ],
+    "papers": [
+      {
+        "title": "A novel parallelized remote sensing image SVM classifier algorithm",
+        "abstract": "As an effective classifier, Support Vector Machine (SVM) has received more and more attention in remote sensing communities. Spatial data and remote sensing image may have a lot of features, but too many spatial-features usually lead to the reduction of training speed and the decrease in classification accuracy. To solve this problem, our study presents a novel parallelized remote sensing classifier (NRSC) by utilizing rough set theory and SVM algorithm. In our algorithm, feature set is firstly split sub-feature sets, each sub-SVM classifier is then trained paralleled by these sub-feature sets, and sub-SVMs vote their decisions to avoid the instable performance a single classifier. The experimental results show that both the classification accuracy and training speed, compared with the traditional SVM method, are all improved in remote sensing image classification.",
+        "openalex_id": "W2087538752"
+      },
+      {
+        "title": "Reconstruction of contested landscape: Detecting land cover transformation hosting cultural heritage sites from Central India using remote sensing",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2049790295"
+      },
+      {
+        "title": "Cross domain boosting for information fusion in heterogeneous sensor-cyber sources",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2021506943"
+      },
+      {
+        "title": "Sentiment toward Trading Partners and International Trade",
+        "abstract": "Abstract not available",
+        "openalex_id": "W1965943871"
+      },
+      {
+        "title": "A new discriminative coding method for image classification",
+        "abstract": "Abstract not available",
+        "openalex_id": "W1992660813"
+      },
+      {
+        "title": "Scaling up crowd-sourcing to very large datasets",
+        "abstract": "Crowd-sourcing has become a popular means of acquiring labeled data for many tasks where humans are more accurate than computers, such as image tagging, entity resolution, and sentiment analysis. However, due to the time and cost of human labor, solutions that rely solely on crowd-sourcing are often limited to small datasets (i.e., a few thousand items). This paper proposes algorithms for integrating machine learning into crowd-sourced databases in order to combine the accuracy of human labeling with the speed and cost-effectiveness of machine learning classifiers. By using active learning as our optimization strategy for labeling tasks in crowd-sourced databases, we can minimize the number of questions asked to the crowd, allowing crowd-sourced applications to scale (i.e., label much larger datasets at lower costs). Designing active learning algorithms for a crowd-sourced database poses many practical challenges: such algorithms need to be generic, scalable, and easy to use, even for practitioners who are not machine learning experts. We draw on the theory of nonparametric bootstrap to design, to the best of our knowledge, the first active learning algorithms that meet all these requirements. Our results, on 3 real-world datasets collected with Amazons Mechanical Turk, and on 15 UCI datasets, show that our methods on average ask 1--2 orders of magnitude fewer questions than the baseline, and 4.5--44 × fewer than existing active learning algorithms.",
+        "openalex_id": "W2292361954"
+      },
+      {
+        "title": "Learning Discriminative Dictionary for Group Sparse Representation",
+        "abstract": "In recent years, sparse representation has been widely used in object recognition applications. How to learn the dictionary is a key issue to sparse representation. A popular method is to use l1 norm as the sparsity measurement of representation coefficients for dictionary learning. However, the l1 norm treats each atom in the dictionary independently, so the learned dictionary cannot well capture the multisubspaces structural information of the data. In addition, the learned subdictionary for each class usually shares some common atoms, which weakens the discriminative ability of the reconstruction error of each subdictionary. This paper presents a new dictionary learning model to improve sparse representation for image classification, which targets at learning a class-specific subdictionary for each class and a common subdictionary shared by all classes. The model is composed of a discriminative fidelity, a weighted group sparse constraint, and a subdictionary incoherence term. The discriminative fidelity encourages each class-specific subdictionary to sparsely represent the samples in the corresponding class. The weighted group sparse constraint term aims at capturing the structural information of the data. The subdictionary incoherence term is to make all subdictionaries independent as much as possible. Because the common subdictionary represents features shared by all classes, we only use the reconstruction error of each class-specific subdictionary for classification. Extensive experiments are conducted on several public image databases, and the experimental results demonstrate the power of the proposed method, compared with the state-of-the-arts.",
+        "openalex_id": "W2046769852"
+      },
+      {
+        "title": "Image Retrieval And Classification Using Local Feature Vectors",
+        "abstract": "Content Based Image Retrieval(CBIR) is one of the important subfield in the field of Information Retrieval. The goal of a CBIR algorithm is to retrieve semantically similar images in response to a query image submitted by the end user. CBIR is a hard problem because of the phenomenon known as $\\textit {semantic gap}$. In this thesis, we aim at analyzing the performance of a CBIR system build using local feature vectors and Intermediate Matching Kernel. We also propose a Two-Step Matching process for reducing the response time of the CBIR systems. Further, we develop a Meta-Learning framework for improving the retrieval performance of these systems. Our results show that the Two-Step Matching process significantly reduces response time and the Meta-Learning Framework improves the retrieval performance by more than two fold. We also analyze the performance of various image classification systems that use different image representations constructed from the local feature vectors.",
+        "openalex_id": "W1773392383"
+      },
+      {
+        "title": "Persian Sentiment Analyzer: A Framework based on a Novel Feature Selection Method",
+        "abstract": "In the recent decade, with the enormous growth of digital content in internet and databases, sentiment analysis has received more and more attention between information retrieval and natural language processing researchers. Sentiment analysis aims to use automated tools to detect subjective information from reviews. One of the main challenges in sentiment analysis is feature selection. Feature selection is widely used as the first stage of analysis and classification tasks to reduce the dimension of problem, and improve speed by the elimination of irrelevant and redundant features. Up to now as there are few researches conducted on feature selection in sentiment analysis, there are very rare works for Persian sentiment analysis. This paper considers the problem of sentiment classification using different feature selection methods for online customer reviews in Persian language. Three of the challenges of Persian text are using of a wide variety of declensional suffixes, different word spacing and many informal or colloquial words. In this paper we study these challenges by proposing a model for sentiment classification of Persian review documents. The proposed model is based on lemmatization and feature selection and is employed Naive Bayes algorithm for classification. We evaluate the performance of the model on a manually gathered collection of cellphone reviews, where the results show the effectiveness of the proposed approaches.",
+        "openalex_id": "W1694360246"
+      },
+      {
+        "title": "Toward an enriched understanding of factors influencing Filipino behavior during elections through the analysis of Twitter data",
+        "abstract": "Social networking sites (SNS) have become increasingly popular means for self-expression, communication, and influence, particularly in relation to political activity. In cases involving elections, for example, studies have been conducted to explore how these sites have been mobilized as a tool to disseminate opinion, encourage others to vote, publicize one's voting decisions, and even predict election outcomes. In this study, we explore how data from the SNS site Twitter can be used to enrich current understandings of the nature of voters in a Philippine setting. We mobilized a combination of manual and computer-based natural language-processing (NLP) techniques to analyze Twitter data in Metro Manila concerning the 2013 Philippine elections for a two-week period. Specifically, we combined language modeling using n-gram and manual discourse analysis to generate over 30 themes from Twitter users' comments on the 2013 Philippine elections. The themes cohered around a number of different narratives that shed light on voters' behavior, specifically why they vote, how they vote, and who they vote for, thus deepening our understanding of the different interlocking factors that shape election and voting processes.",
+        "openalex_id": "W2070006537"
+      }
+    ]
+  },
+  {
+    "sample_id": 6,
+    "query": "image classification of medical images using machine learning algorithms and techniques",
+    "paper_ids": [
+      "W2058998221",
+      "W2343175346",
+      "W2051135954",
+      "W2185277440",
+      "W2016865467"
+    ],
+    "papers": [
+      {
+        "title": "Visual feature coding for image classification integrating dictionary structure",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2058998221"
+      },
+      {
+        "title": "Lung Nodule Classification Techniques for Low Dose Computed Tomography (LDCT) Scan Images as Survey",
+        "abstract": "Image classification is one of the most complex areas in image processing. It is more complex and difficult to classify if it contain blurry and noisy content. Medical image Classification is an important task within the field of computer vision. Here, perform four type of lung nodules classification , i.e., well-circumscribed, vascularized, juxtapleural and pleural-tail, in low dose computed tomography (LDCT) scans images. The classification method combine the lung nodule and surrounding anatomical structures through contextual analysis. Here, presents a survey on the various techniques used for classifying image which is mainly based on object in the given image. The proposed method was classified on a publicly available dataset.",
+        "openalex_id": "W2343175346"
+      },
+      {
+        "title": "A Comparison of SVM Versus Naive-Bayes Techniques for Sentiment Analysis in Tweets",
+        "abstract": "The widespread of social communication media on the Web has made available a large volume of opinionated textual data stored in digital format. These media constitute a rich source for sentiment analysis and understanding of the opinions spontaneously expressed. Traditional techniques for sentiment analysis are based on POS Tagger. Considering the Portuguese language, the use of POS Tagging ends up being too costly, due to the complex grammatical structure of this language. Faced with this problem, a case study is carried out in order to compare two techniques for sentiment analysis: a SVM versus Naive-Bayes classifiers. Our study focused on tweets written in Portuguese during the 2013 FIFA Confederations Cup, although our technique could be applied to any other language. The achieved results indicated that the SVM technique surpassed the Naive-Bayes one, concerning performance issues.",
+        "openalex_id": "W2051135954"
+      },
+      {
+        "title": "Error fetching",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2185277440"
+      },
+      {
+        "title": "Auto-encoder based bagging architecture for sentiment analysis",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2016865467"
+      }
+    ]
+  },
+  {
+    "sample_id": 7,
+    "query": "application of deep learning techniques in multimedia data analysis",
+    "paper_ids": [
+      "W2273041409",
+      "W2110877606",
+      "W2152820254",
+      "W1904380309",
+      "W2068939787"
+    ],
+    "papers": [
+      {
+        "title": "Hierarchical Recurrent Neural Encoder for Video Representation with Application to Captioning",
+        "abstract": "Recently, deep learning approach, especially deep Convolutional Neural Networks (ConvNets), have achieved overwhelming accuracy with fast processing speed for image classification. Incorporating temporal structure with deep ConvNets for video representation becomes a fundamental problem for video content analysis. In this paper, we propose a new approach, namely Hierarchical Recurrent Neural Encoder (HRNE), to exploit temporal information of videos. Compared to recent video representation inference approaches, this paper makes the following three contributions. First, our HRNE is able to efficiently exploit video temporal structure in a longer range by reducing the length of input information flow, and compositing multiple consecutive inputs at a higher level. Second, computation operations are significantly lessened while attaining more non-linearity. Third, HRNE is able to uncover temporal transitions between frame chunks with different granularities, i.e., it can model the temporal transitions between frames as well as the transitions between segments. We apply the new method to video captioning where temporal information plays a crucial role. Experiments demonstrate that our method outperforms the state-of-the-art on video captioning benchmarks. Notably, even using a single network with only RGB stream as input, HRNE beats all the recent systems which combine multiple inputs, such as RGB ConvNet plus 3D ConvNet.",
+        "openalex_id": "W2273041409"
+      },
+      {
+        "title": "A hybrid color texture image classification method based on 2D and semi 3D texture features and extreme learning machine",
+        "abstract": "Color texture classification is an important step in image segmentation and recognition. The color information is especially important in textures of natural scenes. In this paper, we propose a novel approach based on the 2D and semi 3D texture feature coding method (TFCM) for color texture classification. While 2D TFCM features are extracted on gray scale converted color texture images, the semi 3D TFCM features are extracted on RGB coded color texture images. The proposed approach is tested on two publicly available datasets. Moreover, comprehensive comparisons are realized with traditional texture analysis tools. The results show the advantages of the proposed method over other color texture analysis methods. Streszczenie. W artykule zaproponowano nowa metode klasyfikacji obrazow z kolorowa teksturą wykorzystującą wykorzystującą metody kodowania tekstury 2D. Metode testowano na dwoch przykladach baz danych i porownano z metodami dotychczas stosowanymi. (Hybrydowa metoda klasyfikacji obrazow z kolorowa teksturą)",
+        "openalex_id": "W2110877606"
+      },
+      {
+        "title": "Some experiments on modeling stock market behavior using investor sentiment analysis and posting volume from Twitter",
+        "abstract": "The analysis of microblogging data related with stock markets can reveal relevant new signals of investor sentiment and attention. It may also provide sentiment and attention indicators in a more rapid and cost-effective manner than other sources. In this study, we created several indicators using Twitter data and investigated their value when modeling relevant stock market variables, namely returns, trading volume and volatility. We collected recent data from nine major technological companies. Several sentiment analysis methods were explored, by comparing 5 popular lexical resources and two novel lexicons (emoticon based and the merge of all 6 lexicons) and sentiment indicators produced using two strategies (based on daily words and individual tweet classifications). Also, we measured posting volume associated with tweets related to the analyzed companies. While a short time period is considered (32 days), we found scarce evidence that sentiment indicators can explain these stock returns. However, interesting results were obtained when measuring the value of using posting volume for fitting trading volume and, in particular, volatility.",
+        "openalex_id": "W2152820254"
+      },
+      {
+        "title": "Associating sentimental orientation of Chinese neologism in social media data",
+        "abstract": "Sentiment analysis has always found its practical use in collecting people's preferences towards any subject in the context of social media. Unlike normal words available in dictionaries, neologisms are not easy to be labeled with a sentimental orientation while they have been widely used in conveying people's feelings and opinions. In order to conduct a reliable sentiment analysis for neologisms, a neologism discovery method is first required. Next, a sentimental analysis based on the discovery results can be performed. This paper proposes a 2-step novel solution by having a Chinese neologism discovery method and then a sentimental orientation determination algorithm based on varied TF-IDF. For neologism discovery, statistical data include frequency, duration of appearance and the number of users using a neologism. For sentimental orientation determination, we consider keyword term frequency, and document frequency together and use a varied TF-IDF algorithm. The preliminary experimental results show good precision rate and recall rates for a collection of social media data in both neologism discovery and sentimental analysis.",
+        "openalex_id": "W1904380309"
+      },
+      {
+        "title": "Unsupervised classification of grayscale image using Probabilistic Neural Network (PNN)",
+        "abstract": "Image classification is a very common step in image analysis process. It is a low-level processing that precedes the step of measuring, understanding and decision. Its purpose is image partitioning into related and homogeneous regions in the sense of a homogeneity criterion. In this paper, we proposed a procedure to determine the optimal number of classes in a grayscale image classification based on a Probabilistic Neural Network (PNN). The used procedure is completely automatic with no parameter adjusting. The results on synthetic images show a high robustness and better performance. The results showed that PNN is a good technique for one-dimensional data classifying.",
+        "openalex_id": "W2068939787"
+      }
+    ]
+  },
+  {
+    "sample_id": 8,
+    "query": "machine learning approaches to visual data classification and sentiment analysis in multimedia information retrieval systems",
+    "paper_ids": [
+      "W2159255886",
+      "W2026439047",
+      "W2335806594",
+      "W2198240605",
+      "W2189271176"
+    ],
+    "papers": [
+      {
+        "title": "Efficient image retrieval using support vector machines and Bayesian relevance feedback",
+        "abstract": "Content-based image retrieval is an active research area in image processing. Recently, many researchers have employed support vector machines (SVMs) for image retrieval research area. This paper presents a multiple support vector machines for image classification in the first stage; and then according to the user's marked images, we use relevance feedback based on Bayesian methodology, which yields the posteriori of the images in the database; The retrieval system can repeated by user during the relevance feedback stage. Experimental results based on a set of Corel images demonstrate that the proposed system achieves high performance.",
+        "openalex_id": "W2159255886"
+      },
+      {
+        "title": "Image classification based on effective extreme learning machine",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2026439047"
+      },
+      {
+        "title": "Latent Model Ensemble with Auto-localization",
+        "abstract": "Deep Convolutional Neural Networks (CNN) have exhibited superior performance in many visual recognition tasks including image classification, object detection, and scene label- ing, due to their large learning capacity and resistance to overfit. For the image classification task, most of the current deep CNN- based approaches take the whole size-normalized image as input and have achieved quite promising results. Compared with the previously dominating approaches based on feature extraction, pooling, and classification, the deep CNN-based approaches mainly rely on the learning capability of deep CNN to achieve superior results: the burden of minimizing intra-class variation while maximizing inter-class difference is entirely dependent on the implicit feature learning component of deep CNN; we rely upon the implicitly learned filters and pooling component to select the discriminative regions, which correspond to the activated neurons. However, if the irrelevant regions constitute a large portion of the image of interest, the classification performance of the deep CNN, which takes the whole image as input, can be heavily affected. To solve this issue, we propose a novel latent CNN framework, which treats the most discriminate region as a latent variable. We can jointly learn the global CNN with the latent CNN to avoid the aforementioned big irrelevant region issue, and our experimental results show the evident advantage of the proposed latent CNN over traditional deep CNN: latent CNN outperforms the state-of-the-art performance of deep CNN on standard benchmark datasets including the CIFAR-10, CIFAR- 100, MNIST and PASCAL VOC 2007 Classification dataset.",
+        "openalex_id": "W2335806594"
+      },
+      {
+        "title": "Utilizing machine learning in Sentiment Analysis: SentiRobo approach",
+        "abstract": "Following the rapid evolution of Web 2.0, Sentiment Analysis has become one of the major techniques for mining the social media content. It aims to analyze opinions, sentiments, attitudes, and emotions towards entities such as topics, products, organizations, individuals, communities, and services. This paper presents SentiRobo, a supervised machine learning approach for the process of Sentiment Analysis. An enhanced version of Naive Bayes algorithm is introduced to predict the sentiment polarity of social media large data sets. Empirical evaluation over different twitter datasets with more than 300,000 records reveals the merit of this approach in processing of social media datasets.",
+        "openalex_id": "W2198240605"
+      },
+      {
+        "title": "Creating an Annotated Corpus for Sentiment Analysis of German Product Reviews",
+        "abstract": "The availability of annotated data is an important prerequisite for the development of machine learning&#13;\\nalgorithms for sentiment analysis. However, as manually labeling large datasets is time-consuming&#13;\\nand expensive, few datasets are available and most of them represent a small sample of a very narrow&#13;\\ndomain, e.g. movie reviews or reviews of a certain product type. Additionally, many annotated datasets&#13;\\nare available for English texts only. However, the influence of different characteristics of the input&#13;\\ndataset on the performance of algorithms for sentiment analysis remains unclear if only training data&#13;\\nfrom one specific domain is available or if specific domains are mixed in the test corpus. We therefore&#13;\\nintroduce a new dataset for German product reviews of various product types and investigate whether&#13;\\neven small variances in this specific domain (different product types) already exhibit different characteristics,&#13;\\ne.g. with regard to the difficulty of sentiment annotation. The annotation of this corpus lays&#13;\\nthe basis for future enhanced annotations of similar corpora and for the extension of our annotations&#13;\\nto corpora of inherently different domains. These will then serve to investigate the influence of different&#13;\\ncorpus characteristics on different algorithms for sentiment analysis and as a basis to apply machine&#13;\\nlearning methods for sentence-wise sentiment analysis for German texts.",
+        "openalex_id": "W2189271176"
+      }
+    ]
+  },
+  {
+    "sample_id": 9,
+    "query": "deep learning and machine learning techniques in various fields of image and signal processing analysis and classification.",
+    "paper_ids": [
+      "W2176950688",
+      "W1979586693",
+      "W2252046358",
+      "W1589062066",
+      "W1532093901",
+      "W2230421422",
+      "W1996875811"
+    ],
+    "papers": [
+      {
+        "title": "Deep learning for visual understanding: A review",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2176950688"
+      },
+      {
+        "title": "Structured sparse priors for image classification",
+        "abstract": "Model-based compressive sensing (CS) exploits the structure inherent in sparse signals for the design of better signal recovery algorithms. This information about structure is often captured in the form of a prior on the sparse coefficients, the Laplacian being the most common such choice (leading to l <sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">1</sub> -norm minimization). The recent seminal contribution by Wright et al. exploits the discriminative capability of sparse representations for image classification, specifically face recognition. Their approach employs the analytical framework of CS with class-specific dictionaries. Our contribution is a logical extension of these ideas into structured sparsity for classification. We use class-specific dictionaries in conjunction with discriminative class-specific priors, specifically the spike-and-slab prior widely applied in Bayesian regression. Significantly, the proposed framework takes the burden off the demand for abundant training image samples necessary for the success of sparsity-based classification schemes.",
+        "openalex_id": "W1979586693"
+      },
+      {
+        "title": "Indian Institute of Technology-Patna: Sentiment Analysis in Twitter",
+        "abstract": "This paper is an overview of the system submitted to the SemEval-2014 shared task on sentiment analysis in twitter. For the very first time we participated in both the tasks, viz contextual polarity disambiguation and message polarity classification. Our approach is supervised in nature and we use sequential minimal optimization classifier. We implement the features for sentiment analysis without using deep domain-specific resources and/or tools. Experiments within the benchmark setup of SemEval-14 shows the F-scores of 77.99%, 75.99%, 76.54 %, 76.43% and 71.43% for LiveJournal2014, SMS2013, Twitter2013, Twitter2014 and Twitter2014Sarcasm, respectively for Subtask A. For Subtask B we obtain the F-scores of 60.39%, 51.96%, 52.58%, 57.25%, 41.33% for five different test sets, respectively.",
+        "openalex_id": "W2252046358"
+      },
+      {
+        "title": "Extracting, Ranking, and Evaluating Quality Features of Web Services through User Review Sentiment Analysis",
+        "abstract": "Quality of Service (QoS) has become a standard way of evaluating web services and selecting the one that suites user interests the best. Traditional methods adopt a fixed set of QoS parameters and typical ones include response time, fee, and availability. There currently lacks an effective way of identifying quality features that users are actually interested in when choosing a service. Meanwhile, the traditional way of collecting QoS values relies on either public information released by service providers or test results from repeatedly invoking a service. Therefore, the values can be heavily affected by authenticity of the provider offered information or the quality/configuration of the test code/environment. As a result, existing QoS evaluation methods are not applicable to subject features, such as usability and affordability, where the values depend on user personal judgement. In this paper, we propose a novel approach to extracting domain-related QoS features, ranking those features based on their interestingness, evaluating the value of these features through sentiment analysis on user reviews. More specifically, we leverage natural language processing techniques and machine learning approaches to identify top QoS features that users are interested in and simultaneously learn their sentiment orientation towards those features. We model the problem as sentiment classification, where relevant terms in a review are modeled as features that determine whether a review is positive or negative. Logistic regression is used so that the impact of these terms are learned simultaneously when the classifier is learned through a supervised learning process. The nontrivial terms are selected as the candidate QoS featured. A comprehensive experiment has been conducted on a real-world dataset and the result demonstrates the effectiveness of our approach.",
+        "openalex_id": "W1589062066"
+      },
+      {
+        "title": "Neural networks for sentiment analysis on Twitter",
+        "abstract": "The online medium has become a significant way that people express their opinions online. Sentiment analysis can be used to find out the polarity of an opinion, such as positive, negative, or neutral. Sentiment analysis has applications such as companies getting their customer's opinions on their products, political sentiment analysis, or opinions on movie reviews. Recent research has involved looking at text from online blogs, tweets, online movie reviews, etc. to try and classify the text as being positive, negative, or neutral. For this research, a feedforward neural network will be experimented with for sentiment analysis of tweets. The training set of tweets are collected using the Twitter API using positive and negative keywords. The testing set of tweets are collected using the same positive and negative keywords.",
+        "openalex_id": "W1532093901"
+      },
+      {
+        "title": "Multispectral and Panchromatic Image Fusion using Empirical Wavelet Transform",
+        "abstract": "Pan sharpening is the process of fusion of panchromatic and multispectral image to obtain an output image of high spatial and spectral resolution. It is very important for various remote sensing applications such as image segmentation studies, image classification, temporal change detection etc. The present work demonstrates the application of Empirical Wavelet Transform for the fusion of panchromatic image and multispectral image by simple average fusion rule. The Proposed method is experimented on panchromatic and multispectral images captured by high resolution earth observation satellites such as GeoEye-1, QuickBird, WorldView-2 and World View-3. The effectiveness of our proposed method is evaluated by visual perception and quantitative assessment measures. The experimental analysis shows that the proposed method performs comparable to the existing fusion algorithms such as Multi-resolution Singular Value Decomposition and Discrete Wavelet Transform.Keywords: Discrete Wavelet Transform, Empirical Wavelet Transform, Image Fusion, Multi-resolution Singular Value Decomposition, Pan sharpening, Quality metrics",
+        "openalex_id": "W2230421422"
+      },
+      {
+        "title": "An ensemble active learning approach for spectral-spatial classification of hyperspectral images",
+        "abstract": "Augmenting spectral features with spatial features for hyperspectral image classification has recently gained significant attention, as classification accuracy can often be improved by extracting spatial features from neighboring pixels. However, the resulting high dimensional input data, which are often difficult and expensive to obtain, require large quantities of labeled data to train a robust supervised classifier. To alleviate the “curse of dimensionality”, we propose an ensemble based active learning approach that incorporates spatial features for each feature subset (view) independently. Specifically, in each view, the spatial features are extracted from an optimum segmentation selected from the hierarchical segmentation (HSeg). The proposed approach is applied to a benchmark hyperspectral data set, and the experimental results demonstrate the efficacy of the proposed method compared to other state-of-the-art active learning classification methods.",
+        "openalex_id": "W1996875811"
+      }
+    ]
+  },
+  {
+    "sample_id": 10,
+    "query": "Sentiment analysis or classification methods using machine learning and neural networks on social media or image datasets",
+    "paper_ids": [
+      "W1607295016",
+      "W2345932551",
+      "W1998797625",
+      "W2352752289",
+      "W1767958571",
+      "W2070006537",
+      "W2021506943"
+    ],
+    "papers": [
+      {
+        "title": "Image classification by PCA and LDA based fuzzy neural networks",
+        "abstract": "Since fuzzy neural networks (FNN) have been successfully applied to classification problems, this paper proposes a principal component analysis (PCA) and linear discriminant analysis (LDA) based FNN to achieve the image classification. In PCA, it can convert a set of observations into a set of linearly uncorrelated variables called principal components. In LDA, the weights are updated by seeking directions that are efficient for discrimination. In FNN, the parameter learning adopts the gradient descent method to reduce the cost function. Therefore, the proposed PCA-LDA-based FNN can efficiently classify highly confusable image patterns.",
+        "openalex_id": "W1607295016"
+      },
+      {
+        "title": "A Method for User Sentiment Classification using Instagram Hashtags",
+        "abstract": "In recent times, studies sentiment analysis are being actively conducted by implementing natural language processing technologies for analyzing subjective data such as opinions and attitudes of users expressed on the Web, blogs, and social networking services (SNSs). Conventionally, to classify the sentiments in texts, most studies determine positive/negative/neutral sentiments by assigning polarity values for sentiment vocabulary using sentiment lexicons. However, in this study, sentiments are classified based on Thayer's model, which is psychologically defined, unlike the polarity classification used in opinion mining. In this paper, as a method for classifying the sentiments, sentiment categories are proposed by extracting sentiment keywords for major sentiments by using hashtags, which are essential elements of Instagram. By applying sentiment categories to user posts, sentiments can be determined through the similarity measurement between the sentiment adjective candidates and the sentiment keywords. The test results of the proposed method show that the average accuracy rate for all the sentiment categories was 90.7%, which indicates good performance. If a sentiment classification system with a large capacity is prepared using the proposed method, then it is expected that sentiment analysis in various fields will be possible, such as for determining social phenomena through SNS.",
+        "openalex_id": "W2345932551"
+      },
+      {
+        "title": "A non-parametric LDA-based induction method for sentiment analysis",
+        "abstract": "Sentiment analysis is the process of analyzing the characteristics of opinions, feelings, and emotions which are expressed in textual data. This paper presents a novel approach for generation of a lexical resource named PersianClues used for sentiment analysis in Persian language. Moreover, a novel unsupervised LDA-based sentiment analysis method called LDASA is proposed. In order to generate the PersianClues, at the first phase, an automatic translation approach is used to translate the existing English clues to Persian. Next, iterative refinement approach is used to correct the erroneous clues resulted from previous step. Then, topic-based polar sets are achieved from these clues and finally, each document is categorized into its related polarity using a classification algorithm. To evaluate this method, three resources about hotels, cell phones and digital cameras have been manually gathered from the e-shopping websites and the results of sentiment analysis on these resources are compared with a baseline named SVM-Unigrams. The experimental results demonstrate an improvement of 9% on average in polarity classification accuracy of the base system.",
+        "openalex_id": "W1998797625"
+      },
+      {
+        "title": "A Hybrid Approach to Sentiment Analysis with Benchmarking Results",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2352752289"
+      },
+      {
+        "title": "Fault tolerance of SVM algorithm for hyperspectral image",
+        "abstract": "One of the most important tasks in analyzing hyperspectral image data is the classification process[1]. In general, in order to enhance the classification accuracy, a data preprocessing step is usually adopted to remove the noise in the data before classification. But for the time-sensitive applications, we hope that even the data contains noise the classifier can still appear to execute correctly from the user’s perspective, such as risk prevention and response. As the most popular classifier, Support Vector Machine (SVM) has been widely used for hyperspectral image classification and proved to be a very promising technique in supervised classification[2]. In this paper, two experiments are performed to demonstrate that for the hyperspectral data with noise, if the noise of the data is within a certain range, SVM algorithm is still able to execute correctly from the user’s perspective.",
+        "openalex_id": "W1767958571"
+      },
+      {
+        "title": "Toward an enriched understanding of factors influencing Filipino behavior during elections through the analysis of Twitter data",
+        "abstract": "Social networking sites (SNS) have become increasingly popular means for self-expression, communication, and influence, particularly in relation to political activity. In cases involving elections, for example, studies have been conducted to explore how these sites have been mobilized as a tool to disseminate opinion, encourage others to vote, publicize one's voting decisions, and even predict election outcomes. In this study, we explore how data from the SNS site Twitter can be used to enrich current understandings of the nature of voters in a Philippine setting. We mobilized a combination of manual and computer-based natural language-processing (NLP) techniques to analyze Twitter data in Metro Manila concerning the 2013 Philippine elections for a two-week period. Specifically, we combined language modeling using n-gram and manual discourse analysis to generate over 30 themes from Twitter users' comments on the 2013 Philippine elections. The themes cohered around a number of different narratives that shed light on voters' behavior, specifically why they vote, how they vote, and who they vote for, thus deepening our understanding of the different interlocking factors that shape election and voting processes.",
+        "openalex_id": "W2070006537"
+      },
+      {
+        "title": "Cross domain boosting for information fusion in heterogeneous sensor-cyber sources",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2021506943"
+      }
+    ]
+  },
+  {
+    "sample_id": 11,
+    "query": "Aspect-based sentiment analysis of social media and image content for opinion mining applications.",
+    "paper_ids": [
+      "W2204809392",
+      "W2338093180",
+      "W2060618100",
+      "W1968391980",
+      "W2063904635",
+      "W2057854194",
+      "W1989397635",
+      "W2241942833"
+    ],
+    "papers": [
+      {
+        "title": "Creating domain-specific semantic lexicons for aspect-based sentiment analysis",
+        "abstract": "Aspect based sentiment analysis (ABSA) is an opinion mining process where texts are analyzed to extract the sentiments that their authors express towards certain features and characteristics of particular entities, such as products or persons. Key role in the effectiveness of this process plays the accurate and complete identification of the entities' discussed aspects within the text, as well as of the evaluation expressions that accompany these aspects. Nevertheless, what entities may be considered as aspects and what evaluation expressions may characterize them, depends largely on the domain at hand. With that in mind, in this paper we propose an approach for representing and populating semantic lexicons that contain domain-specific aspect-evaluation-polarity relations and, as such, can be (re-)used towards more effective ABSA in concrete domains and scenarios.",
+        "openalex_id": "W2204809392"
+      },
+      {
+        "title": "Aspect-Specific Sentimental Word Embedding for Sentiment Analysis of Online Reviews",
+        "abstract": "Recently, Deep Convolutional Neural Networks (CNNs) have been widely applied to sentiment analysis of short texts. Naturally, word embedding techniques are used to learn continuous word representations for constructing sentence matrix as input to CNN. As for sentiment analysis of customer reviews, we argue that it is problematic to learn a single representation for a word while ignoring sentiment information and the discussed aspects. In this poster, we propose a novel word embedding model to learn sentimental word embedding given specific aspects by modeling both sentiment and syntactic context under the specific aspects. We apply our method as input to CNN for sentiment analysis in multiple domains. Experiments show that the CNN based on the proposed model can consistently achieve superior performance compared to CNN based on traditional word embedding method.",
+        "openalex_id": "W2338093180"
+      },
+      {
+        "title": "Alzheimer's disease detection in functional images using 2D Gabor wavelet analysis",
+        "abstract": "Presented is a Gabor wavelet (GW) based analysis of functional brain images by integrating the 2D GW representation of the images for image classification applied to early diagnosis of Alzheimer&apos;s disease. The 2D GW representation of the brain images is processed by means of a principal component analysis (PCA) for feature extraction and support vector machines (SVMs) for image classification. The proposed method yields up to 96% classification accuracy with 100% sensitivity, thus becoming an accurate method for image classification. Comparison between the conventional PCA plus SVM method and the proposed method is also provided. In addition, the proposed method with Gabor wavelets increases the outcomes of other methods based on voxel as features (VAF), PCA, and so on.",
+        "openalex_id": "W2060618100"
+      },
+      {
+        "title": "A Hybrid Sentiment Lexicon for Social Media Mining",
+        "abstract": "Sentiment lexicon is a crucial resource for opinion mining from social media content. However, standard off-the-shelve lexicons are static and typically do not adapt, in content and context, to a target domain. This limitation, adversely affects the effectiveness of sentiment analysis algorithms. In this paper, we introduce the idea of distant-supervision to learn a domain-focused lexicon to improve coverage and sentiment context of terms. We present a weighted strategy to integrate scores from the domain-focused with the static lexicon to generate a hybrid lexicon. Evaluations of this hybrid lexicon on social media text show superior sentiment classification over either of the individual lexicons. A further comparative study with typical machine learning approaches to sentiment analysis also confirms this position. We also present promising results from our investigations into the transferability of this distant-supervised hybrid lexicon on three different social media.",
+        "openalex_id": "W1968391980"
+      },
+      {
+        "title": "Empirical study of topic modeling in Twitter",
+        "abstract": "Social networks such as Facebook, LinkedIn, and Twitter have been a crucial source of information for a wide spectrum of users. In Twitter, popular information that is deemed important by the community propagates through the network. Studying the characteristics of content in the messages becomes important for a number of tasks, such as breaking news detection, personalized message recommendation, friends recommendation, sentiment analysis and others. While many researchers wish to use standard text mining tools to understand messages on Twitter, the restricted length of those messages prevents them from being employed to their full potential.",
+        "openalex_id": "W2063904635"
+      },
+      {
+        "title": "An SVM-based distal lung image classification using texture descriptors.",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2057854194"
+      },
+      {
+        "title": "SAR image classification based on alpha-stable distribution",
+        "abstract": "We propose a classification algorithm that utilizes the alpha-stable distribution to model the texture features of synthetic aperture radar (SAR) images. The SAR image is first decomposed by stationary wavelet transform (SWT). After that, the alpha-stable distribution is applied to model the high-frequency subband coefficients of the image at each decomposition scale. A regression-type method is then used to estimate the alpha-stable distribution parameters, which form a feature vector that fully describes the texture. Finally, a SAR image classification algorithm is derived by exploiting this feature vector based on the support vector machines (SVM) approach. Because different combinations of alpha-stable distribution parameters contribute to differences in classification precision, a multilevel SVM (MSVM) classification algorithm is also presented to address the issue. Experimental results indicate that the proposed SAR image classification algorithm is effective and the MSVM algorithm improves the classification performance. Moreover, our proposed algorithm has low computational cost as only a small number of the alpha-stable distribution parameters are processed.",
+        "openalex_id": "W1989397635"
+      },
+      {
+        "title": "User-weighted sentiment analysis for financial community on Twitter",
+        "abstract": "Sentiment analysis is a popular research area in computer science. It aims to determine the attitude of a person with respect to some topic, such as his mood or opinion from textual documents generated by the person. With the proliferation of social micro-blogging sites, opinion text has become available in digital forms, thus enabling research on sentiment analysis to both deepen and broaden in different sociological fields, particularly in the finance field. In this paper, we propose a novel sentiment analysis method which added new user metrics to classical Naive Bayes based sentiment analysis method and applies it to the finance field. We also analyze the correlation between the mood of the financial community and the behavior of the stock exchange of Turkey, namely BIST 100 using Spearman's rank correlation coefficient (SRCC) method. Our empirical studies show that the proposed sentiment analysis method (SRCC value 0.5634) computes a moderate positive correlation between stock market behavior and the sentiment polarity of financial community.",
+        "openalex_id": "W2241942833"
+      }
+    ]
+  },
+  {
+    "sample_id": 12,
+    "query": "sentiment analysis in natural language processing and text mining techniques applications",
+    "paper_ids": [
+      "W2251876828",
+      "W2250194946",
+      "W2217914292",
+      "W1591514669",
+      "W2186575060",
+      "W2204809392",
+      "W1971530833"
+    ],
+    "papers": [
+      {
+        "title": "A COMPARATIVE STUDY OF STATISTICAL AND NATURAL LANGUAGE PROCESSING TECHNIQUES FOR SENTIMENT ANALYSIS",
+        "abstract": "Sentiment analysis has emerged as one of the most powerful tools in business intelligence. With the aim of proposing an effective sentiment analysis technique, we have performed experiments on analyzing the sentiments of 3,424 tweets using both statistical and natural language processing (NLP) techniques as part of our background study. For statistical technique, machine learning algorithms such as Support Vector Machines (SVMs), decision trees and Naïve Bayes have been explored. The results show that SVM consistently outperformed the rest in both classifications. As for sentiment analysis using NLP techniques, we used two different tagging methods for part-of-speech (POS) tagging. Subsequently, the output is used for word sense disambiguation (WSD) using WordNet, followed by sentiment identification using SentiWordNet. Our experimental results indicate that adjectives and adverbs are sufficient to infer the sentiment of tweets compared to other combinations. Comparatively, the statistical approach records higher accuracy than the NLP approach by approximately 17%.",
+        "openalex_id": "W2251876828"
+      },
+      {
+        "title": "Extending the EmotiNet Knowledge Base to Improve the Automatic Detection of Implicitly Expressed Emotions from Text",
+        "abstract": "Sentiment analysis is one of the recent, highly dynamic fields in Natural Language Processing. Although much research has been performed in this area, most existing approaches are based on word-level analysis of texts and are mostly able to detect only explicit expressions of sentiment. However, in many cases, emotions are not expressed by using words with an affective meaning (e.g. happy), but by describing real-life situations, which readers (based on their commonsense knowledge) detect as being related to a specific emotion. Given the challenges of detecting emotions from contexts in which no lexical clue is present, in this article we present a comparative analysis between the performance of well-established methods for emotion detection (supervised and lexical knowledge-based) and a method we extend, which is based on commonsense knowledge stored in the EmotiNet knowledge base. Our extensive comparative evaluations show that, in the context of this task, the approach based on EmotiNet is the most appropriate.",
+        "openalex_id": "W2250194946"
+      },
+      {
+        "title": "Sentiment analysis meets semantic analysis: Constructing insight knowledge bases",
+        "abstract": "Numerous Web 2.0 applications collect user opinions, and other user-generated content in the form of product reviews, discussion boards, and blogs, which are often captured as unstructured data. Text mining techniques are important for analyzing users’ opinions (sentiment analysis) and identifying topics of interest (semantic analysis). However, little work has been carried out that combines semantics with user’s sentiments. This research proposes a Sentiment-Semantic Framework that incorporates results from both semantic and sentiment analysis to construct a knowledge base of insights gained from integrating the information extracted from each type of analysis. To evaluate the framework, a prototype is developed and applied to two different domains (e-commerce and politics) and the resulting insight knowledge bases constructed.",
+        "openalex_id": "W2217914292"
+      },
+      {
+        "title": "Sentic Medoids: Organizing Affective Common Sense Knowledge in a Multi-Dimensional Vector Space",
+        "abstract": "Abstract not available",
+        "openalex_id": "W1591514669"
+      },
+      {
+        "title": "Sentiment analysis via integrating distributed representations of variable-length word sequence",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2186575060"
+      },
+      {
+        "title": "Creating domain-specific semantic lexicons for aspect-based sentiment analysis",
+        "abstract": "Aspect based sentiment analysis (ABSA) is an opinion mining process where texts are analyzed to extract the sentiments that their authors express towards certain features and characteristics of particular entities, such as products or persons. Key role in the effectiveness of this process plays the accurate and complete identification of the entities' discussed aspects within the text, as well as of the evaluation expressions that accompany these aspects. Nevertheless, what entities may be considered as aspects and what evaluation expressions may characterize them, depends largely on the domain at hand. With that in mind, in this paper we propose an approach for representing and populating semantic lexicons that contain domain-specific aspect-evaluation-polarity relations and, as such, can be (re-)used towards more effective ABSA in concrete domains and scenarios.",
+        "openalex_id": "W2204809392"
+      },
+      {
+        "title": "Matching DSIFT Descriptors Extracted from CSLM Images",
+        "abstract": "The matching of local descriptors represents at this moment a key tool in computer vision, with a wide variety of methods designed for tasks such as image classification, object recognition and tracking, image stitching, or data mining relying on it. Local feature description techniques are usually developed so as to provide invariance to photometric variations specific to the acquisition of natural images, but are nonetheless used in association with biomedical imaging as well. It has been previously shown that the matching of gradient based descriptors is affected by image modifications specific to Confocal Scanning Laser Microscopy (CSLM). In this paper we extend our previous work in this direction and show how specific acquisition or post-processing methods alleviate or accentuate this problem.",
+        "openalex_id": "W1971530833"
+      }
+    ]
+  },
+  {
+    "sample_id": 13,
+    "query": "machine learning techniques for sentiment analysis and image classification",
+    "paper_ids": [
+      "W2272567290",
+      "W2007358443",
+      "W1968959457",
+      "W2112818171",
+      "W2069587649",
+      "W2019760075",
+      "W2206216941",
+      "W2250547309",
+      "W2163259319"
+    ],
+    "papers": [
+      {
+        "title": "Opinion Mining Techniques on Social Media Data",
+        "abstract": "In the current scenario, at the crossroad of computational linguistics and data retrieval opinions and emotions are more valuable than the subject of the document. Linguistic resources are used to retrieve sentiments and also to classify it. Over the internet, not only the large volume of unstructured data is available but also the large amount of text is also generating day by day in the form of blogs, emails, tweets and feedbacks e.t.c. Text analysis is much more mature than unstructured data. Mining is tough for these types of data because of its noisiness and this is the chief bottleneck for designing text mining system.They suffer from spelling mistakes, grammatical errors and improper punctuations because they are informally written.Opinion mining provides a clear platform to catch public\"s mood by filtering the noise data. It also provides computational techniques used to extract and consolidate individual\"s opinion from unstructured and noisy text data.This paper tries to cover some techniques and approaches of opinion mining process and also highlight comparative study of some techniques.",
+        "openalex_id": "W2272567290"
+      },
+      {
+        "title": "Binary image classification using genetic programming based on local binary patterns",
+        "abstract": "Image classification represents an important task in machine learning and computer vision. To capture features covering a diversity of different objects, it has been observed that a sufficient number of learning instances are required to efficiently estimate the models' parameter values. In this paper, we propose a genetic programming (GP) based method for the problem of binary image classification that uses a single instance per class to evolve a classifier. The method uses local binary patterns (LBP) as an image descriptor, support vector machine (SVM) as a classifier, and a one-way analysis of variance (ANOVA) as an analyser. Furthermore, a multi-objective fitness function is designed to detect distinct and informative regions of the images, and measure the goodness of the wrapped classifiers. The performance of the proposed method has been evaluated on six data sets and compared to the performances of both GP based (Two-tier GP and conventional GP) and non-GP (Naïve Bayes, Support Vector Machines and hybrid Naïve Bayes/Decision Trees) methods. The results show that a comparable or significantly better performance has been achieved by the proposed method over all methods on all of the data sets considered.",
+        "openalex_id": "W2007358443"
+      },
+      {
+        "title": "Image classification using weighted sparsity induced neighbors and label embeddings learning",
+        "abstract": "In this paper, we consider the image classification problem. Unlike conventional local learning technique, a novel framework, which is based on the proposed sparsity induced neighbors (SINs) instead of widely used k nearest neighbors, is presented. Within this framework, the SINs of test image are training images associated with the nonzero entries in the sparse representation of test image, and they can be found by using kernel sparse coding algorithm. While its SINs are weighted properly, the test image can be classified as the category that is assigned the most weights. Moreover, we also apply the label embeddings learning in the framework, to model the similarity between categories and improve discriminative performance. Experimental results show that the proposed method can achieve state-of-the-art performance on three commonly-used datasets.",
+        "openalex_id": "W1968959457"
+      },
+      {
+        "title": "Human-Interpretable Feature Pattern Classification System Using Learning Classifier Systems",
+        "abstract": "Image pattern classification is a challenging task due to the large search space of pixel data. Supervised and subsymbolic approaches have proven accurate in learning a problem's classes. However, in the complex image recognition domain, there is a need for investigation of learning techniques that allow humans to interpret the learned rules in order to gain an insight about the problem. Learning classifier systems (LCSs) are a machine learning technique that have been minimally explored for image classification. This work has developed the feature pattern classification system (FPCS) framework by adopting Haar-like features from the image recognition domain for feature extraction. The FPCS integrates Haar-like features with XCS, which is an accuracy-based LCS. A major contribution of this work is that the developed framework is capable of producing human-interpretable rules. The FPCS system achieved 91 [Formula: see text] 1% accuracy on the unseen test set of the MNIST dataset. In addition, the FPCS is capable of autonomously adjusting the rotation angle in unaligned images. This rotation adjustment raised the accuracy of FPCS to 95%. Although the performance is competitive with equivalent approaches, this was not as accurate as subsymbolic approaches on this dataset. However, the benefit of the interpretability of rules produced by FPCS enabled us to identify the distribution of the learned angles-a normal distribution around [Formula: see text]-which would have been very difficult in subsymbolic approaches. The analyzable nature of FPCS is anticipated to be beneficial in domains such as speed sign recognition, where underlying reasoning and confidence of recognition needs to be human interpretable.",
+        "openalex_id": "W2112818171"
+      },
+      {
+        "title": "Combining Classification and Clustering for Tweet Sentiment Analysis",
+        "abstract": "The goal of sentiment analysis is to determine opinions, emotions, and attitudes presented in source material. In tweet sentiment analysis, opinions in messages can be typically categorized as positive or negative. To classify them, researchers have been using traditional classifiers like Naive Bayes, Maximum Entropy, and Support Vector Machines (SVM). In this paper, we show that a SVM classifier combined with a cluster ensemble can offer better classification accuracies than a stand-alone SVM. In our study, we employed an algorithm, named C3E-SL, capable to combine classifier and cluster ensembles. This algorithm can refine tweet classifications from additional information provided by clusterers, assuming that similar instances from the same clusters are more likely to share the same class label. The resulting classifier has shown to be competitive with the best results found so far in the literature, thereby suggesting that the studied approach is promising for tweet sentiment classification.",
+        "openalex_id": "W2069587649"
+      },
+      {
+        "title": "A comparison study of feature spaces and classification methods for facial expression recognition",
+        "abstract": "Facial expression recognition (FER) is important for robots and computers to achieve natural interaction with human. Over the years, researchers have proposed different feature descriptors, implemented different classification methods, and carried out test experiments on different datasets in realizing an automatic FER system. While achieving good performance, the most efficient feature space and classification method for FER remain unknown due to lack of comparison study. We performed comprehensive comparison experiments with five popular feature spaces in computer vision field and seven classification methods with four unique facial expression datasets. Our contributions in this work includes: (1) identified most efficient feature space for FER, (2) investigated effect of image resolutions on FER performances, and (3) obtained best FER performance by using AdaBoost algorithm for feature selection and Support Vector Machine for image classification.",
+        "openalex_id": "W2019760075"
+      },
+      {
+        "title": "Twitter sentiment analysis: A case study in the automotive industry",
+        "abstract": "Sentiment analysis is one of the fastest growing areas which uses the natural language processing, text mining and computational linguistic to extract useful information to help in the decision making process. In the recent years, social media websites have been spreading widely, and their users are increasing rapidly. Automotive industry is one of the largest economic sectors in the world with more than 90 million cars and vehicles. Automotive industry is highly competitive and requires that sellers, automotive companies, carefully analyze and attend to consumers' opinions in order to achieve a competitive advantage in the market. Analysing consumers' opinions using social media data can be very great way for the automotive companies to enhance their marketing targets and objectives. In this paper, a sentiment analyses on a case study in the automotive industry is presented. Text mining and sentiment analysis are used to analyze unstructured tweets on Twitter to extract the polarity, and emotions classification towards the automotive classes such as Mercedes, Audi and BMW. We can note from the emotions classification results that, “joy” category is better for BMW comparing to Mercedes and Audi, The “sadness” percentage is larger for Audi and Mercedes comparing to BMW. Furthermore, we can note from the polarity classification that BMW has 72% positive tweets compared 79% for Mercedes and 83% for Audi. In addition, the results show that BMW has 8% negative polarity compared 18% for Mercedes and 16% for Audi.",
+        "openalex_id": "W2206216941"
+      },
+      {
+        "title": "Hyperspectral image classification using FPCA-based kernel extreme learning machine",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2250547309"
+      },
+      {
+        "title": "Political sentiment analysis of tweets before and after the Greek elections of May 2012",
+        "abstract": "Political sentiment analysis using social media content has attracted significant interest in the last years. The present work utilises limited linguistic resources in a knowledge-poor approach to political sentiment identification from Greek tweets, posted a few days before and a few days after the Greek parliamentary elections of May 6th, 2012. Rather than the accurate prediction of the election results, the main focus of the proposed work is the investigation of the alignment between web and actual political sentiment in a bi-directional manner: the impact/reflection of the tweets’ sentiment on the elections as well as the impact of the elections’ results on web sentiment, and its shift around such a major political event.",
+        "openalex_id": "W2163259319"
+      }
+    ]
+  },
+  {
+    "sample_id": 14,
+    "query": "Multimodal and multilayered approaches for sentiment analysis in social media.",
+    "paper_ids": [
+      "W2250277593",
+      "W2041400887",
+      "W234174256",
+      "W2293236424",
+      "W2294282016",
+      "W1555462461"
+    ],
+    "papers": [
+      {
+        "title": "Topic-Based Chinese Message Sentiment Analysis: A Multilayered Analysis System",
+        "abstract": "Sentiment analysis in social media has attracted significant attention. Although researchers have proposed many methods, a single method is hard to meet requirement in industrial applications. In this paper, based on massive data of Tencent and industrial practice, we present a multilayered analysis system (MAS) on social media. The system is composed of three sub-systems, including topic correlation calculation, topic-related sentence recognition and sentence polarity classification. Each sub-system is composed of several simple models. Also, we have set up a closed-loop feature mining and model updating system, which will continuously promote performance of MAS. In addition, this offline system requires very little intervention. The system, including online and offline parts, has been applied in several practical projects and obtained the best results in the evaluation of task 2 of SIGHAN-8.",
+        "openalex_id": "W2250277593"
+      },
+      {
+        "title": "A multidimensional approach for detecting irony in Twitter",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2041400887"
+      },
+      {
+        "title": "Beyond Sentiment Analysis: Mining Defects and Improvements from Customer Feedback",
+        "abstract": "Abstract not available",
+        "openalex_id": "W234174256"
+      },
+      {
+        "title": "Cross-modality Consistent Regression for Joint Visual-Textual Sentiment Analysis of Social Multimedia",
+        "abstract": "Sentiment analysis of online user generated content is important for many social media analytics tasks. Researchers have largely relied on textual sentiment analysis to develop systems to predict political elections, measure economic indicators, and so on. Recently, social media users are increasingly using additional images and videos to express their opinions and share their experiences. Sentiment analysis of such large-scale textual and visual content can help better extract user sentiments toward events or topics. Motivated by the needs to leverage large-scale social multimedia content for sentiment analysis, we propose a cross-modality consistent regression (CCR) model, which is able to utilize both the state-of-the-art visual and textual sentiment analysis techniques. We first fine-tune a convolutional neural network (CNN) for image sentiment analysis and train a paragraph vector model for textual sentiment analysis. On top of them, we train our multi-modality regression model. We use sentimental queries to obtain half a million training samples from Getty Images. We have conducted extensive experiments on both machine weakly labeled and manually labeled image tweets. The results show that the proposed model can achieve better performance than the state-of-the-art textual and visual sentiment analysis algorithms alone.",
+        "openalex_id": "W2293236424"
+      },
+      {
+        "title": "Throughput-Optimized OpenCL-based FPGA Accelerator for Large-Scale Convolutional Neural Networks",
+        "abstract": "Convolutional Neural Networks (CNNs) have gained popularity in many computer vision applications such as image classification, face detection, and video analysis, because of their ability to train and classify with high accuracy. Due to multiple convolution and fully-connected layers that are compute-/memory-intensive, it is difficult to perform real-time classification with low power consumption on today?s computing systems. FPGAs have been widely explored as hardware accelerators for CNNs because of their reconfigurability and energy efficiency, as well as fast turn-around-time, especially with high-level synthesis methodologies. Previous FPGA-based CNN accelerators, however, typically implemented generic accelerators agnostic to the CNN configuration, where the reconfigurable capabilities of FPGAs are not fully leveraged to maximize the overall system throughput. In this work, we present a systematic design space exploration methodology to maximize the throughput of an OpenCL-based FPGA accelerator for a given CNN model, considering the FPGA resource constraints such as on-chip memory, registers, computational resources and external memory bandwidth. The proposed methodology is demonstrated by optimizing two representative large-scale CNNs, AlexNet and VGG, on two Altera Stratix-V FPGA platforms, DE5-Net and P395-D8 boards, which have different hardware resources. We achieve a peak performance of 136.5 GOPS for convolution operation, and 117.8 GOPS for the entire VGG network that performs ImageNet classification on P395-D8 board.",
+        "openalex_id": "W2294282016"
+      },
+      {
+        "title": "Hyperspectral image classification using random forests and neural networks",
+        "abstract": "Spectral unmixing of hyperspectral images are&#13;\\nbased on the knowledge of a set of unknown endmembers.&#13;\\nUnique characteristics of hyperspectral dataset enable different&#13;\\nprocessing problems to be resolved using robust mathematical&#13;\\nlogic such as image classification. Consequently, pixel purity&#13;\\nindex is used to find endmembers from Washington DC mall&#13;\\nhyperspectral image dataset. The generalized reduced gradient&#13;\\nalgorithm is used to estimate fractional abundances in the&#13;\\nhyperspectral image dataset. The WEKA data mining tool is&#13;\\nselected to construct random forests and neural networks&#13;\\nclassifiers from the set of fractional abundances. The&#13;\\nperformances of these classifiers are experimentally compared&#13;\\nfor hyperspectral data land cover classification. Results show&#13;\\nthat random forests give better classification accuracy when&#13;\\ncompared to neural networks. The study proffers solution to&#13;\\nthe problem associated with land cover classification by&#13;\\nexploring generalized reduced gradient approach with learning&#13;\\nclassifiers to improve overall classification accuracy. The&#13;\\nclassification accuracy comparison of classifiers is important&#13;\\nfor decision maker to consider tradeoffs in accuracy and&#13;\\ncomplexity of methods.",
+        "openalex_id": "W1555462461"
+      }
+    ]
+  },
+  {
+    "sample_id": 15,
+    "query": "Application of human cognition and data analytics in crowdsourcing machine classification methods",
+    "paper_ids": [
+      "W2329105431",
+      "W1495444812",
+      "W2318616122",
+      "W2036094175",
+      "W2078120321",
+      "W2019710309"
+    ],
+    "papers": [
+      {
+        "title": "Crowdsourced Data Management: A Survey",
+        "abstract": "Any important data management and analytics tasks cannot be completely addressed by automated processes. These tasks, such as entity resolution, sentiment analysis, and image recognition can be enhanced through the use of human cognitive ability. Crowdsouring platforms are an effective way to harness the capabilities of people (i.e., the crowd) to apply human computation for such tasks. Thus, crowdsourced data management has become an area of increasing interest in research and industry. We identify three important problems in crowdsourced data management. (1) Quality Control: Workers may return noisy or incorrect results so effective techniques are required to achieve high quality; (2) Cost Control: The crowd is not free, and cost control aims to reduce the monetary cost; (3) Latency Control: The human workers can be slow, particularly compared to automated computing time scales, so latency-control techniques are required. There has been significant work addressing these three factors for designing crowdsourced tasks, developing crowdsourced data manipulation operators, and optimizing plans consisting of multiple operators. In this paper, we survey and synthesize a wide spectrum of existing studies on crowdsourced data management. Based on this analysis we then outline key factors that need to be considered to improve crowdsourced data management.",
+        "openalex_id": "W2329105431"
+      },
+      {
+        "title": "Extração de Dados do Twitter para aplicação na Análise de Sentimentos",
+        "abstract": "This work has as objective collect data from the social network Twitter, with the idea to make a Portuguese database to be applied in Sentiment Analysis. Besides the data extracting, a classification algorithm was created based on the emoticons found. This database will be used in future Sentiment Analysis works like the application of others kinds of classification algorithms such as machine learning algorithms.",
+        "openalex_id": "W1495444812"
+      },
+      {
+        "title": "Sentiment Analysis Using Weka",
+        "abstract": "Abstract — Online social networks usage are pervasive now a days. Mining the text present in online social networks will be useful for predictive analytic. Predicting information from unstructured data present in the social networks is a challenging research problem. Extracting, identifying or otherwise characterizing the sentiment content of the text unit using statistics and machine learning methods are referred as sentiment analysis or text analysis. In this work sentiment analysis using Decision trees and Support vector machines, which are machine learning algorithms will be demonstrated using WEKA tool. Sentiment analysis using Support vector machines showed high accuracy when compared to Decision trees.",
+        "openalex_id": "W2318616122"
+      },
+      {
+        "title": "A Review of Optical Imagery and Airborne LiDAR Data Registration Methods",
+        "abstract": "Representing a scene completely from remote sensing data requires both spectral and 3-D-surface information.Integration of spectral information from optical images and 3-D-surface information from LiDAR is important in a number of remote sensing applications such as feature extraction, image classification, image analysis, building extraction, 3-D city modelling, canopy modelling etc.Therefore, numerous methods have been developed in the last decade to align both data sets into a common reference frame to effectively utilize their complementary characteristics.However, due to the significantly different characteristics between optical image and LiDAR data, there are a number of technical challenges in the alignment of both data sets.Different research papers introduced different strategy or methodology to overcome the challenges, reaching different alignment/registration results.This paper presents a review of classical and up to date optical-LiDAR registration methods with the emphasis on control point detection and matching.The aim of this paper is to provide readers with an overview of existing methods, identify their advantages and limitations, and give readers the overall information on what will be useful for researchers and practitioners to realistically select proper method for their application.",
+        "openalex_id": "W2036094175"
+      },
+      {
+        "title": "A Method of Building Chinese Sentiment Lexicon Based on Semantics",
+        "abstract": "A method was proposed to build a Chinese sentiment lexicon based on semantics. Sentiment intensity of the word was automatically calculated by decomposing it into multiple English semantic units (Esu). A lexicon proofreading method was used to optimize the sentiment intensity of words. The proposed lexicon was applied to the task of sentiment analysis, in which the method of support vector machine was used to build the sentiment classifier. The experiment results shown that the built sentiment lexicon was more effective than the general polar sentiment lexicon.",
+        "openalex_id": "W2078120321"
+      },
+      {
+        "title": "Enhancement of Sky and Cloud Type Classification",
+        "abstract": "The sky is an essential component in outdoor images. Sky and cloud type classification has applications in many areas such as image enhancement and sky image retrieval. In this paper, we improve the sky and cloud type classification rate over existing methods. Our work is based on two classification stages: sky image classification stage and sky cloud type classification stage. In sky classification stage, the image is classified into blue sky, cloudy sky, and sunset sky. Due to the impact of descriptor selection in the sky classification, we investigate ten descriptors; we show that the classifiers based on color descriptors are more accurate than the classifiers based on shape descriptors in sky type classification. We improve the sky image classification ratio using K-HSV descriptors. The sky classification with K-HSV descriptors has 77.3% correct classification rate. In cloud type's classification stage, the cloud is classified based on the sky type. For both the blue sky and the sunset sky, the cloud type is classified into six types: cloudless, thin-cirrus, cirrus, cirrocumulus, cumulus, and cumulonimbus. In cloudy sky, the cloud type is classified into three types: stratus, stratocumulus, and altostratus. The clouds are classified based on their shape and color using Gist minimum distance classification. The average correct classification rate of the clouds classifier is over 85% for cloudless, cumulus clouds, and stratus clouds and over 60% for thin-cirrus, cumulonimbus, stratocumulus, and altostratus clouds.",
+        "openalex_id": "W2019710309"
+      }
+    ]
+  },
+  {
+    "sample_id": 16,
+    "query": "Application of machine learning and deep learning techniques in sentiment analysis and remote sensing image classification.",
+    "paper_ids": [
+      "W1990034269",
+      "W2169592713",
+      "W2358202859",
+      "W2265906511",
+      "W2035801746"
+    ],
+    "papers": [
+      {
+        "title": "Interpretation Artificial Neural Network in Remote Sensing Image Classification",
+        "abstract": "The responses of neural networks for uniform and normal distribution are studied, especially the BP and RBF neural networks and the question of combination between neural networks and fuzzy logical is answered by experiments. Linear relationship among sample feature components which impact the time consumption and convergence accuracy of networks has been discussed also. In the condition of feature vector included original bands and good separating degree components, BP and RBF neural networks combined with Fuzzy Reasoning have been used for TM image classification. Overall classification accuracy and Kappa coefficients reached 0.915 and 94.33% in RBF network which is higher than 0.845 and 89.67% in BP network.",
+        "openalex_id": "W1990034269"
+      },
+      {
+        "title": "A Study on Classification Methods Applied to Sentiment Analysis",
+        "abstract": "Sentiment analysis is a new area of research in data mining that concerns the detection of opinions and/or sentiments in texts. This work focuses on the application and the comparison of three classification techniques over a text corpus composed of reviews of commercial products in order to detect opinions about them. The chosen domain is about \"perfumes\", and user opinions composing the corpus are written in Italian language. The proposed approach is completely data-driven: a Term Frequency / Inverse Document Frequency (TFIDF) terms selection procedure has been applied in order to make computation more efficient, to improve the classification results and to manage some issues related to the specific classification procedure adopted.",
+        "openalex_id": "W2169592713"
+      },
+      {
+        "title": "Classification of remote sensing image with SVM based on kernel and multi-scale texture features",
+        "abstract": "The classification accuracy is affected by many factors,such as,the quality of the remote sensing image, the classification method and effective auxiliary data. In order to obtain better classification result,many researchers have been proposed all kinds of methods. For remote sensing image classification problem,this paper proposed a classification method. The experimental results show that the support vector machine classification method,combined KPCA with multi-scale texture can effectively extract the type of features,improve the classification accuracy.",
+        "openalex_id": "W2358202859"
+      },
+      {
+        "title": "Global Deconvolutional Networks for Semantic Segmentation",
+        "abstract": "Semantic image segmentation is a principal problem in computer vision, where the aim is to correctly classify each individual pixel of an image into a semantic label. Its widespread use in many areas, including medical imaging and autonomous driving, has fostered extensive research in recent years. Empirical improvements in tackling this task have primarily been motivated by successful exploitation of Convolutional Neural Networks (CNNs) pre-trained for image classification and object recognition. However, the pixel-wise labelling with CNNs has its own unique challenges: (1) an accurate deconvolution, or upsampling, of low-resolution output into a higher-resolution segmentation mask and (2) an inclusion of global information, or context, within locally extracted features. To address these issues, we propose a novel architecture to conduct the equivalent of the deconvolution operation globally and acquire dense predictions. We demonstrate that it leads to improved performance of state-of-the-art semantic segmentation models on the PASCAL VOC 2012 benchmark, reaching 74.0% mean IU accuracy on the test set.",
+        "openalex_id": "W2265906511"
+      },
+      {
+        "title": "A Sentence Sentiment Classification reflecting Formal and Informal Vocabulary Information",
+        "abstract": "최근 트위터, 페이스북과 같은 소셜 네트워크 서비스(Social Network Service : SNS)가 활성화됨에 따라 서비스 사용자들에 의해 작성된 막대한 텍스트들로부터 의미 있는 정보를 찾기 위한 연구가 많은 주목을 받고 있다. 특히 문장에 담겨 있는 감정은 활용 범위가 매우 넓은 정보로서 문장에 대한 감정을 분류하는 일은 매우 유용한 일이라고 할 수 있다. 본 논문에서는 문장의 감정을 분류하기 위해 문장에 포함되어 있는 형식적 어휘 정보와 이모티콘이나 인터넷 용어와 같은 온라인상에서 많이 이용되는 다양한 형태의 비형식적 어휘 정보를 이용한 새로운 문장 감정 분류 방법을 제안한다. 기존에는 문장의 감정을 분류하기 위해 사전을 기반으로 한 형식적 어휘 정보를 이용했지만, 최근 인터넷 사용자들은 인터넷 용어나 이모티콘과 같은 비형식적 어휘를 많이 사용해 기존의 형식적 어휘 정보만으로는 정확한 감정 분류가 어렵다. 제안한 방법은 형식적 어휘 정보와 비형식적 어휘 정보를 이용해 다양한 형태의 어휘를 포함하는 인터넷 상의 문장들에 대해 보다 정확한 감정 분류 결과를 보여준다. 또한, 같은 어휘라도 도메인별로 다른 감정을 나타내는 경우가 많으므로 제안한 방법에서는 도메인별로 다른 감정 어휘정보를 이용했다. 각 감정 어휘 정보를 통해 특징벡터로 표현된 문장은 Support Vector Machine(SVM) 분류 방법을 통해 감정을 분류하고 그 성능을 평가했다. Social Network Services(SNS) such as Twitter, Facebook and Myspace have gained popularity worldwide. Especially, sentiment analysis of SNS users' sentence is very important since it is very useful in the opinion mining. In this paper, we propose a new sentiment classification method of sentences which contains formal and informal vocabulary such as emoticons, and newly coined words. Previous methods used only formal vocabulary to classify sentiments of sentences. However, these methods are not quite effective because internet users use sentences that contain informal vocabulary. In addition, we construct suggest to construct domain sentiment vocabulary because the same word may represent different sentiments in different domains. Feature vectors are extracted from the sentiment vocabulary information and classified by Support Vector Machine(SVM). Our proposed method shows good performance in classification accuracy.",
+        "openalex_id": "W2035801746"
+      }
+    ]
+  },
+  {
+    "sample_id": 17,
+    "query": "sentiment analysis using machine learning and data mining techniques from text and image features",
+    "paper_ids": [
+      "W2224732585",
+      "W2132115581",
+      "W2076426818",
+      "W2369233064",
+      "W2212251814",
+      "W2110629808"
+    ],
+    "papers": [
+      {
+        "title": "Analisis Sentimen Berbasis Ontologi di Level Kalimat untuk Mengukur Persepsi Produk",
+        "abstract": "The purpose of this research is to do sentiment analysis on tweets data retrieved using ontology framework and using naïve bayes classifier algorithm for classification process. This study is based on the habits of twitter users who frequently writes opinion, expression, or sentiment on a specific product, especially smartphones. These tweets can be used as a basis for sentiment analysis on a particular product. The method used in this study include the use of ontology framework for tweets retrieval that match the domain of the discussion and the use of naïve bayes classification algorithm for data classification. Classification process carried past the 3 pieces of layer classification to fine tune the final result of classification. Three layers of classification used include buzz/promo classification (classifying tweets into buzz and not-buzz tweets), subjectivity classification (classifying not-buzz tweets into subjective and objective tweets), and sentiment classification (classifying subjective tweets into positive, negative, or neutral tweets). The resulted software can classify tweets with high accuracy. This software was trained and tested with the composition of 25:75, 50:50, 75:25 from sample data and tested 10 times for each composition. Average accuracy of the system reached 84.16%, 86.15%, and 87.54% for each composition. The result showed that by employing this system, product marketing stakeholders can determine the level of user sentiment expressed in the form of tweets. The method used in this study could be developed to improve the accuracy of classification systems.",
+        "openalex_id": "W2224732585"
+      },
+      {
+        "title": "Unsupervised sentiment analysis with a simple and fast Bayesian model using Part-of-Speech feature selection",
+        "abstract": "Unsupervised Bayesian sentiment analysis often uses models that are not well motivated. Mostly, extensions of Latent Dirichlet Analysis (LDA) are applied ‐ effectively modeling latent class distributions over words instead of documents. We introduce a Bayesian, unsupervised version of Naive Bayes for sentiment analysis and show that it offers superior accuracy and inference speed.",
+        "openalex_id": "W2132115581"
+      },
+      {
+        "title": "Image classification based on textural feature using artificial neural network",
+        "abstract": "Image classification plays an important part in the fields of Remote sensing, Image analysis and Pattern recognition. Image classification can be done using conventional methods. But conventional methods lead to misclassification due to strictly convex boundaries. Textural features are included for better classification but are inconvenient for conventional methods. The proposed system uses textural feature based image classification using neural network. Textural features are extracted using Gray level co-occurrence matrix and artificial neural network is developed for the classification of images into different classes. Neural network is trained by supervised learning using standard back propagation algorithm for the classification of images.",
+        "openalex_id": "W2076426818"
+      },
+      {
+        "title": "Classification of Hyperspectral Image Based on Sparse Representation and Bag of Words",
+        "abstract": "To enhance representation ability of the sparse dictionary for hyperspectral image classification using sparse representation and make full use of spectral information and spatial information of hyperspectral image,a novel hyperspectral image classification method based on sparse representation and bag of words was proposed.First,some professional dictionaries of each class are generated by bag of words algorithm based on the hyperspectral remote sensing image dataset,and the sparse representation dictionary is obtained by merging these professional dictionaries.Then,the sparse coefficient of each pixel is calculated according to the sparse representation dictionary,and the spatial continuity is used to constraint the coefficient by using the information of its neighborhoods.Finally,the classification of the objects is determined by computing the minimum reconstruction error of it on each professional dictionary.Experiments on hyperspectral remote sensing images indicate that the proposed method has better performance,a higher overall accuracy and Kappa coefficient than other sparse representation methods and the method based on spectral information respectively.",
+        "openalex_id": "W2369233064"
+      },
+      {
+        "title": "T-Gram: A Time-Aware Language Model to Predict Human Mobility",
+        "abstract": "This paper presents a novel time-aware language model, T-gram, to predict the human mobility using location check-in data. While the conventional n-gram language model, which use the contextual co-occurrence to estimate the probability of a sequence of items, are often employed to predict human mobility, the time information of items is merely considered. T-gram exploits the time information associated at each location, and aims to estimate the probability of visiting satisfaction for a given sequence of locations. For a location sequence, if locations are visited at right times and the transitions between locations are proper as well, the T-gram probability gets higher. We also devise a T-gram Search algorithm to predict future locations. Experiments of human mobility prediction conducted on Gowalla check-in data significantly outperform a series of n-gram-based methods and encourage the future usage of T-gram.",
+        "openalex_id": "W2212251814"
+      },
+      {
+        "title": "Modeling Musical Style with Language Models for Composer Recognition",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2110629808"
+      }
+    ]
+  },
+  {
+    "sample_id": 18,
+    "query": "Applications of signal processing and machine learning techniques in computer vision and image classification",
+    "paper_ids": [
+      "W2017028277",
+      "W1943069596",
+      "W2007944940",
+      "W2283340597",
+      "W2165954769",
+      "W2154137718"
+    ],
+    "papers": [
+      {
+        "title": "A novel fast scene classification method via DCT",
+        "abstract": "Scene classification is a hot problem in the computer vision. In this paper, a novel rapid scene classification method is proposed based on the discrete cosine transform (DCT) domain. Firstly, we divided the whole image into several areas of the same size without repetition, do DCT transform with the size of the B <sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">*</sub> B in each separate sub image area divided above. Secondly, scanning AC coefficients in each DCT block by three ways, modeling based on the correlation between AC coefficients in DCT block for extracting the feature vectors. Finally, with the feature vectors obtained previously, using one-vs-all Support Vector Machine train classifiers. Experimental results show that the proposed method is effective in image classification.",
+        "openalex_id": "W2017028277"
+      },
+      {
+        "title": "Textural Measurements for Retinal Image Analysis",
+        "abstract": "This thesis present research work conducted in the field of retina image analysis. More specifically, the work is directed at the application of texture analysis technique for the segmentation of common retinal landmark and for retina image classification. The main challenge in this research is in identifying the suitable texture measurement for retina images. In this research we proposed the used of texture measurement based on Binary Robust Independent Elementary Features (BRIEF). BRIEF measure texture by performing an intensity comparison in a local image patch, thus it is very fast to compute and tolerant to any monotonic increase or decrease of image intensities, which makes the descriptor invariant to illumination. The performance of BRIEF as texture measurement is first shown in an experiment involving texture classification and segmentation using common texture datasets. The result demonstrates good performance from BRIEF in this experiment. BRIEF is next used in two applications of retinal image analysis, namely optic disc segmentation and glaucoma classification. In the former, we proposed the used of pixel classification using BRIEF as textural features and circular template matching to segment the optic disc. In addition, an extension of BRIEF called Rotation Invariant BRIEF (OBRIEF) is later proposed to improve the segmentation result. For glaucoma classification, we described two approaches for glaucoma classification using BRIEF/OBRIEF features. The first is based on determination of cup to disc ratio (CDR) and the second is classification using image features i.e. BRIEF features. Overall, our preliminary results on using BRIEF as texture measurement for retinal image analysis are encouraging and demonstrate that it has the potential to be used in retina image analysis.",
+        "openalex_id": "W1943069596"
+      },
+      {
+        "title": "Transfer learning using adaptive SVM for image classification",
+        "abstract": "Transfer learning is a learning paradigm which enables us to transfer knowledge gained in one domain to other familiar domains. These approaches are useful in scenarios where one domain has large amount of labelled data and another domain has either none or very few labelled examples. In this work, we have used feature extraction techniques (such as PCA, SURF and Gabor filter) to implement transfer learning between human face images in the source domain and images of cat faces in the target domain. Specifically, this work focuses on using the adaptive SVM for classification in the target domain. The novelty of this work is characterized by the use of multiple features for transfer learning, which are robust and sensitive to image orientation, texture and shape. Our results indicate effective transfer learning between the source and target domains, based on the fact that the classifier performs better in the target domain as it learns on more examples in the source domain.",
+        "openalex_id": "W2007944940"
+      },
+      {
+        "title": "Deep neural network for halftone image classification based on sparse auto-encoder",
+        "abstract": "Abstract not available",
+        "openalex_id": "W2283340597"
+      },
+      {
+        "title": "Polarity Detection at Sentence Level",
+        "abstract": "Opinions bear a very important place in the life of human beings. Human Beings are always surrounded by opinions, when a decision has to be taken; people always want to know the opinions of others. But as the impact of the web is increasing day by day, Web documents can be seen as a new source of opinions for the people. Large numbers of reviews are available on the Web related to every product. Whenever a customer buys any product, they express their feedbacks as opinions on the e-commerce website, thus it is very important to automatically analyze the huge amount of information on the web and develop methods to automatically classify the reviews. Opinion Mining or Sentiment Analysis is the mining of attitudes, opinions, and emotions automatically from text, speech, and database sources through Natural Language Processing (NLP). In this paper an opinion mining system is proposed using unsupervised technique to determine the polarity of sentences i.e. to classify the sentences as positive, negative or neutral. Negation is also handled in the proposed system. Experimental results using reviews of products show the effectiveness of the system.",
+        "openalex_id": "W2165954769"
+      },
+      {
+        "title": "A survey on the application of recurrent neural networks to statistical language modeling",
+        "abstract": "In this paper, we present a survey on the application of recurrent neural networks to the task of statistical language modeling. Although it has been shown that these models obtain good performance on this task, often superior to other state-of-the-art techniques, they suffer from some important drawbacks, including a very long training time and limitations on the number of context words that can be taken into account in practice. Recent extensions to recurrent neural network models have been developed in an attempt to address these drawbacks. This paper gives an overview of the most important extensions. Each technique is described and its performance on statistical language modeling, as described in the existing literature, is discussed. Our structured overview makes it possible to detect the most promising techniques in the field of recurrent neural networks, applied to language modeling, but it also highlights the techniques for which further research is required.",
+        "openalex_id": "W2154137718"
+      }
+    ]
+  },
+  {
+    "sample_id": 19,
+    "query": "Applying deep learning models to sentiment analysis and image processing applications in big data",
+    "paper_ids": [
+      "W2283608423",
+      "W2182199562",
+      "W2092985495",
+      "W2182189574",
+      "W2076860056",
+      "W2059771151",
+      "W1994645462"
+    ],
+    "papers": [
+      {
+        "title": "Deep Computation Model for Unsupervised Feature Learning on Big Data",
+        "abstract": "Deep learning has been successfully applied to feature learning in speech recognition, image classification and language processing. However, current deep learning models work in the vector space, resulting in the failure to learn features for big data since a vector cannot model the highly non-linear distribution of big data, especially heterogeneous data. This paper proposes a deep computation model for feature learning on big data, which uses a tensor to model the complex correlations of heterogeneous data. To fully learn the underlying data distribution, the proposed model uses the tensor distance as the average sum-of-squares error term of the reconstruction error in the output layer. To train the parameters of the proposed model, the paper designs a high-order back-propagation algorithm (HBP) by extending the conventional back-propagation algorithm from the vector space to the high-order tensor space. To evaluate the performance of the proposed model, we carried out the experiments on four representative datasets by comparison with stacking auto-encoders and multimodal deep learning models. Experimental results clearly demonstrate that the proposed model is efficient to perform feature learning when evaluated using the STL-10, CUAVE, SANE and INEX datasets.",
+        "openalex_id": "W2283608423"
+      },
+      {
+        "title": "A New Skin Detection Approach for Adult Image Identification",
+        "abstract": "With rapid proliferation of adult content on the internet, development of software to detect and filter this content is gaining more and more attention. In this study, a new method for adult image identification is proposed. Accurate human skin detection and extraction of relative features are the bottlenecks in this regard. In the proposed skin detection method, first, Hue color information is utilized to examine whether skin is present in the image, and if so, using dynamic thresholding an estimate of the skin region is obtained. In the second step, for images that contain skin, an exponential function is fitted to the histogram of the estimated skin area. Based on the parameters of the fitted function, the final skin map of the image is extracted. Area, texture, and a new shape feature are extracted from each region and used for image classification using neural networks. 95% accuracy for skin detection and 93.7% accuracy of adult image detection, compared to other methods showed the significance of the proposed method.",
+        "openalex_id": "W2182199562"
+      },
+      {
+        "title": "Fast image scanning with deep max-pooling convolutional neural networks",
+        "abstract": "Deep Neural Networks now excel at image classification, detection and segmentation. When used to scan images by means of a sliding window, however, their high computational complexity can bring even the most powerful hardware to its knees. We show how dynamic programming can speedup the process by orders of magnitude, even when max-pooling layers are present.",
+        "openalex_id": "W2092985495"
+      },
+      {
+        "title": "Analyzing Sentiment of Movie Review Data using Naive Bayes Neural Classifier",
+        "abstract": "Now a days sentiment analysis is active field of research, to extract people's opinion about particular product or service. The most useful application of sentiment analysis is the sentiment classification of product reviews. The task of sentiment classification is to classify reviews of user as positive or negative from textual information alone. For that purpose many researchers used data mining classification techniques such as Naive Bayes classifier with strong independence assumption. But Naive Bayes classifier lack in accuracy for many complex real-world situations where there exists dependency among features. Further, the Neural Network with appropriate network structure is good enough to handle the correlation or dependence between input variables. In proposed system, the Naive Bayes and Neural Network classifier are combined for sentiment classification. In Experimental results, the movie review is classified into positive or negative polarities of sentiment using classifiers. The accuracy of sentiment analysis is increased upto 80.65% by combining Naive Bayes classifier with Neural Network for unigram feature on movie review dataset.",
+        "openalex_id": "W2182189574"
+      },
+      {
+        "title": "Comparative analysis of the techniques for Sentiment Analysis",
+        "abstract": "Sentiment Analysis deals with identifying and aggregating the sentiment or opinions expressed by the users. Sentiment Analysis could be carried out by techniques that may or may not use a lexicon for polarity identification. Training data set i.e. already tagged opinions may or may not be used. Some sentiment analyser could be language dependent or some could be language independent, also called as multilingual sentiment analysers. A detailed survey on different techniques used in Sentiment Analysis is carried out. These techniques are then compared on the basis of usage of lexicon, requirement of training set and language dependency. These are then summarised and analysed. General Challenges are also discussed.",
+        "openalex_id": "W2076860056"
+      },
+      {
+        "title": "A Survey on Sentiment Analysis and Opinion Mining Techniques",
+        "abstract": "Sentiment Analysis (SA), an application of Natural Language processing (NLP), has been witnessed a blooming interest over the past decade. It is also known as opinion mining, mood extraction and emotion analysis. The basic in opinion mining is classifying the polarity of text in terms of positive (good), negative (bad) or neutral (surprise). Mood Extraction automates the decision making performed by human. It is the important aspect for capturing public opinion about product preferences, marketing campaigns, political movements, social events and company strategies. In addition to sentiment analysis for English and other European languages, this task is applied on various Indian languages like Bengali, Hindi, Telugu and Malayalam. This paper describes the survey on main approaches for performing sentiment extraction.",
+        "openalex_id": "W2059771151"
+      },
+      {
+        "title": "Meta-level sentiment models for big social data analysis",
+        "abstract": "Abstract not available",
+        "openalex_id": "W1994645462"
+      }
+    ]
+  },
+  {
+    "sample_id": 20,
+    "query": "Sentiment analysis using machine learning and natural language processing techniques in various fields.",
+    "paper_ids": [
+      "W2139917364",
+      "W2128764405",
+      "W1693649005",
+      "W2288974521",
+      "W1535944013",
+      "W2347418212"
+    ],
+    "papers": [
+      {
+        "title": "Sentiment Analysis by Using Fuzzy Logic",
+        "abstract": "How could a product or service is reasonably evaluated by anyone in the shortest time? A million dollar question but it is having a simple answer: Sentiment analysis. Sentiment analysis is consumers review on products and services which helps both the producers and consumers (stakeholders) to take effective and efficient decision within a shortest period of time. Producers can have better knowledge of their products and services through the sentiment analysis (ex. positive and negative comments or consumers likes and dislikes) which will help them to know their products status (ex. product limitations or market status). Consumers can have better knowledge of their interested products and services through the sentiment analysis (ex. positive and negative comments or consumers likes and dislikes) which will help them to know their deserving products status (ex. product limitations or market status). For more specification of the sentiment values, fuzzy logic could be introduced. Therefore, sentiment analysis with the help of fuzzy logic (deals with reasoning and gives closer views to the exact sentiment values) will help the producers or consumers or any interested person for taking the effective decision according to their product or service interest.",
+        "openalex_id": "W2139917364"
+      },
+      {
+        "title": "Web-Based Traffic Sentiment Analysis: Methods and Applications",
+        "abstract": "With the booming of social media, sentiment analysis has developed rapidly in recent years. However, only a few studies focused on the field of transportation, which failed to meet the stringent requirements of safety, efficiency, and information exchange of intelligent transportation systems (ITSs). We propose the traffic sentiment analysis (TSA) as a new tool to tackle this problem, which provides a new prospective for modern ITSs. Methods and models in TSA are proposed in this paper, and the advantages and disadvantages of rule- and learning-based approaches are analyzed based on web data. Practically, we applied the rule-based approach to deal with real problems, presented an architectural design, constructed related bases, demonstrated the process, and discussed the online data collection. Two cases were studied to demonstrate the efficiency of our method: the “yellow light rule” and “fuel price” in China. Our work will help the development of TSA and its applications.",
+        "openalex_id": "W2128764405"
+      },
+      {
+        "title": "k-NN Boosting Prototype Learning for Object Classification",
+        "abstract": "Abstract not available",
+        "openalex_id": "W1693649005"
+      },
+      {
+        "title": "Hierarchical Classifiers for Multi-Way Sentiment Analysis of Arabic Reviews",
+        "abstract": "Sentiment Analysis (SA) is one of hottest fields in data mining (DM) and natural language processing (NLP). The goal of SA is to extract the sentiment conveyed in a certain text based on its content. While most current works focus on the simple problem of determining whether the sentiment is positive or negative, Multi-Way Sentiment Analysis (MWSA) focuses on sentiments conveyed through a rating or scoring system (e.g., a 5-star scoring system). In such scoring systems, the sentiments conveyed in two reviews of close scores (such as 4 stars and 5 stars) can be very similar creating an added challenge compared to traditional SA. One intuitive way of handling this challenge is via a divide-and-conquer approach where the MWSA problem is divided into a set of sub-problems allowing the use of customized classifiers to differentiate between reviews of close scores. A hierarchical classification structure can be used with this approach where each node represents a different classification sub-problem and the decision from it may lead to the invocation of another classifier. In this work, we show how the use of this divide-and-conquer hierarchical structure of classifiers can generate better results than the use of existing flat classifiers for the MWSA problem. We focus on the Arabic language for many reasons such as the importance of this language and the scarcity of prior works and available tools for it. To the best of our knowledge, very few papers have been published on MWSA of Arabic reviews. One notable work is that of Ali and Atiya, in which the authors collected a large scale Arabic Book Reviews (LABR) dataset and made it publicly available. Unfortunately, the baseline experiments on this dataset had very low accuracy. We present two different hierarchical structures and compare their accuracies with the flat structure using different core classifiers. The comparison is based on standard accuracy measures such as precision and recall in addition to using the mean squared error (MSE) as a more accurate measure given the fact that not all misclassifications are the same. The results show that, in general, hierarchical classifiers give significant improvements (of more than 50% in certain cases) over flat classifiers.",
+        "openalex_id": "W2288974521"
+      },
+      {
+        "title": "Performance Investigation of Feature Selection Methods",
+        "abstract": "Sentiment analysis or opinion mining has become an open research domain after proliferation of Internet and Web 2.0 social media. People express their attitudes and opinions on social media including blogs, discussion forums, tweets, etc. and, sentiment analysis concerns about detecting and extracting sentiment or opinion from online text. Sentiment based text classification is different from topical text classification since it involves discrimination based on expressed opinion on a topic. Feature selection is significant for sentiment analysis as the opinionated text may have high dimensions, which can adversely affect the performance of sentiment analysis classifier. This paper explores applicability of feature selection methods for sentiment analysis and investigates their performance for classification in term of recall, precision and accuracy. Five feature selection methods (Document Frequency, Information Gain, Gain Ratio, Chi Squared, and Relief-F) and three popular sentiment feature lexicons (HM, GI and Opinion Lexicon) are investigated on movie reviews corpus with a size of 2000 documents. The experimental results show that Information Gain gave consistent results and Gain Ratio performs overall best for sentimental feature selection while sentiment lexicons gave poor performance. Furthermore, we found that performance of the classifier depends on appropriate number of representative feature selected from text.",
+        "openalex_id": "W1535944013"
+      },
+      {
+        "title": "Survey of Image Classification Based on Sparse Representation",
+        "abstract": "Good feature extraction method can reduce the workload of subsequent image classification and recognition. Different feature extraction methods are proposed for the specific classification problem,and achieved good results in image classification and recognition tasks. However,there are some obvious shortcomings of the existing feature extraction based on the traditional method. With the increasing of the size of the visual task,direct use of these traditional methods for feature classification is not ideal. The feature expression method is proposed,which is based on the most basic features of the image,and the sparse encoding or other expressions are proposed to form a final image. Based on sparse representation and its analysis,this paper focused on the feature classification algorithm and finally discussed the existing problems and future research directions.",
+        "openalex_id": "W2347418212"
+      }
+    ]
+  }
+]
