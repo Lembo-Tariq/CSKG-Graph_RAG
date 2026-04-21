@@ -1,0 +1,22 @@
+sample_id,query,num_correct_papers,precision_at_k,recall_at_k,f1,reciprocal_rank
+1,Machine learning approaches for sentiment analysis,10,0.0,0.0,0.0,0.0
+2,Sentiment Analysis Techniques in Social Media and ,10,0.0,0.0,0.0,0.0
+3,Image classification and sentiment analysis using ,9,0.0,0.0,0.0,0.0
+4,Convolutional neural networks for image classifica,8,0.05,0.125,0.071,0.2
+5,Machine learning algorithms for image classificati,10,0.05,0.1,0.067,0.25
+6,image classification of medical images using machi,5,0.05,0.2,0.08,0.1
+7,application of deep learning techniques in multime,5,0.0,0.0,0.0,0.0
+8,machine learning approaches to visual data classif,5,0.05,0.2,0.08,0.333
+9,deep learning and machine learning techniques in v,7,0.0,0.0,0.0,0.0
+10,Sentiment analysis or classification methods using,7,0.0,0.0,0.0,0.0
+11,Aspect-based sentiment analysis of social media an,8,0.05,0.125,0.071,0.5
+12,sentiment analysis in natural language processing ,7,0.0,0.0,0.0,0.0
+13,machine learning techniques for sentiment analysis,9,0.05,0.111,0.069,0.071
+14,Multimodal and multilayered approaches for sentime,6,0.1,0.333,0.154,0.1
+15,Application of human cognition and data analytics ,6,0.05,0.167,0.077,1.0
+16,Application of machine learning and deep learning ,5,0.05,0.2,0.08,0.071
+17,sentiment analysis using machine learning and data,6,0.0,0.0,0.0,0.0
+18,Applications of signal processing and machine lear,6,0.0,0.0,0.0,0.0
+19,Applying deep learning models to sentiment analysi,7,0.1,0.286,0.148,0.143
+20,Sentiment analysis using machine learning and natu,6,0.0,0.0,0.0,0.0
+OVERALL,MEAN,-,0.03,0.092,0.045,0.138
