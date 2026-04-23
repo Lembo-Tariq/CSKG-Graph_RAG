@@ -1,0 +1,22 @@
+sample_id,query,correct_paper_id,rank,hit_rate,reciprocal_rank
+1,Multi-view human pose estimation using part appear,W2045091010,1,1,1.0
+2,SentiVoice system for querying hotel service revie,W2340464905,1,1,1.0
+3,Sentiment analysis technique for Thai customer sat,W2175240007,1,1,1.0
+4,Fuzzy logic hybrid approach Malayalam movie sentim,W1992134908,1,1,1.0
+5,blind spatio-temporal segmentation algorithm for i,W2214651417,1,1,1.0
+6,Transitional dependency parsing using Hierarchical,W2117626683,1,1,1.0
+7,Aspect-based sentiment analysis sentence compressi,W1501931667,1,1,1.0
+8,Genetic programming languages comparison for image,W2059208361,1,1,1.0
+9,Ensemble machine learning methods for sentiment an,W1777150271,2,1,0.5
+10,Comparative feature selection in sentiment analysi,W1915630765,1,1,1.0
+11,Model-based compressive sensing with structured sp,W1966443746,not found,0,0.0
+12,Portuguese geolocated tweets database characterist,W2070095637,1,1,1.0
+13,Fisher discriminant criterion integration with spa,W1926902670,1,1,1.0
+14,Performance of modified counter propagation neural,W2140333894,1,1,1.0
+15,lexicon-based sentiment analysis on brand tweets f,W2204900098,1,1,1.0
+16,SVM klasifikasi citra daging berdasarkan GLCM teks,W2299124120,2,1,0.5
+17,Fuzzy C-Mean clustering with Support Vector Machin,W2222293487,1,1,1.0
+18,Korean Sentiment Analysis Corpus specification and,W1928850360,1,1,1.0
+19,Orthogonal transforms in transformed fractional co,W2072197600,1,1,1.0
+20,RBFNN image classification texture classification ,W1978643496,1,1,1.0
+OVERALL,MEAN,-,-,0.95,0.9

@@ -1,0 +1,192 @@
+{
+  "k": 20,
+  "evaluation_type": "baseline-rag-single-paper",
+  "overall_metrics": {
+    "hit_rate_at_k": 0.95,
+    "mrr": 0.9,
+    "total_hits": 19,
+    "total_queries": 20
+  },
+  "per_sample_results": [
+    {
+      "sample_id": 1,
+      "query": "Multi-view human pose estimation using part appearance and random forest 3D aggregation",
+      "correct_paper_id": "W2045091010",
+      "title": "Multi-view Body Part Recognition with Random Forests",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": 2,
+      "query": "SentiVoice system for querying hotel service reviews via phone using Definite Clause Grammar",
+      "correct_paper_id": "W2340464905",
+      "title": "An upgrading SentiVoice - a system for querying hotel service reviews via phone",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": 3,
+      "query": "Sentiment analysis technique for Thai customer satisfaction in online social media reviews",
+      "correct_paper_id": "W2175240007",
+      "title": "Using sentiment analysis technique for analyzing Thai customer satisfaction from social media",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": 4,
+      "query": "Fuzzy logic hybrid approach Malayalam movie sentiment analysis natural language processing application",
+      "correct_paper_id": "W1992134908",
+      "title": "Fuzzy logic based hybrid approach for sentiment analysisl of Malayalam movie reviews",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": 5,
+      "query": "blind spatio-temporal segmentation algorithm for image segmentation in video sequences without semantic knowledge.",
+      "correct_paper_id": "W2214651417",
+      "title": "Generative models for image segmentation and representation",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": 6,
+      "query": "Transitional dependency parsing using Hierarchical Pitman-Yor Processes with particle filter inference",
+      "correct_paper_id": "W2117626683",
+      "title": "A Bayesian Model for Generative Transition-based Dependency Parsing",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": 7,
+      "query": "Aspect-based sentiment analysis sentence compression syntactic parsing techniques review paper.",
+      "correct_paper_id": "W1501931667",
+      "title": "Sentence Compression for Aspect-Based Sentiment Analysis",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": 8,
+      "query": "Genetic programming languages comparison for image classification with feature extraction using selection",
+      "correct_paper_id": "W2059208361",
+      "title": "A comparison of genetic programming feature extraction languages for image classification",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": 9,
+      "query": "Ensemble machine learning methods for sentiment analysis using generative language models",
+      "correct_paper_id": "W1777150271",
+      "title": "Ensemble of Generative and Discriminative Techniques for Sentiment Analysis of Movie Reviews",
+      "rank": 2,
+      "hit_rate": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": 10,
+      "query": "Comparative feature selection in sentiment analysis using Genetic Algorithm and natural language processing methodologies",
+      "correct_paper_id": "W1915630765",
+      "title": "Metaheuristic algorithms for feature selection in sentiment analysis",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": 11,
+      "query": "Model-based compressive sensing with structured sparse Laplacian prior in image classification applications",
+      "correct_paper_id": "W1966443746",
+      "title": "Structured Sparse Priors for Image Classification",
+      "rank": null,
+      "hit_rate": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": 12,
+      "query": "Portuguese geolocated tweets database characteristics analysis of sentiment and user demographic.",
+      "correct_paper_id": "W2070095637",
+      "title": "Portuguese geolocated tweets",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": 13,
+      "query": "Fisher discriminant criterion integration with sparse representation for dimensionality reduction in image classification tasks",
+      "correct_paper_id": "W1926902670",
+      "title": "Dimensionality Reduction by Integrating Sparse Representation and Fisher Criterion and its Applications",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": 14,
+      "query": "Performance of modified counter propagation neural networks incorporating particle swarm optimization in MR brain image analysis",
+      "correct_paper_id": "W2140333894",
+      "title": "Performance Improved PSO based Modified Counter Propagation Neural Network for Abnormal MR Brain Image Classification",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": 15,
+      "query": "lexicon-based sentiment analysis on brand tweets for digital marketing purposes",
+      "correct_paper_id": "W2204900098",
+      "title": "Applying sentiment and emotion analysis on brand tweets for digital marketing",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": 16,
+      "query": "SVM klasifikasi citra daging berdasarkan GLCM tekstur dengan sudut 0o 45o 90o 135o",
+      "correct_paper_id": "W2299124120",
+      "title": "Support Vector Machine Untuk Klasifikasi Citra Jenis Daging Berdasarkan Tekstur Menggunakan Ekstraksi Ciri Gray Level Co-Occurrence Matrices (GLCM)",
+      "rank": 2,
+      "hit_rate": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": 17,
+      "query": "Fuzzy C-Mean clustering with Support Vector Machine for blurry and noisy image classification",
+      "correct_paper_id": "W2222293487",
+      "title": "Scene Oriented Classification of Blurry and Noisy Images Using SVM with Fuzzy C Mean Clustering",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": 18,
+      "query": "Korean Sentiment Analysis Corpus specification and analysis based on MPQA and news articles",
+      "correct_paper_id": "W1928850360",
+      "title": "Specifications and Analysis of the Korean Sentiment Analysis Corpus",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": 19,
+      "query": "Orthogonal transforms in transformed fractional content image classification with Bayes classifier performance evaluation",
+      "correct_paper_id": "W2072197600",
+      "title": "Extended performance appraise of Bayes, Function, Lazy, Rule, Tree data mining classifier in novel transformed fractional content based image classification",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": 20,
+      "query": "RBFNN image classification texture classification using modular center initialization techniques",
+      "correct_paper_id": "W1978643496",
+      "title": "Texture image classification using modular radial basis function neural networks",
+      "rank": 1,
+      "hit_rate": 1,
+      "reciprocal_rank": 1.0
+    }
+  ]
+}

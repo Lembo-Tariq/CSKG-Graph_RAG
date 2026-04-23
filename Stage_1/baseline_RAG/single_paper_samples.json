@@ -1,0 +1,227 @@
+[
+  {
+    "sample_id": 1,
+    "paper_id": "W2045091010",
+    "title": "Multi-view Body Part Recognition with Random Forests",
+    "authors": [
+      "Vahid Kazemi",
+      "Magnus Burénius",
+      "Hossein Azizpour"
+    ],
+    "year": 2013,
+    "abstract": "This paper addresses the problem of human pose estimation, given images taken from multiple dynamic but calibrated cameras. We consider solving this task using a part-based model and focus on the part appearance component of such a model. We use a random forest classifier to capture the variation in appearance of body parts in 2D images. The result of these 2D part detectors are then aggregated across views to produce consistent 3D hypotheses for parts. We solve correspondences across views for mirror symmetric parts by introducing a latent variable. We evaluate our part detectors qualitatively and quantitatively on a dataset gathered from a professional football game."
+  },
+  {
+    "sample_id": 2,
+    "paper_id": "W2340464905",
+    "title": "An upgrading SentiVoice - a system for querying hotel service reviews via phone",
+    "authors": [
+      "Thien Khai Tran",
+      "Tuoi Thi Phan"
+    ],
+    "year": 2015,
+    "abstract": "Opinion mining or Sentiment analysis, although being a new research field, plays an important role in computer sciences and attracts interests of academia as well as industry. In this paper, an upgrading SentiVoice - system for querying hotel service reviews via phone [10] is described. Vietnamese questions understanding task was dealt by using Definite Clause Grammar (DCG). Aspects and opinion words, which are extracted, are based on some pattern rules thanks to GATE'S JAPE. Besides, Perceptron Algorithm with Uneven Margins (PAUM) technique was applied to classify an overall review comment as positive, negative or neutral. Experiments on aspect extraction, opinion summarization on aspects and the overall sentiment of the review are showed."
+  },
+  {
+    "sample_id": 3,
+    "paper_id": "W2175240007",
+    "title": "Using sentiment analysis technique for analyzing Thai customer satisfaction from social media",
+    "authors": [
+      "Todsanai Chumwatana"
+    ],
+    "year": 2015,
+    "abstract": "With the rapidly increasing number of Thai online customer reviews available in social media and websites, sentiment analysis technique, also called opinion mining, has become an important task in the past few years.This technique aims to analyze people’s emotions, opinion, attitudes and sentiments.The classical approaches for opinion mining represents the reviews as bag-of-words as many words can be used to identify positive or negative feedbacks.This makes these methods work well with European language reviews which are segmented texts.However, these bag-of-word based methods face problem with Thai customer’s review which is non-segmented text, since Thai texts are formed as a long sequence of characters without word boundaries.Up to now, not much research conducted on sentiment analysis for Thai customer reviews.This paper proposes a sentiment analysis technique for Thai customer’s reviews.The proposed technique is based on the integration of Thai word extraction and sentiment analysis techniques for mining Thai customer’s opinion. To demonstrate the proposed technique, experimental studies on analyzing Thai customer’s reviews from social media are presented in this paper.The results show that the proposed method provides significant benefits for mining Thai customer’s opinion from social media."
+  },
+  {
+    "sample_id": 4,
+    "paper_id": "W1992134908",
+    "title": "Fuzzy logic based hybrid approach for sentiment analysisl of Malayalam movie reviews",
+    "authors": [
+      "M. S. Anagha",
+      "Raveena R. Kumar",
+      "K. Sreetha"
+    ],
+    "year": 2015,
+    "abstract": "In this paper, Sentence level Sentiment Analysis of Malayalam movie reviews is done by classifying the polarity of opinions obtained from the user as positive, negative and neutral. Sentiment analysis is an application of Natural Language Processing and text analysis which helps to identify the emotions in a given context. In this work a hybrid approach for Sentiment Analysis is used in which Machine Learning method is used for tagging and Fuzzy Logic is used to find the membership of the review in each sentiment class. Fuzzy logic can be used to handle the vagueness in natural language. Manually tagged data are trained using TnT and Fuzzy rules are incorporated for identifying and classifying the emotions. Certain other rules are also incorporated to handle certain special cases. The fuzzy rules yield output that varies in degree between 0 and 1."
+  },
+  {
+    "sample_id": 5,
+    "paper_id": "W2214651417",
+    "title": "Generative models for image segmentation and representation",
+    "authors": [
+      "Iván González-Díaz"
+    ],
+    "year": 2011,
+    "abstract": "This PhD. Thesis consists of two well differentiated parts, each of them focusing on one particular field of Computer Vision. The first part of the document considers the problem of automatically generating image segmentations in video sequences in the absence of any kind of semantic knowledge or labeled data. To that end, a blind spatio-temporal segmentation algorithm is proposed that fuses motion, color and spatial information to produce robust segmentations. The approach follows an iterative splitting process in which well known probabilistic techniques such as Gaussian Mixture Models are used as a core technique. At each iteration of the segmentation process, some regions are split into new ones, so that the number of mixture components is automatically set depending on the image content. Furthermore, in order to keep in memory valuable information from previous iterations, prior distributions are applied to the mixture components so that areas of the image that remain unchanged are fixed during the learning process. Additionally, in order to make decisions about whether or not to split regions at the end of one iteration, we propose the use of novel spatio-temporal mid-level features. These features model properties that are usually found in real-world objects so that the resulting segmentations are closer to the human perception. Examples of spatial mid-level features are regularity or adjacency, whereas the temporal ones relate to well known motion patterns such as translation or rotation. The proposed algorithm has been assessed in comparison to some state-of-the-art spatio-temporal segmentation algorithms, taking special care of showing the influence of each of the original contributions. The second part of the thesis studies the application of generative probabilistic models to the image representation problem. We consider “image representation” as a concurrent process that helps to understand the contents in an image and covers several particular tasks in computer vision as image recognition, object detection or image segmentation. Starting from the well-known bag-of-words paradigm we study the application of Latent Topic Models. These models were initially proposed in the text retrieval field, and consider a document as generated by a mixture of latent topics that are hopefully associated to semantic concepts. Each topic generates in turn visual local descriptors following a specific distribution. Due to the bag-of-words representation, Latent Topic Models exhibit an important limitation when applied to vision problems: they do not model the distribution of topics along the images. The benefits of this spatial modeling are twofold: first, an improved performance of these models in tasks such as image classification or topic discovery; and second, an enrichment of such models with the capability of generating robust image segmentations. However, modeling the spatial location of visual words under this framework is not longer straightforward since one must ensure that both appearance and spatial models are jointly trained using the same learning algorithm that infers the latent topics. We have proposed two Latent Topic Models, Region-Based Latent Topic Model and Region-Based Latent Dirichlet Allocation that extend basic approaches to model the spatial distribution of topics along images. For that end, previous blind segmentations provide a geometric layout of an image and are included in the model through cooperative distributions that allow regions to influence each other. In addition, our proposals tackle several other aspects in topic models that enhance the image representation. It is worth to mention one contribution that explores the use of advanced appearance models, since it has shown to notably improve the performance in several tasks. In particular, a distribution based on the Kernel Logistic Regression has been proposed that takes into account the nonlinear relations of visual descriptors that lie in the same image region. Our proposals have been evaluated in three important tasks towards the total scene understanding: image classification, category-based image segmentation and unsupervised topic discovery. The obtained results support our developments and compare well with several state-of-the-art algorithms and, even more, with more complex submissions to international challenges in the vision field."
+  },
+  {
+    "sample_id": 6,
+    "paper_id": "W2117626683",
+    "title": "A Bayesian Model for Generative Transition-based Dependency Parsing",
+    "authors": [
+      "Jan Buys",
+      "Phil Blunsom"
+    ],
+    "year": 2015,
+    "abstract": "We propose a simple, scalable, fully generative model for transition-based dependency parsing with high accuracy. The model, parameterized by Hierarchical Pitman-Yor Processes, overcomes the limitations of previous generative models by allowing fast and accurate inference. We propose an efficient decoding algorithm based on particle filtering that can adapt the beam size to the uncertainty in the model while jointly predicting POS tags and parse trees. The UAS of the parser is on par with that of a greedy discriminative baseline. As a language model, it obtains better perplexity than a n-gram model by performing semi-supervised learning over a large unlabelled corpus. We show that the model is able to generate locally and syntactically coherent sentences, opening the door to further applications in language generation."
+  },
+  {
+    "sample_id": 7,
+    "paper_id": "W1501931667",
+    "title": "Sentence Compression for Aspect-Based Sentiment Analysis",
+    "authors": [
+      "Wanxiang Che",
+      "Yanyan Zhao",
+      "Honglei Guo"
+    ],
+    "year": 2015,
+    "abstract": "Sentiment analysis, which addresses the computational treatment of opinion, sentiment, and subjectivity in text, has received considerable attention in recent years. In contrast to the traditional coarse-grained sentiment analysis tasks, such as document-level sentiment classification, we are interested in the fine-grained aspect-based sentiment analysis that aims to identify aspects that users comment on and these aspects' polarities. Aspect-based sentiment analysis relies heavily on syntactic features. However, the reviews that this task focuses on are natural and spontaneous, thus posing a challenge to syntactic parsers. In this paper, we address this problem by proposing a framework of adding a sentiment sentence compression (Sent_Comp) step before performing the aspect-based sentiment analysis. Different from the previous sentence compression model for common news sentences, Sent_Comp seeks to remove the sentiment-unnecessary information for sentiment analysis, thereby compressing a complicated sentiment sentence into one that is shorter and easier to parse. We apply a discriminative conditional random field model, with certain special features, to automatically compress sentiment sentences. Using the Chinese corpora of four product domains, Sent_Comp significantly improves the performance of the aspect-based sentiment analysis. The features proposed for Sent_Comp, especially the potential semantic features, are useful for sentiment sentence compression."
+  },
+  {
+    "sample_id": 8,
+    "paper_id": "W2059208361",
+    "title": "A comparison of genetic programming feature extraction languages for image classification",
+    "authors": [
+      "Mehran Maghoumi",
+      "Brian J. Ross"
+    ],
+    "year": 2014,
+    "abstract": "Visual pattern recognition and classification is a challenging computer vision problem. Genetic programming has been applied towards automatic visual pattern recognition. One of the main factors in evolving effective classifiers is the suitability of the GP language for defining expressions for feature extraction and classification. This research presents a comparative study of a variety of GP languages suitable for classification. Four different languages are examined, which use different selections of image processing operators. One of the languages does block classification, which means that an image is classified as a whole by examining many blocks of pixels within it. The other languages are pixel classifiers, which determine classification for a single pixel. Pixel classifiers are more common in the GP-vision literature. We tested the languages on different instances of Brodatz textures, as well as aerial and camera images. Our results show that the most effective languages are pixel-based ones with spatial operators. However, as is to be expected, the nature of the image will determine the effectiveness of the language used."
+  },
+  {
+    "sample_id": 9,
+    "paper_id": "W1777150271",
+    "title": "Ensemble of Generative and Discriminative Techniques for Sentiment Analysis of Movie Reviews",
+    "authors": [
+      "Grégoire Mesnil",
+      "Tomáš Mikolov",
+      "Marc’Aurelio Ranzato"
+    ],
+    "year": 2014,
+    "abstract": "Sentiment analysis is a common task in natural language processing that aims to detect polarity of a text document (typically a consumer review). In the simplest settings, we discriminate only between positive and negative sentiment, turning the task into a standard binary classification problem. We compare several ma- chine learning approaches to this problem, and combine them to achieve the best possible results. We show how to use for this task the standard generative lan- guage models, which are slightly complementary to the state of the art techniques. We achieve strong results on a well-known dataset of IMDB movie reviews. Our results are easily reproducible, as we publish also the code needed to repeat the experiments. This should simplify further advance of the state of the art, as other researchers can combine their techniques with ours with little effort."
+  },
+  {
+    "sample_id": 10,
+    "paper_id": "W1915630765",
+    "title": "Metaheuristic algorithms for feature selection in sentiment analysis",
+    "authors": [
+      "Siti Rohaidah Ahmad",
+      "Azuraliza Abu Bakar",
+      "Mohd Ridzwan Yaakub"
+    ],
+    "year": 2015,
+    "abstract": "Sentiment analysis functions by analyzing and extracting opinions from documents, websites, blogs, discussion forums and others to identify sentiment patterns on opinions expressed by consumers. It analyzes people's sentiment and identifies types of sentiment in comments expressed by consumers on certain matters. This paper highlights comparative studies on the types of feature selection in sentiment analysis based on natural language processing and modern methods such as Genetic Algorithm and Rough Set Theory. This study compares feature selection in text classification based on traditional and sentiment analysis methods. Feature selection is an important step in sentiment analysis because a suitable feature selection can identify the actual product features criticized or discussed by consumers. It can be concluded that metaheuristic based algorithms have the potential to be implemented in sentiment analysis research and can produce an optimal subset of features by eliminating features that are irrelevant and redundant."
+  },
+  {
+    "sample_id": 11,
+    "paper_id": "W1966443746",
+    "title": "Structured Sparse Priors for Image Classification",
+    "authors": [
+      "Umamahesh Srinivas",
+      "Yuanming Suo",
+      "Minh N. Dao"
+    ],
+    "year": 2015,
+    "abstract": "Model-based compressive sensing (CS) exploits the structure inherent in sparse signals for the design of better signal recovery algorithms. This information about structure is often captured in the form of a prior on the sparse coefficients, with the Laplacian being the most common such choice (leading to l1 -norm minimization). Recent work has exploited the discriminative capability of sparse representations for image classification by employing class-specific dictionaries in the CS framework. Our contribution is a logical extension of these ideas into structured sparsity for classification. We introduce the notion of discriminative class-specific priors in conjunction with class specific dictionaries, specifically the spike-and-slab prior widely applied in Bayesian sparse regression. Significantly, the proposed framework takes the burden off the demand for abundant training image samples necessary for the success of sparsity-based classification schemes. We demonstrate this practical benefit of our approach in important applications, such as face recognition and object categorization."
+  },
+  {
+    "sample_id": 12,
+    "paper_id": "W2070095637",
+    "title": "Portuguese geolocated tweets",
+    "authors": [
+      "Gaspar Brogueira",
+      "Fernando Batista",
+      "João Paulo Carvalho"
+    ],
+    "year": 2014,
+    "abstract": "This paper describes an existing database of geolocated tweets that were produced in Portuguese regions. The existing database was collected during eight consecutive days and contains about 307K tweets, produced by about 11K different users. A detailed analysis on the content of the messages suggests a predominance of teenagers and young adult authors that use Twitter as a way to communicate their feelings, ideas and comments to their colleagues. An overview of the dataset suggests that tweets have a very personal content, often describing family bonds and school activities and concerns. This is a suitable source of information for a number of tasks, including sociolinguistic studies, sentiment analysis, among others."
+  },
+  {
+    "sample_id": 13,
+    "paper_id": "W1926902670",
+    "title": "Dimensionality Reduction by Integrating Sparse Representation and Fisher Criterion and its Applications",
+    "authors": [
+      "Quanxue Gao",
+      "Qianqian Wang",
+      "Yunfang Huang"
+    ],
+    "year": 2015,
+    "abstract": "Sparse representation shows impressive results for image classification, however, it cannot well characterize the discriminant structure of data, which is important for classification. This paper aims to seek a projection matrix such that the low-dimensional representations well characterize the discriminant structure embedded in high-dimensional data and simultaneously well fit sparse representation-based classifier (SRC). To be specific, Fisher discriminant criterion (FDC) is used to extract the discriminant structure, and sparse representation is simultaneously considered to guarantee that the projected data well satisfy the SRC. Thus, our method, called SRC-FDC, characterizes both the spatial Euclidean distribution and local reconstruction relationship, which enable SRC to achieve better performance. Extensive experiments are done on the AR, CMU-PIE, Extended Yale B face image databases, the USPS digit database, and COIL20 database, and results illustrate that the proposed method is more efficient than other feature extraction methods based on SRC."
+  },
+  {
+    "sample_id": 14,
+    "paper_id": "W2140333894",
+    "title": "Performance Improved PSO based Modified Counter Propagation Neural Network for Abnormal MR Brain Image Classification",
+    "authors": [
+      "D. Jude Hemanth",
+      "S Florence Vijila"
+    ],
+    "year": 2010,
+    "abstract": "Abnormal Magnetic Resonance (MR) brain image classification is a mandatory but challenging task in the medical field. Accurate identification of the nature of the disease is highly essential for the successful treatment planning. Automated systems are highly preferred for image classification because of its high accuracy. Artificial neural networks are one of the widely used automated techniques. Though they yield high accuracy, most of the neural networks are computationally heavy due to their iterative nature. Low speed neural classifiers are least preferred since they are practically nonfeasible. Hence, there is a significant requirement for a neural classifier which is computationally efficient and highly accurate. To satisfy these criterions, a modified Counter Propagation Neural Network (CPN) is proposed in this work which proves to be much faster than the conventional network. For further enhancement of the performance of the classifier, Particle Swarm Optimization (PSO) technique is used in conjunction with the modified CPN. Experiments are conducted on these classifiers using real-time abnormal images collected from the scan centres. These three types of classifiers are analyzed in terms of classification accuracy and convergence time period. Experimental results show promising results for the PSO based modified CPN classifier in terms of the performance measures."
+  },
+  {
+    "sample_id": 15,
+    "paper_id": "W2204900098",
+    "title": "Applying sentiment and emotion analysis on brand tweets for digital marketing",
+    "authors": [
+      "Dua’a Al-Hajjar",
+      "Ashraf Syed"
+    ],
+    "year": 2015,
+    "abstract": "As digital marketing is becoming more popular, the number of customer views on brands is increasing rapidly. This makes it harder for companies to assess their brand image or digitally market their products on the web. We present a lexicon-based approach to extracting sentiment and emotion from tweets for digital marketing purposes. We collect ten thousand tweets related to ten technology brands: Apple, Google, Microsoft, Samsung, GE, IBM, Intel, Facebook, Oracle and HP. We perform sentiment analysis using SentiWordNet while we detect emotions using the NRC Hashtag Emotion Lexicon. We compare and combine the scores obtained from the two lexicons into one result per tweet. We describe the execution process of our experiment and show that the accuracy of the combined approach of sentiment and emotion analysis is enhanced over the independent approaches of sentiment analysis or emotion analysis."
+  },
+  {
+    "sample_id": 16,
+    "paper_id": "W2299124120",
+    "title": "Support Vector Machine Untuk Klasifikasi Citra Jenis Daging Berdasarkan Tekstur Menggunakan Ekstraksi Ciri Gray Level Co-Occurrence Matrices (GLCM)",
+    "authors": [
+      "Neneng Neneng",
+      "Kusworo Adi",
+      "R. Rizal Isnanto"
+    ],
+    "year": 2016,
+    "abstract": "Texture is one of the most important features for image analysis, which provides informations such as the composition of texture on the surface structure, changes of the intensity, or brightness. Gray level co-occurence matrix (GLCM) is a method that can be used for statistical texture analysis. GLCM has proven to be the most powerful texture descriptors used in image analysis. This study uses the four-way GLCM 0o, 45o, 90o, and 135o. Support vector machine (SVM) is a machine learning that can be used for image classification. SVM has a high generalization capability without any requirement of additional knowledge, even with the high dimension of the input space. The data used in this study are the image of goat meat, buffalo meat, horse meat, and beef with shooting distance 20 cm, 30 cm and 40 cm. The result of this study shows that the best recognition rate of 87.5% was taken at a distance of 20 cm with neighboring pixels distance d = 2 in the direction GLCM 135o."
+  },
+  {
+    "sample_id": 17,
+    "paper_id": "W2222293487",
+    "title": "Scene Oriented Classification of Blurry and Noisy Images Using SVM with Fuzzy C Mean Clustering",
+    "authors": [
+      "Deepak Nema"
+    ],
+    "year": 2014,
+    "abstract": "Image classification is a challenging task in image processing especially in the case of blurry and noisy images. In this work, we present an extension of scene oriented hierarchical classification of blurry and noisy images using Support Vector Machine (SVM) and Fuzzy C-Mean. Generally, a system for scene-oriented classification of blurry and noisy images attempts to simulate major features of the human visual observation. These approaches areÂ based on three strategies such as Global pathway for extracting essential signature of image, local pathway for extracting local features, and then outcome of both global and local phase are combined and define feature vector and clustered using Monte Carlo approach. Afterwards, these clustered results are fed to a SOTA Algorithm (combination of self organizing map and hierarchical clustering) for final classification. But in these approaches, combination of self organizing map and hierarchical clustering has the problem in terms of accuracy and computation time of classification, especially when used large dataset for classification. To overcome this problem, we propose a combination of Support Vector Machine (SVM) and Fuzzy C-mean. Our proposed approach provides better result in terms of accuracy, especially when used with large dataset. The proposed method is computationally efficient because fuzzy c-mean clustering is faster and less time consuming as compared to hierarchical clustering."
+  },
+  {
+    "sample_id": 18,
+    "paper_id": "W1928850360",
+    "title": "Specifications and Analysis of the Korean Sentiment Analysis Corpus",
+    "authors": [
+      "Hyopil Shin",
+      "Munhyong Kim"
+    ],
+    "year": 2013,
+    "abstract": "This paper describes the two year endeavor of constructing the Korean Sentiment Analysis Corpus (KOSAC), focusing on the theoretical background and the analysis of the corpus itself. Our aim is to provide a solid theoretical background for the corpus which reflects the characteristics of the Korean language and includes approximately 7,744 sentences taken from news articles. The corpus annotation scheme, based on the MPQA, is described along with the statistics of features specified in the corpus. The analysis of the corpus can be a starting point for how to utilize the corpus not only for sentiment analysis but also for semantic or pragmatic work in terms of speakers attitude and emotional expressions."
+  },
+  {
+    "sample_id": 19,
+    "paper_id": "W2072197600",
+    "title": "Extended performance appraise of Bayes, Function, Lazy, Rule, Tree data mining classifier in novel transformed fractional content based image classification",
+    "authors": [
+      "Sudeep D. Thepade",
+      "Madhura Kalbhor"
+    ],
+    "year": 2015,
+    "abstract": "Image classification has become one of the important research field as hundreds of images are generated everyday which implies the need to build the classification system. To build faster and easy classification system, the visual content of images is used. Accuracy of classification depends upon the feature extraction which is one of the most important step in image classification. The paper shows the performance of additional four orthogonal transforms using transformed fractional content as feature for image classificationwhere the Kekre, Hartle, Slant and Haar transform are used in addition to earlier proposed use of sine, cosine and walsh transforms. Twelve assorted classifiers across five data mining classifier family (Bayes, Function, Lazy, Rule and Tree) are used. Here 504 number of variations for proposed image classification method are experimented using twelve classifiers, seven orthogonal transforms and six fractions of transformed content. The Simple Logistic classifiers with Kekre transform gives better image classification closely followed by Simple Logistic with sine transform and Simple Logistic with Hartley transform."
+  },
+  {
+    "sample_id": 20,
+    "paper_id": "W1978643496",
+    "title": "Texture image classification using modular radial basis function neural networks",
+    "authors": [
+      "Hung-Jen Wang"
+    ],
+    "year": 2010,
+    "abstract": "Image classification has become an important topic in multimedia processing. Recently, neural network-based methods have been proposed to solve the classification problem. Among them, the radial basis function neural network (RBFNN) is the most popular architecture, because it has good learning and approximation capabilities. However, traditional RBFNNs are sensitive to center initialization. To obtain appropriate centers, it needs to find significant features for further RBF clustering. In addition, the training procedure of a traditional RBFNN is time consuming. Therefore, in this work, a combination of a self-organizing map (SOM) and learning vector quantization (LVQ) neural networks is proposed to select more appropriate centers for an RBFNN, and a modular RBF neural network (MRBFNN) is proposed to improve the classification rate and to speed up the training time. Experimental results show that the proposed MRBFNN has better performance than those of the traditional RBFNN, the discrete wavelength transform (DWT)-based method, the tree structured wavelet (TWS), the discrete wavelet frame (DWF), the rotated wavelet filter (RWF), and the wavelet neural network based on adaptive norm entropy (WNN-ANE) methods."
+  }
+]

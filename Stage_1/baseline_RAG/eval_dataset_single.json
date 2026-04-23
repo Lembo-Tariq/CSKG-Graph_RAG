@@ -1,0 +1,142 @@
+[
+  {
+    "sample_id": 1,
+    "paper_id": "W2045091010",
+    "title": "Multi-view Body Part Recognition with Random Forests",
+    "query": "Multi-view human pose estimation using part appearance and random forest 3D aggregation",
+    "abstract": "This paper addresses the problem of human pose estimation, given images taken from multiple dynamic but calibrated cameras. We consider solving this task using a part-based model and focus on the part appearance component of such a model. We use a random forest classifier to capture the variation in"
+  },
+  {
+    "sample_id": 2,
+    "paper_id": "W2340464905",
+    "title": "An upgrading SentiVoice - a system for querying hotel service reviews via phone",
+    "query": "SentiVoice system for querying hotel service reviews via phone using Definite Clause Grammar",
+    "abstract": "Opinion mining or Sentiment analysis, although being a new research field, plays an important role in computer sciences and attracts interests of academia as well as industry. In this paper, an upgrading SentiVoice - system for querying hotel service reviews via phone [10] is described. Vietnamese q"
+  },
+  {
+    "sample_id": 3,
+    "paper_id": "W2175240007",
+    "title": "Using sentiment analysis technique for analyzing Thai customer satisfaction from social media",
+    "query": "Sentiment analysis technique for Thai customer satisfaction in online social media reviews",
+    "abstract": "With the rapidly increasing number of Thai online customer reviews available in social media and websites, sentiment analysis technique, also called opinion mining, has become an important task in the past few years.This technique aims to analyze people’s emotions, opinion, attitudes and sentiments."
+  },
+  {
+    "sample_id": 4,
+    "paper_id": "W1992134908",
+    "title": "Fuzzy logic based hybrid approach for sentiment analysisl of Malayalam movie reviews",
+    "query": "Fuzzy logic hybrid approach Malayalam movie sentiment analysis natural language processing application",
+    "abstract": "In this paper, Sentence level Sentiment Analysis of Malayalam movie reviews is done by classifying the polarity of opinions obtained from the user as positive, negative and neutral. Sentiment analysis is an application of Natural Language Processing and text analysis which helps to identify the emot"
+  },
+  {
+    "sample_id": 5,
+    "paper_id": "W2214651417",
+    "title": "Generative models for image segmentation and representation",
+    "query": "blind spatio-temporal segmentation algorithm for image segmentation in video sequences without semantic knowledge.",
+    "abstract": "This PhD. Thesis consists of two well differentiated parts, each of them focusing on one particular field of Computer Vision. The first part of the document considers the problem of automatically generating image segmentations in video sequences in the absence of any kind of semantic knowledge or la"
+  },
+  {
+    "sample_id": 6,
+    "paper_id": "W2117626683",
+    "title": "A Bayesian Model for Generative Transition-based Dependency Parsing",
+    "query": "Transitional dependency parsing using Hierarchical Pitman-Yor Processes with particle filter inference",
+    "abstract": "We propose a simple, scalable, fully generative model for transition-based dependency parsing with high accuracy. The model, parameterized by Hierarchical Pitman-Yor Processes, overcomes the limitations of previous generative models by allowing fast and accurate inference. We propose an efficient de"
+  },
+  {
+    "sample_id": 7,
+    "paper_id": "W1501931667",
+    "title": "Sentence Compression for Aspect-Based Sentiment Analysis",
+    "query": "Aspect-based sentiment analysis sentence compression syntactic parsing techniques review paper.",
+    "abstract": "Sentiment analysis, which addresses the computational treatment of opinion, sentiment, and subjectivity in text, has received considerable attention in recent years. In contrast to the traditional coarse-grained sentiment analysis tasks, such as document-level sentiment classification, we are intere"
+  },
+  {
+    "sample_id": 8,
+    "paper_id": "W2059208361",
+    "title": "A comparison of genetic programming feature extraction languages for image classification",
+    "query": "Genetic programming languages comparison for image classification with feature extraction using selection",
+    "abstract": "Visual pattern recognition and classification is a challenging computer vision problem. Genetic programming has been applied towards automatic visual pattern recognition. One of the main factors in evolving effective classifiers is the suitability of the GP language for defining expressions for feat"
+  },
+  {
+    "sample_id": 9,
+    "paper_id": "W1777150271",
+    "title": "Ensemble of Generative and Discriminative Techniques for Sentiment Analysis of Movie Reviews",
+    "query": "Ensemble machine learning methods for sentiment analysis using generative language models",
+    "abstract": "Sentiment analysis is a common task in natural language processing that aims to detect polarity of a text document (typically a consumer review). In the simplest settings, we discriminate only between positive and negative sentiment, turning the task into a standard binary classification problem. We"
+  },
+  {
+    "sample_id": 10,
+    "paper_id": "W1915630765",
+    "title": "Metaheuristic algorithms for feature selection in sentiment analysis",
+    "query": "Comparative feature selection in sentiment analysis using Genetic Algorithm and natural language processing methodologies",
+    "abstract": "Sentiment analysis functions by analyzing and extracting opinions from documents, websites, blogs, discussion forums and others to identify sentiment patterns on opinions expressed by consumers. It analyzes people's sentiment and identifies types of sentiment in comments expressed by consumers on ce"
+  },
+  {
+    "sample_id": 11,
+    "paper_id": "W1966443746",
+    "title": "Structured Sparse Priors for Image Classification",
+    "query": "Model-based compressive sensing with structured sparse Laplacian prior in image classification applications",
+    "abstract": "Model-based compressive sensing (CS) exploits the structure inherent in sparse signals for the design of better signal recovery algorithms. This information about structure is often captured in the form of a prior on the sparse coefficients, with the Laplacian being the most common such choice (lead"
+  },
+  {
+    "sample_id": 12,
+    "paper_id": "W2070095637",
+    "title": "Portuguese geolocated tweets",
+    "query": "Portuguese geolocated tweets database characteristics analysis of sentiment and user demographic.",
+    "abstract": "This paper describes an existing database of geolocated tweets that were produced in Portuguese regions. The existing database was collected during eight consecutive days and contains about 307K tweets, produced by about 11K different users. A detailed analysis on the content of the messages suggest"
+  },
+  {
+    "sample_id": 13,
+    "paper_id": "W1926902670",
+    "title": "Dimensionality Reduction by Integrating Sparse Representation and Fisher Criterion and its Applications",
+    "query": "Fisher discriminant criterion integration with sparse representation for dimensionality reduction in image classification tasks",
+    "abstract": "Sparse representation shows impressive results for image classification, however, it cannot well characterize the discriminant structure of data, which is important for classification. This paper aims to seek a projection matrix such that the low-dimensional representations well characterize the dis"
+  },
+  {
+    "sample_id": 14,
+    "paper_id": "W2140333894",
+    "title": "Performance Improved PSO based Modified Counter Propagation Neural Network for Abnormal MR Brain Image Classification",
+    "query": "Performance of modified counter propagation neural networks incorporating particle swarm optimization in MR brain image analysis",
+    "abstract": "Abnormal Magnetic Resonance (MR) brain image classification is a mandatory but challenging task in the medical field. Accurate identification of the nature of the disease is highly essential for the successful treatment planning. Automated systems are highly preferred for image classification becaus"
+  },
+  {
+    "sample_id": 15,
+    "paper_id": "W2204900098",
+    "title": "Applying sentiment and emotion analysis on brand tweets for digital marketing",
+    "query": "lexicon-based sentiment analysis on brand tweets for digital marketing purposes",
+    "abstract": "As digital marketing is becoming more popular, the number of customer views on brands is increasing rapidly. This makes it harder for companies to assess their brand image or digitally market their products on the web. We present a lexicon-based approach to extracting sentiment and emotion from twee"
+  },
+  {
+    "sample_id": 16,
+    "paper_id": "W2299124120",
+    "title": "Support Vector Machine Untuk Klasifikasi Citra Jenis Daging Berdasarkan Tekstur Menggunakan Ekstraksi Ciri Gray Level Co-Occurrence Matrices (GLCM)",
+    "query": "SVM klasifikasi citra daging berdasarkan GLCM tekstur dengan sudut 0o 45o 90o 135o",
+    "abstract": "Texture is one of the most important features for image analysis, which provides informations such as the composition of texture on the surface structure, changes of the intensity, or brightness. Gray level co-occurence matrix (GLCM) is a method that can be used for statistical texture analysis. GLC"
+  },
+  {
+    "sample_id": 17,
+    "paper_id": "W2222293487",
+    "title": "Scene Oriented Classification of Blurry and Noisy Images Using SVM with Fuzzy C Mean Clustering",
+    "query": "Fuzzy C-Mean clustering with Support Vector Machine for blurry and noisy image classification",
+    "abstract": "Image classification is a challenging task in image processing especially in the case of blurry and noisy images. In this work, we present an extension of scene oriented hierarchical classification of blurry and noisy images using Support Vector Machine (SVM) and Fuzzy C-Mean. Generally, a system fo"
+  },
+  {
+    "sample_id": 18,
+    "paper_id": "W1928850360",
+    "title": "Specifications and Analysis of the Korean Sentiment Analysis Corpus",
+    "query": "Korean Sentiment Analysis Corpus specification and analysis based on MPQA and news articles",
+    "abstract": "This paper describes the two year endeavor of constructing the Korean Sentiment Analysis Corpus (KOSAC), focusing on the theoretical background and the analysis of the corpus itself. Our aim is to provide a solid theoretical background for the corpus which reflects the characteristics of the Korean "
+  },
+  {
+    "sample_id": 19,
+    "paper_id": "W2072197600",
+    "title": "Extended performance appraise of Bayes, Function, Lazy, Rule, Tree data mining classifier in novel transformed fractional content based image classification",
+    "query": "Orthogonal transforms in transformed fractional content image classification with Bayes classifier performance evaluation",
+    "abstract": "Image classification has become one of the important research field as hundreds of images are generated everyday which implies the need to build the classification system. To build faster and easy classification system, the visual content of images is used. Accuracy of classification depends upon th"
+  },
+  {
+    "sample_id": 20,
+    "paper_id": "W1978643496",
+    "title": "Texture image classification using modular radial basis function neural networks",
+    "query": "RBFNN image classification texture classification using modular center initialization techniques",
+    "abstract": "Image classification has become an important topic in multimedia processing. Recently, neural network-based methods have been proposed to solve the classification problem. Among them, the radial basis function neural network (RBFNN) is the most popular architecture, because it has good learning and "
+  }
+]
