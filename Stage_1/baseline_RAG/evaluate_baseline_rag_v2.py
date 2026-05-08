@@ -73,7 +73,7 @@ def get_rank(retrieved_chunks, correct_paper_id):
 def hit_rate(rank):
     """
     Hit Rate = 1 if correct paper found in top K, 0 if not.
-    Binary — exactly what Dr. Danilo wants.
+    Binary
     """
     return 1 if rank is not None else 0
 
