@@ -1,0 +1,15 @@
+id,name,db_content,db_size,query_type,num_queries,k,hit_rate,mrr,notes
+1,Triple RAG (DOI matching),CSKG triples with DOIs,"10,000 facts",24 synthetic (5-10 papers combined),24,20,0.03,0.09,First evaluation attempt - DOI level matching
+2,Triple RAG (Paper ID matching),CSKG triples with W IDs,"10,000 facts",24 synthetic (5-10 papers combined),24,20,0.03,0.09,"Same queries, switched to W ID matching"
+3,"Baseline RAG (abstracts, combined queries)",887 paper abstracts + titles,887 papers,24 synthetic (5-10 papers combined),24,20,0.03,0.138,Old query approach - too generic
+4,"Baseline RAG (abstracts, single paper queries)",887 paper abstracts + titles,887 papers,20 single paper specific queries,20,20,0.95,0.9,Switched to single paper queries - major improvement
+5,Baseline RAG Full (K=1),887 paper abstracts + titles,887 papers,734 single paper specific queries,734,1,0.907,0.907,Full evaluation
+6,Baseline RAG Full (K=3),887 paper abstracts + titles,887 papers,734 single paper specific queries,734,3,0.962,0.933,Full evaluation
+7,Baseline RAG Full (K=5),887 paper abstracts + titles,887 papers,734 single paper specific queries,734,5,0.97,0.935,Full evaluation
+8,Baseline RAG Full (K=10),887 paper abstracts + titles,887 papers,734 single paper specific queries,734,10,0.971,0.935,Full evaluation
+9,Baseline RAG Full (K=20),887 paper abstracts + titles,887 papers,734 single paper specific queries,734,20,0.974,0.935,Full evaluation
+10,Triple RAG Full (K=1),CSKG triples with W IDs,"10,000 facts / 909 papers",734 single paper specific queries,734,1,0.47,0.47,Full evaluation - same queries as baseline
+11,Triple RAG Full (K=3),CSKG triples with W IDs,"10,000 facts / 909 papers",734 single paper specific queries,734,3,0.597,0.526,Full evaluation
+12,Triple RAG Full (K=5),CSKG triples with W IDs,"10,000 facts / 909 papers",734 single paper specific queries,734,5,0.64,0.536,Full evaluation
+13,Triple RAG Full (K=10),CSKG triples with W IDs,"10,000 facts / 909 papers",734 single paper specific queries,734,10,0.683,0.541,Full evaluation
+14,Triple RAG Full (K=20),CSKG triples with W IDs,"10,000 facts / 909 papers",734 single paper specific queries,734,20,0.725,0.544,Full evaluation
