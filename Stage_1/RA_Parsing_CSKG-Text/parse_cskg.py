@@ -10,6 +10,7 @@ This allows evaluation by paper ID instead of DOI.
 import os
 import json
 from urllib.parse import unquote
+import os
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -120,7 +121,74 @@ with open(output_file, "w", encoding="utf-8") as f:
     for sentence in sentences:
         f.write(sentence + "\n")
 
+<<<<<<< HEAD
 print(f"✨ Done! Saved to: {output_file}")
 print(f"\n📄 Preview (first 5 lines):")
 for s in sentences[:5]:
     print(f"   {s}")
+=======
+    print(f"📂 Loading {input_path}...")
+    with open(input_path, "r", encoding="utf-8") as f:
+        raw = json.load(f)
+
+    # The JSON from your curl command has a wrapper from the server:
+    # { "returncode": 0, "stdout": "... actual JSON ...", "stderr": "" }
+    # So we need to parse the "stdout" field as JSON again.
+    if "stdout" in raw:
+        print("   ↳ Detected server wrapper — extracting inner SPARQL JSON...")
+        inner_json_str = raw["stdout"]
+        data = json.loads(inner_json_str)
+    else:
+        # If the file is already plain SPARQL JSON, use it directly
+        data = raw
+
+    bindings = data["results"]["bindings"]
+    total_available = len(bindings)
+    print(f"✅ Found {total_available:,} total triples in dataset.")
+
+    # Apply the limit — this is where you control dataset size
+    # Change --limit 1000 to any number when running from command line
+    selected = bindings[:limit]
+    print(f"🔢 Processing {len(selected):,} triples (limit = {limit})...")
+
+    sentences = []
+    for i, binding in enumerate(selected):
+        try:
+            sentence = binding_to_sentence(binding)
+            sentences.append(sentence)
+        except KeyError as e:
+            # Skip any malformed rows gracefully
+            print(f"   ⚠️  Skipping row {i} — missing field: {e}")
+
+    # ─────────────────────────────────────────────
+    # STEP 5: Write output
+    # ─────────────────────────────────────────────
+    # We write one sentence per line. This is the simplest format for:
+    #   - Direct LLM ingestion
+    #   - Chunking for vector embeddings (each line = one chunk)
+    #   - Further processing (grouping by subject, etc.)
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        for sentence in sentences:
+            f.write(sentence + "\n")
+
+    print(f"\n✨ Done! {len(sentences):,} sentences written to: {output_path}")
+    print(f"\n📄 Preview (first 5 lines):")
+    for s in sentences[:5]:
+        print(f"   {s}")
+
+
+# ─────────────────────────────────────────────
+# Entry point with command-line arguments
+# ─────────────────────────────────────────────
+
+if __name__ == "__main__":
+
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+
+    parse_cskg(
+        input_path= os.path.join(current_dir,"output.json"),
+        limit=10000,
+        output_path= os.path.join(current_dir,"cskg_text_10k.txt")
+    )
+>>>>>>> origin/baseline-rag
