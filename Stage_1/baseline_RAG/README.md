@@ -6,16 +6,7 @@ instead of generic CSKG triples. Serves as the strong baseline
 for comparison with future Graph-RAG implementation.
 
 ## Pipeline
-fetch_abstracts.py          → papers_with_abstracts.json (887 papers)
-↓
-build_baseline_db.py        → Chroma DB (887 abstract chunks)
-↓
-sample_papers_full.py       → all_paper_samples.json (734 papers)
-↓
-generate_queries_full.py    → eval_dataset_full.json (734 queries)
-↓
-evaluate_baseline_full.py   → baseline_eval_full_results.csv/json
-evaluate_triple_full.py     → triple_eval_full_results.csv/json
+fetch_abstracts.py(papers_with_abstracts.json (887 papers))          → build_baseline_db.py(Chroma DB (887 abstract chunks))          →sample_papers_full.py(all_paper_samples.json (734 papers))          →generate_queries_full.py(eval_dataset_full.json (734 queries))          →evaluate_baseline_full.py(baseline_eval_full_results.csv/json)          →evaluate_triple_full.py(triple_eval_full_results.csv/json) 
 
 ## Files
 
