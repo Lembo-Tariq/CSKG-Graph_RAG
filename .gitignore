@@ -2,3 +2,8 @@ venv/
 .env
 __pycache__/
 db/
+Stage_1/Full_Scale_Eval/*In-*.csv
+Stage_1/Full_Scale_Eval/*Out-*.txt
+Stage_1/Full_Scale_Eval/*Out-*.json
+Stage_1/Full_Scale_Eval/*Out-*.csv
+Stage_1/Full_Scale_Eval/db/
